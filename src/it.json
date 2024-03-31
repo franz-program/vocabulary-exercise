@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "names": {
+                "tags": ["work"],
+                "words": [
+                    {
+                        "from": "il panettiere",
+                        "to": ["der Postbote", "der Briefträger"],
+                        "tags": ["work"],
+                        "inserted-at": "2018-11-01"
+                    }
+                ]
+            }
+        }
+    ]
+}

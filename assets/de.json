@@ -1,23 +1,22 @@
 {
-    "classes": [
+  "classes": {
+    "names": {
+      "tags": ["work"],
+      "words": [
         {
-            "names": {
-                "tags": ["work"],
-                "words": [
-                    {
-                        "from": "der Postbote",
-                        "to": ["il panettiere"],
-                        "tags": ["work"],
-                        "inserted-at": "2018-11-01"
-                    },
-                    {
-                        "from": "der Briefträger",
-                        "to": ["il panettiere"],
-                        "tags": ["work"],
-                        "inserted-at": "2018-11-01"
-                    }
-                ]
-            }
+          "from": "der Postbote",
+          "to": ["il panettiere"],
+          "tags": ["work"],
+          "inserted-at": "2018-11-01"
+        },
+        {
+          "from": "der Briefträger",
+          "to": ["il panettiere"],
+          "tags": ["work"],
+          "inserted-at": "2018-11-01"
         }
-    ]
+      ]
+    }
+  }
+
 }

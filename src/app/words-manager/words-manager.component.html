@@ -1,5 +1,33 @@
-<ul>
-  <li *ngFor="let clazz of classes">
-    {{clazz}}
-  </li>
-</ul>
+<div ngbDropdown class="d-inline-block">
+  <button type="button" class="btn btn-outline-primary" id="dropdownDirectionChoice" ngbDropdownToggle>
+    Translation direction
+  </button>
+  <div ngbDropdownMenu aria-labelledby="dropdownDirectionChoice">
+    <button ngbDropdownItem [class.active]="selectedDirection === 'it->de'" (click)="selectDirection('it->de')">it -> de</button>
+    <button ngbDropdownItem [class.active]="selectedDirection === 'de->it'" (click)="selectDirection('de->it')">de -> it</button>
+  </div>
+</div>
+<div>
+  <div ngbDropdown [autoClose]="availableClasses.length === 1" class="d-inline-block" *ngIf="availableClasses.length > 0">
+    <button type="button" class="btn btn-outline-primary" id="dropdownClassesChoice" ngbDropdownToggle>
+      Word classes
+    </button>
+    <div ngbDropdownMenu aria-labelledby="dropdownClassesChoice">
+      <button *ngFor="let clazz of availableClasses" ngbDropdownItem [class.active]="selectedClasses.includes(clazz)" (click)="toggleSelectedClass(clazz)">{{clazz}}</button>
+    </div>
+  </div>
+</div>
+<div>
+  <div ngbDropdown [autoClose]="availableTags.length === 1" class="d-inline-block" *ngIf="availableTags.length > 0">
+    <button type="button" class="btn btn-outline-primary" id="dropdownTagsChoice" ngbDropdownToggle>
+      Tags
+    </button>
+    <div ngbDropdownMenu aria-labelledby="dropdownTagsChoice">
+      <button *ngFor="let tag of availableTags" ngbDropdownItem [class.active]="selectedTags.includes(tag)" (click)="toggleSelectedTag(tag)">{{tag}}</button>
+    </div>
+  </div>
+</div>
+<button *ngIf="!startedPracticing" pButton class="p-button-danger p-button-sm ms-2" [disabled]="false" (click)="startPracticing()">Start practicing!</button>
+<div *ngIf="currentWord !== undefined && startedPracticing">
+  <app-word-displayer [word]="currentWord"></app-word-displayer>
+</div>

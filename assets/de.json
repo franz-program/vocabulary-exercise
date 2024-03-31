@@ -5,13 +5,13 @@
       "words": [
         {
           "from": "der Postbote",
-          "to": ["il panettiere"],
+          "to": ["il postino"],
           "tags": ["work"],
           "inserted-at": "2018-11-01"
         },
         {
           "from": "der Briefträger",
-          "to": ["il panettiere"],
+          "to": ["il postino"],
           "tags": ["work"],
           "inserted-at": "2018-11-01"
         }

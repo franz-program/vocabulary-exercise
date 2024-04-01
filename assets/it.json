@@ -1,12 +1,18 @@
 {
   "classes": {
     "names": {
-      "tags": ["work"],
+      "tags": ["work", "animals"],
       "words": [
         {
           "from": "il postino",
           "to": ["der Postbote", "der Briefträger"],
           "tags": ["work"],
+          "inserted-at": "2018-11-01"
+        },
+        {
+          "from": "la pecora",
+          "to": ["das Schaf"],
+          "tags": ["animals"],
           "inserted-at": "2018-11-01"
         }
       ]

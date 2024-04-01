@@ -2,7 +2,7 @@
 
   <div class="mt-4">
     <div ngbDropdown class="d-inline-block" *ngIf="!startedPracticing">
-      <button type="button" class="btn btn-outline-primary bg-primary text-light" id="dropdownDirectionChoice" ngbDropdownToggle>
+      <button type="button" class="btn btn-lg btn-outline-primary bg-primary text-light" id="dropdownDirectionChoice" ngbDropdownToggle>
         Translation direction
       </button>
       <div ngbDropdownMenu aria-labelledby="dropdownDirectionChoice">
@@ -16,7 +16,7 @@
   <div class="mt-1">
     <div *ngIf="!startedPracticing" class="d-inline-block bg-primary">
       <div ngbDropdown [autoClose]="availableClasses.length === 1" class="d-inline-block" *ngIf="availableClasses.length > 0">
-        <button type="button" class="btn btn-outline-primary bg-primary text-light" id="dropdownClassesChoice" ngbDropdownToggle>
+        <button type="button" class="btn btn-lg btn-outline-primary bg-primary text-light" id="dropdownClassesChoice" ngbDropdownToggle>
           Word classes
         </button>
         <div ngbDropdownMenu aria-labelledby="dropdownClassesChoice">
@@ -29,7 +29,7 @@
   <div class="my-1">
     <div *ngIf="!startedPracticing" class="d-inline-block">
       <div ngbDropdown [autoClose]="availableTags.length === 1" class="d-inline-block" *ngIf="availableTags.length > 0">
-        <button type="button" class="btn btn-outline-primary bg-primary text-light" id="dropdownTagsChoice" ngbDropdownToggle>
+        <button type="button" class="btn btn-lg btn-outline-primary bg-primary text-light" id="dropdownTagsChoice" ngbDropdownToggle>
           Tags
         </button>
         <div ngbDropdownMenu aria-labelledby="dropdownTagsChoice">
@@ -39,7 +39,7 @@
     </div>
   </div>
 
-  <button *ngIf="!startedPracticing" type="button" class="btn btn-outline-primary bg-success text-light" [disabled]="selectedTags.length === 0 || selectedClasses.length === 0" (click)="startPracticing()">Start practicing!</button>
+  <button *ngIf="!startedPracticing" type="button" class="btn btn-lg btn-outline-primary bg-success text-light" [disabled]="selectedTags.length === 0 || selectedClasses.length === 0" (click)="startPracticing()">Start practicing!</button>
   <div *ngIf="startedPracticing && !finishedPracticing">
     <app-word-displayer (resultEmitter)="getWordResult($event)" [word]="currentAttempt"></app-word-displayer>
   </div>

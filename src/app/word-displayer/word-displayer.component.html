@@ -1,6 +1,6 @@
 <div *ngIf="word !== undefined">
-  <p>translate: {{word.from}}</p>
-  <div *ngFor="let translation of word.to; index as i">
+  <p>translate {{word.classType}}: {{word.from}}</p>
+  <div *ngFor="let _ of word.to; index as i">
     <span class="p-input-icon-right">
       <input type="text" pInputText [(ngModel)]="userTranslations[i]"
             placeholder="{{'translation ' + (i+1)}}"
@@ -8,7 +8,9 @@
       <i *ngIf="userResults.length > 0" class="pi pi-{{userResults[i] ? 'check': 'times'}}"></i>
     </span>
   </div>
-  <button pButton class="p-button-danger p-button-sm ms-2" (click)="checkTranslations()">Check correctness</button>
+  <button pButton class="p-button-danger p-button-sm ms-2" (click)="checkTranslations()" [disabled]="solutionsRevealed">Check correctness</button>
   <button pButton class="p-button-danger p-button-sm ms-2" (click)="revealSolutions()">Reveal solution{{word.to.length > 1 ? "s" : ""}}</button>
+  <button *ngIf="!attemptDone" pButton class="p-button-danger p-button-sm ms-2" (click)="resultEmitter.emit(ResultType.SKIPPED)">Skip</button>
+  <button *ngIf="attemptDone" pButton class="p-button-danger p-button-sm ms-2" (click)="resultEmitter.emit(finalResult)">Next</button>
 </div>
 

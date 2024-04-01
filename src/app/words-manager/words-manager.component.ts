@@ -6,6 +6,8 @@ import {NgbDropdownModule} from "@ng-bootstrap/ng-bootstrap";
 import { ButtonModule } from 'primeng/button';
 import {Word} from "../../models/word";
 import {WordDisplayerComponent} from "../word-displayer/word-displayer.component";
+import {ResultType} from "../../models/result";
+import {ResultsDisplayerComponent} from "../results-displayer/results-displayer.component";
 
 @Component({
   selector: 'app-words-manager',
@@ -15,7 +17,8 @@ import {WordDisplayerComponent} from "../word-displayer/word-displayer.component
     NgbDropdownModule,
     NgIf,
     ButtonModule,
-    WordDisplayerComponent
+    WordDisplayerComponent,
+    ResultsDisplayerComponent
   ],
   templateUrl: './words-manager.component.html',
   styleUrl: './words-manager.component.css'
@@ -31,10 +34,14 @@ export class WordsManagerComponent {
   selectedTags: string[] = [];
 
   startedPracticing: boolean = false;
+  finishedPracticing: boolean = false;
 
   wordsToPractice: Word[] = [];
-  currentWord: Word | undefined = undefined;
+  currentAttempt: Word | undefined = undefined;
 
+  correctAttempts: Word[] = [];
+  wrongAttempts: Word[] = [];
+  skippedAttempts: Word[] = [];
 
   selectDirection(direction: string) {
     this.selectedDirection = direction;
@@ -59,7 +66,6 @@ export class WordsManagerComponent {
     for(let clazz of this.selectedClasses)
       this.selectedVocabulary["classes"][clazz]["tags"].forEach((tag: string) => tags.add(tag));
     this.availableTags = Array.from(tags);
-    this.availableTags.push("<untagged>");
     this.selectedTags = this.selectedTags.filter(t => this.availableTags.includes(t));
   }
 
@@ -87,18 +93,37 @@ export class WordsManagerComponent {
 
   fillWordsToPractice(){
     for(let clazz of this.selectedClasses)
-      for(let word of this.selectedVocabulary["classes"][clazz]["words"])
-        this.wordsToPractice.push(Word.fromJson(word));
+      for(let word of this.selectedVocabulary["classes"][clazz]["words"]){
+        let classType = clazz.endsWith("s") ? clazz.slice(0, -1) : clazz;
+        this.wordsToPractice.push(Word.fromJson(word, classType));
+      }
+
 
     //TODO: add sorting
   }
 
   nextWord(){
     if(this.wordsToPractice.length === 0){
-      this.currentWord = undefined;
+      this.currentAttempt = undefined;
+      this.finishedPracticing = true;
       return;
     }
-    this.currentWord = this.wordsToPractice.pop();
+    this.currentAttempt = this.wordsToPractice.pop();
+  }
+
+  getWordResult(resultType: ResultType){
+    if(this.currentAttempt === undefined)
+      throw new Error("No word to evaluate");
+    if(resultType === ResultType.CORRECT)
+      this.correctAttempts.push(this.currentAttempt);
+    else if(resultType === ResultType.SKIPPED)
+      this.skippedAttempts.push(this.currentAttempt);
+    else if(resultType === ResultType.INCORRECT)
+      this.wrongAttempts.push(this.currentAttempt);
+    else
+      throw new Error("Invalid result type");
+
+    this.nextWord();
   }
 
   constructor() {

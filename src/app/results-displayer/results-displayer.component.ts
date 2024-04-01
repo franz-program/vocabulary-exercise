@@ -15,4 +15,5 @@ export class ResultsDisplayerComponent {
   @Input() skippedAttempts: Word[] = [];
 
   protected readonly skip = skip;
+  protected readonly window = window;
 }

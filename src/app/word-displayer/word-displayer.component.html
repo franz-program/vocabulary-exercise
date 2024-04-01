@@ -1,16 +1,24 @@
-<div *ngIf="word !== undefined">
-  <p>translate {{word.classType}}: {{word.from}}</p>
+<div *ngIf="word !== undefined" class="container justify-content-center text-center">
+  <h4>translate {{word.classType}}: <strong>{{word.from}}</strong></h4>
   <div *ngFor="let _ of word.to; index as i">
     <span class="p-input-icon-right">
       <input type="text" pInputText [(ngModel)]="userTranslations[i]"
-            placeholder="{{'translation ' + (i+1)}}"
+            placeholder="{{'translation ' + (word.to.length > 1 ? (i+1) : '')}}"
       />
-      <i *ngIf="userResults.length > 0" class="pi pi-{{userResults[i] ? 'check': 'times'}}"></i>
+      <i *ngIf="userResults.length > 0 && !solutionsRevealed" class="pi pi-{{userResults[i] ? 'check': 'times'}}"></i>
     </span>
   </div>
-  <button pButton class="p-button-danger p-button-sm ms-2" (click)="checkTranslations()" [disabled]="solutionsRevealed">Check correctness</button>
-  <button pButton class="p-button-danger p-button-sm ms-2" (click)="revealSolutions()">Reveal solution{{word.to.length > 1 ? "s" : ""}}</button>
-  <button *ngIf="!attemptDone" pButton class="p-button-danger p-button-sm ms-2" (click)="resultEmitter.emit(ResultType.SKIPPED)">Skip</button>
-  <button *ngIf="attemptDone" pButton class="p-button-danger p-button-sm ms-2" (click)="resultEmitter.emit(finalResult)">Next</button>
+  <div class="mt-1">
+    <button type="button" class="d-inline btn btn-outline-primary bg-primary text-light" (click)="checkTranslations()" [disabled]="solutionsRevealed">Check correctness</button>
+  </div>
+  <div class="mt-1">
+    <button type="button" class="d-inline btn btn-outline-primary bg-primary text-light" (click)="revealSolutions()">Reveal solution{{word.to.length > 1 ? "s" : ""}}</button>
+  </div>
+  <div class="mt-1">
+    <button *ngIf="!attemptDone" type="button" class="d-inline btn btn-outline-primary bg-primary text-light" (click)="resultEmitter.emit(ResultType.SKIPPED)">Skip</button>
+  </div>
+  <div class="mt-1">
+    <button *ngIf="attemptDone" type="button" class="d-inline btn btn-outline-primary bg-primary text-light" (click)="resultEmitter.emit(finalResult)">Next</button>
+  </div>
 </div>
 

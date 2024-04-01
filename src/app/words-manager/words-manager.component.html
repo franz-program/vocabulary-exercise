@@ -1,36 +1,51 @@
-<div ngbDropdown class="d-inline-block" *ngIf="!startedPracticing">
-  <button type="button" class="btn btn-outline-primary" id="dropdownDirectionChoice" ngbDropdownToggle>
-    Translation direction
-  </button>
-  <div ngbDropdownMenu aria-labelledby="dropdownDirectionChoice">
-    <button ngbDropdownItem [class.active]="selectedDirection === 'it->de'" (click)="selectDirection('it->de')">it -> de</button>
-    <button ngbDropdownItem [class.active]="selectedDirection === 'de->it'" (click)="selectDirection('de->it')">de -> it</button>
-  </div>
-</div>
-<div *ngIf="!startedPracticing">
-  <div ngbDropdown [autoClose]="availableClasses.length === 1" class="d-inline-block" *ngIf="availableClasses.length > 0">
-    <button type="button" class="btn btn-outline-primary" id="dropdownClassesChoice" ngbDropdownToggle>
-      Word classes
-    </button>
-    <div ngbDropdownMenu aria-labelledby="dropdownClassesChoice">
-      <button *ngFor="let clazz of availableClasses" ngbDropdownItem [class.active]="selectedClasses.includes(clazz)" (click)="toggleSelectedClass(clazz)">{{clazz}}</button>
+<div class="container justify-content-center text-center">
+
+  <div class="mt-4">
+    <div ngbDropdown class="d-inline-block" *ngIf="!startedPracticing">
+      <button type="button" class="btn btn-outline-primary bg-primary text-light" id="dropdownDirectionChoice" ngbDropdownToggle>
+        Translation direction
+      </button>
+      <div ngbDropdownMenu aria-labelledby="dropdownDirectionChoice">
+        <button ngbDropdownItem [class.active]="selectedDirection === 'it->de'" (click)="selectDirection('it->de')">it -> de</button>
+        <button ngbDropdownItem [class.active]="selectedDirection === 'de->it'" (click)="selectDirection('de->it')">de -> it</button>
+      </div>
     </div>
   </div>
-</div>
-<div *ngIf="!startedPracticing">
-  <div ngbDropdown [autoClose]="availableTags.length === 1" class="d-inline-block" *ngIf="availableTags.length > 0">
-    <button type="button" class="btn btn-outline-primary" id="dropdownTagsChoice" ngbDropdownToggle>
-      Tags
-    </button>
-    <div ngbDropdownMenu aria-labelledby="dropdownTagsChoice">
-      <button *ngFor="let tag of availableTags" ngbDropdownItem [class.active]="selectedTags.includes(tag)" (click)="toggleSelectedTag(tag)">{{tag}}</button>
+
+
+  <div class="mt-1">
+    <div *ngIf="!startedPracticing" class="d-inline-block bg-primary">
+      <div ngbDropdown [autoClose]="availableClasses.length === 1" class="d-inline-block" *ngIf="availableClasses.length > 0">
+        <button type="button" class="btn btn-outline-primary bg-primary text-light" id="dropdownClassesChoice" ngbDropdownToggle>
+          Word classes
+        </button>
+        <div ngbDropdownMenu aria-labelledby="dropdownClassesChoice">
+          <button *ngFor="let clazz of availableClasses" ngbDropdownItem [class.active]="selectedClasses.includes(clazz)" (click)="toggleSelectedClass(clazz)">{{clazz}}</button>
+        </div>
+      </div>
     </div>
   </div>
+
+  <div class="my-1">
+    <div *ngIf="!startedPracticing" class="d-inline-block">
+      <div ngbDropdown [autoClose]="availableTags.length === 1" class="d-inline-block" *ngIf="availableTags.length > 0">
+        <button type="button" class="btn btn-outline-primary bg-primary text-light" id="dropdownTagsChoice" ngbDropdownToggle>
+          Tags
+        </button>
+        <div ngbDropdownMenu aria-labelledby="dropdownTagsChoice">
+          <button *ngFor="let tag of availableTags" ngbDropdownItem [class.active]="selectedTags.includes(tag)" (click)="toggleSelectedTag(tag)">{{tag}}</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button *ngIf="!startedPracticing" type="button" class="btn btn-outline-primary bg-success text-light" [disabled]="selectedTags.length === 0 || selectedClasses.length === 0" (click)="startPracticing()">Start practicing!</button>
+  <div *ngIf="startedPracticing && !finishedPracticing">
+    <app-word-displayer (resultEmitter)="getWordResult($event)" [word]="currentAttempt"></app-word-displayer>
+  </div>
+  <div *ngIf="finishedPracticing">
+    <app-results-displayer [correctAttempts]="correctAttempts" [wrongAttempts]="wrongAttempts" [skippedAttempts]="skippedAttempts"></app-results-displayer>
+  </div>
 </div>
-<button *ngIf="!startedPracticing" pButton class="p-button-danger p-button-sm ms-2" [disabled]="selectedTags.length === 0 || selectedClasses.length === 0" (click)="startPracticing()">Start practicing!</button>
-<div *ngIf="startedPracticing && !finishedPracticing">
-  <app-word-displayer (resultEmitter)="getWordResult($event)" [word]="currentAttempt"></app-word-displayer>
-</div>
-<div *ngIf="finishedPracticing">
-  <app-results-displayer [correctAttempts]="correctAttempts" [wrongAttempts]="wrongAttempts" [skippedAttempts]="skippedAttempts"></app-results-displayer>
-</div>
+
+

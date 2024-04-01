@@ -92,10 +92,17 @@ export class WordsManagerComponent {
   }
 
   fillWordsToPractice(){
-    for(let clazz of this.selectedClasses)
-      for(let word of this.selectedVocabulary["classes"][clazz]["words"]){
-        let classType = clazz.endsWith("s") ? clazz.slice(0, -1) : clazz;
-        this.wordsToPractice.push(Word.fromJson(word, classType));
+    console.log(this.selectedClasses, this.selectedTags);
+
+    for(let selectedClass of this.selectedClasses)
+      for(let wordJson of this.selectedVocabulary["classes"][selectedClass]["words"]){
+        let classType = selectedClass.endsWith("s") ? selectedClass.slice(0, -1) : selectedClass;
+        let word = Word.fromJson(wordJson, classType);
+        for(let selectedTag of this.selectedTags)
+          if(word.tags.includes(selectedTag)){
+            this.wordsToPractice.push(word);
+            break;
+          }
       }
 
 

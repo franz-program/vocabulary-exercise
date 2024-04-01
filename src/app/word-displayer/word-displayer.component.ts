@@ -42,6 +42,8 @@ export class WordDisplayerComponent implements OnChanges {
       return;
     this.attemptDone = true;
     let translations = Object.assign([], this.word.to);
+    while(this.userTranslations.length < this.word.to.length)
+      this.userTranslations.push("");
     for(let i = 0; i < this.userTranslations.length; i++)
       if(translations.includes(this.userTranslations[i])){
         this.userResults[i] = true;

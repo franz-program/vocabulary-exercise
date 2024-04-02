@@ -82,7 +82,7 @@ export class WordsManagerComponent {
       this.selectedTags = this.selectedTags.filter(t => t !== tag);
     else
       this.selectedTags.push(tag);
-    this.updateAvailableTags();
+    //this.updateAvailableTags();
   }
 
   startPracticing(){

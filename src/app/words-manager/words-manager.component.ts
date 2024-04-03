@@ -92,8 +92,6 @@ export class WordsManagerComponent {
   }
 
   fillWordsToPractice(){
-    console.log(this.selectedClasses, this.selectedTags);
-
     for(let selectedClass of this.selectedClasses)
       for(let wordJson of this.selectedVocabulary["classes"][selectedClass]["words"]){
         let classType = selectedClass.endsWith("s") ? selectedClass.slice(0, -1) : selectedClass;
@@ -105,8 +103,41 @@ export class WordsManagerComponent {
           }
       }
 
+    this.sortWords();
+  }
 
-    //TODO: add sorting
+  sortWords(){
+    let minInserted: number = Math.min(...this.wordsToPractice.map(word => word.insertedAt));
+    let maxInserted: number = Math.max(...this.wordsToPractice.map(word => word.insertedAt));
+    if (maxInserted === minInserted)
+      maxInserted = minInserted + 1;
+
+    let tempWords = this.wordsToPractice.map(word => word);
+    tempWords.forEach(word => {
+      word.insertedAt = ((word.insertedAt - minInserted) / (maxInserted - minInserted))
+        * 0.6 + 0.2;
+    });
+
+    this.wordsToPractice.splice(0, this.wordsToPractice.length);
+    let fullCycle = 0;
+    let bitmap: boolean[] = new Array(tempWords.length).fill(false);
+    while(this.wordsToPractice.length !== tempWords.length && fullCycle < 4){
+      for(let i = 0; i < tempWords.length; i++){
+        if(bitmap[i])
+          continue;
+        if(Math.random() < tempWords[i].insertedAt){
+          this.wordsToPractice.push(tempWords[i]);
+          bitmap[i] = true;
+        }
+      }
+      fullCycle++;
+    }
+
+    if(this.wordsToPractice.length !== tempWords.length){
+      for(let i = 0; i < tempWords.length; i++)
+        if(!bitmap[i])
+          this.wordsToPractice.push(tempWords[i]);
+    }
   }
 
   nextWord(){
@@ -115,7 +146,7 @@ export class WordsManagerComponent {
       this.finishedPracticing = true;
       return;
     }
-    this.currentAttempt = this.wordsToPractice.pop();
+    this.currentAttempt = this.wordsToPractice.shift();
   }
 
   getWordResult(resultType: ResultType){
@@ -125,9 +156,10 @@ export class WordsManagerComponent {
       this.correctAttempts.push(this.currentAttempt);
     else if(resultType === ResultType.SKIPPED)
       this.skippedAttempts.push(this.currentAttempt);
-    else if(resultType === ResultType.INCORRECT)
+    else if(resultType === ResultType.INCORRECT) {
       this.wrongAttempts.push(this.currentAttempt);
-    else
+      this.wordsToPractice.push(this.currentAttempt);
+    } else
       throw new Error("Invalid result type");
 
     this.nextWord();

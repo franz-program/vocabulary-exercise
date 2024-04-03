@@ -133,9 +133,14 @@ export class WordsManagerComponent {
     this.nextWord();
   }
 
+  stopPracticing(){
+    this.finishedPracticing = true;
+  }
+
   constructor() {
   }
 
   protected readonly italianVocabulary = italianVocabulary;
   protected readonly germanVocabulary = germanVocabulary;
+  protected readonly stop = stop;
 }

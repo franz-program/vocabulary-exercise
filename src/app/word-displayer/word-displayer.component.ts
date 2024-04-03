@@ -1,4 +1,4 @@
-import {Component, EventEmitter, Input, OnChanges, Output, SimpleChanges} from '@angular/core';
+import {Component, EventEmitter, Input, OnChanges, Output, SimpleChanges, HostListener} from '@angular/core';
 import {Word} from "../../models/word";
 import {NgForOf, NgIf} from "@angular/common";
 import {ButtonModule} from "primeng/button";
@@ -29,6 +29,12 @@ export class WordDisplayerComponent implements OnChanges {
 
   @Output() resultEmitter: EventEmitter<ResultType> = new EventEmitter<ResultType>();
 
+  @HostListener('document:keyup', ['$event'])
+  handleKeyboardEvent(event: KeyboardEvent) {
+    if(event.key === "Enter")
+      this.checkTranslations();
+  }
+
   ngOnChanges(changes:SimpleChanges){
     this.userTranslations = [];
     this.userResults = [];
@@ -52,6 +58,9 @@ export class WordDisplayerComponent implements OnChanges {
         this.userResults[i] = false;
         this.finalResult = ResultType.INCORRECT;
       }
+
+    if(this.finalResult === ResultType.CORRECT)
+      setTimeout(() => this.resultEmitter.emit(this.finalResult), 600);
   }
 
   revealSolutions(){

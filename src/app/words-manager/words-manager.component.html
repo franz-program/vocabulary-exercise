@@ -42,6 +42,7 @@
   <button *ngIf="!startedPracticing" type="button" class="btn btn-lg btn-outline-primary bg-success text-light" [disabled]="selectedTags.length === 0 || selectedClasses.length === 0" (click)="startPracticing()">Start practicing!</button>
   <div *ngIf="startedPracticing && !finishedPracticing">
     <app-word-displayer (resultEmitter)="getWordResult($event)" [word]="currentAttempt"></app-word-displayer>
+    <button *ngIf="startedPracticing" type="button" class="btn btn-lg btn-outline-primary bg-danger text-light" (click)="stopPracticing()">Stop practicing</button>
   </div>
   <div *ngIf="finishedPracticing">
     <app-results-displayer [correctAttempts]="correctAttempts" [wrongAttempts]="wrongAttempts" [skippedAttempts]="skippedAttempts"></app-results-displayer>

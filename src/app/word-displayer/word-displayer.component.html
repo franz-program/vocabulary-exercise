@@ -21,7 +21,7 @@
     <button *ngIf="!attemptDone" type="button" class="d-inline btn btn-lg btn-outline-primary bg-primary text-light" (click)="resultEmitter.emit(ResultType.SKIPPED)">Skip</button>
   </div>
   <div class="mt-1">
-    <button *ngIf="attemptDone" type="button" class="d-inline btn btn-lg btn-outline-primary bg-primary text-light" (click)="resultEmitter.emit(finalResult)">Next</button>
+    <button *ngIf="attemptDone && finalResult !== ResultType.CORRECT" type="button" class="d-inline btn btn-lg btn-outline-primary bg-primary text-light" (click)="resultEmitter.emit(finalResult)">Next</button>
   </div>
 </div>
 

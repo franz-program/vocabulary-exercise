@@ -112,32 +112,14 @@ export class WordsManagerComponent {
     if (maxInserted === minInserted)
       maxInserted = minInserted + 1;
 
-    let tempWords = this.wordsToPractice.map(word => word);
-    tempWords.forEach(word => {
+    this.wordsToPractice.forEach(word => {
       word.insertedAt = ((word.insertedAt - minInserted) / (maxInserted - minInserted))
-        * 0.6 + 0.2;
+        * 6 + 2;
+      word.insertedAt = (Math.random()/3 + 1.0) * word.insertedAt;
     });
 
-    this.wordsToPractice.splice(0, this.wordsToPractice.length);
-    let fullCycle = 0;
-    let bitmap: boolean[] = new Array(tempWords.length).fill(false);
-    while(this.wordsToPractice.length !== tempWords.length && fullCycle < 4){
-      for(let i = 0; i < tempWords.length; i++){
-        if(bitmap[i])
-          continue;
-        if(Math.random() < tempWords[i].insertedAt){
-          this.wordsToPractice.push(tempWords[i]);
-          bitmap[i] = true;
-        }
-      }
-      fullCycle++;
-    }
-
-    if(this.wordsToPractice.length !== tempWords.length){
-      for(let i = 0; i < tempWords.length; i++)
-        if(!bitmap[i])
-          this.wordsToPractice.push(tempWords[i]);
-    }
+    //sort by insertedAt descending
+    this.wordsToPractice.sort((a, b) => b.insertedAt - a.insertedAt);
   }
 
   nextWord(){

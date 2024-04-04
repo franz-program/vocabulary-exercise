@@ -48,6 +48,7 @@ export class WordDisplayerComponent implements OnChanges {
       return;
     this.attemptDone = true;
     let translations = Object.assign([], this.word.to);
+    let mistakes = 0;
     while(this.userTranslations.length < this.word.to.length)
       this.userTranslations.push("");
     for(let i = 0; i < this.userTranslations.length; i++)
@@ -56,10 +57,11 @@ export class WordDisplayerComponent implements OnChanges {
         translations.filter(translation => translation !== this.userTranslations[i]);
       } else{
         this.userResults[i] = false;
+        mistakes++;
         this.finalResult = ResultType.INCORRECT;
       }
 
-    if(this.finalResult === ResultType.CORRECT)
+    if(mistakes === 0)
       setTimeout(() => this.resultEmitter.emit(this.finalResult), 600);
   }
 

@@ -1,5 +1,14 @@
 <div *ngIf="word !== undefined" class="container justify-content-center text-center mb-1">
   <h4>translate {{word.classType}}: <strong>{{word.from}}</strong></h4>
+  <span>
+      <input type="text" pInputText [(ngModel)]="userTranslations[0]"
+             placeholder="{{'translation ' + (word.to.length > 1 ? word.to.length.toString() : '')}}"
+             class="form-control-lg"
+             [class.bg-danger]="userResults.length > 0 && !userResults[0] && !solutionsRevealed"
+             [class.bg-success]="userResults.length > 0 && userResults[0] && !solutionsRevealed"
+             [class.bg-light]="solutionsRevealed"
+      />
+  </span>
   <div *ngFor="let _ of word.to; index as i; first as isFirst">
     <span *ngIf="!isFirst">
       <input type="text" pInputText [(ngModel)]="userTranslations[i]"
@@ -11,15 +20,7 @@
       />
     </span>
   </div>
-  <span>
-      <input type="text" pInputText [(ngModel)]="userTranslations[0]"
-             placeholder="{{'translation ' + (word.to.length > 1 ? word.to.length.toString() : '')}}"
-             class="form-control-lg"
-             [class.bg-danger]="userResults.length > 0 && !userResults[0] && !solutionsRevealed"
-             [class.bg-success]="userResults.length > 0 && userResults[0] && !solutionsRevealed"
-             [class.bg-light]="solutionsRevealed"
-      />
-    </span>
+
   <div class="my-1">
     <button type="button" class="d-inline btn btn-lg btn-outline-primary bg-primary text-light" (click)="checkTranslations()" [disabled]="solutionsRevealed">Check correctness</button>
   </div>

@@ -2,7 +2,7 @@
   <h4>translate {{word.classType}}: <strong>{{word.from}}</strong></h4>
   <span>
       <input type="text" pInputText [(ngModel)]="userTranslations[0]"
-             placeholder="{{'translation ' + (word.to.length > 1 ? word.to.length.toString() : '')}}"
+             placeholder="{{'translation ' + (word.to.length > 1 ? 1 : '')}}"
              class="form-control-lg"
              [class.bg-danger]="userResults.length > 0 && !userResults[0] && !solutionsRevealed"
              [class.bg-success]="userResults.length > 0 && userResults[0] && !solutionsRevealed"
@@ -12,7 +12,7 @@
   <div *ngFor="let _ of word.to; index as i; first as isFirst">
     <span *ngIf="!isFirst">
       <input type="text" pInputText [(ngModel)]="userTranslations[i]"
-            placeholder="{{'translation ' + (word.to.length > 1 ? i : '')}}"
+            placeholder="{{'translation ' + (word.to.length > 1 ? i+1 : '')}}"
              class="form-control-lg"
              [class.bg-danger]="userResults.length > 0 && !userResults[i] && !solutionsRevealed"
              [class.bg-success]="userResults.length > 0 && userResults[i] && !solutionsRevealed"
@@ -27,8 +27,11 @@
   <div class="mb-1">
     <button type="button" class="d-inline btn btn-lg btn-outline-primary bg-primary text-light" (click)="revealSolutions()">Reveal solution{{word.to.length > 1 ? "s" : ""}}</button>
   </div>
-  <div>
+  <div class="mb-1">
     <button *ngIf="!attemptDone" type="button" class="d-inline btn btn-lg btn-outline-primary bg-primary text-light" (click)="resultEmitter.emit(ResultType.SKIPPED)">Skip</button>
+  </div>
+  <div>
+    <button *ngIf="!attemptDone && solutionsRevealed" type="button" class="d-inline btn btn-lg btn-outline-primary bg-primary text-light" (click)="resultEmitter.emit(ResultType.INCORRECT)">Retry later</button>
   </div>
   <div>
     <button *ngIf="attemptDone && finalResult !== ResultType.CORRECT" type="button" class="d-inline btn btn-lg btn-outline-primary bg-primary text-light" (click)="resultEmitter.emit(finalResult)">Next</button>

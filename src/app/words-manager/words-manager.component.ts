@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import italianVocabulary from "../../assets/it.json";
-import germanVocabulary from "../../assets/de.json";
+import italianVocabulary from "../../assets/it->de.json";
+import germanVocabulary from "../../assets/de->it.json";
 import {NgForOf, NgIf} from "@angular/common";
 import {NgbDropdownModule} from "@ng-bootstrap/ng-bootstrap";
 import { ButtonModule } from 'primeng/button';
@@ -118,7 +118,6 @@ export class WordsManagerComponent {
       word.insertedAt = (Math.random()/3 + 1.0) * word.insertedAt;
     });
 
-    //sort by insertedAt descending
     this.wordsToPractice.sort((a, b) => b.insertedAt - a.insertedAt);
   }
 
@@ -140,7 +139,8 @@ export class WordsManagerComponent {
       this.skippedAttempts.push(this.currentAttempt);
     else if(resultType === ResultType.INCORRECT) {
       this.wrongAttempts.push(this.currentAttempt);
-      this.wordsToPractice.push(this.currentAttempt);
+      let insertionIndex = Math.random() * 10 + 10;
+      this.wordsToPractice.splice(insertionIndex, 0, this.currentAttempt);
     } else
       throw new Error("Invalid result type");
 

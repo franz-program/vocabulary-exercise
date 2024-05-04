@@ -7,7 +7,7 @@ jobs:
   build:
     environment: deploy
     runs-on: ubuntu-latest
-    if: ! contains(github.event.head_commit.message, '--no-deploy')
+    if: ${{ ! contains(github.event.head_commit.message, '--no-deploy') }}
     steps:
       - uses: actions/checkout@v3
       - name: All things angular

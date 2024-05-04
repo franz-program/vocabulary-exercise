@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import italianVocabulary from "../../assets/it->de.json";
-import germanVocabulary from "../../assets/de->it.json";
+import italianVocabulary from "../../assets/it-de.json";
+import germanVocabulary from "../../assets/de-it.json";
 import {NgForOf, NgIf} from "@angular/common";
 import {NgbDropdownModule} from "@ng-bootstrap/ng-bootstrap";
 import { ButtonModule } from 'primeng/button';
@@ -156,5 +156,4 @@ export class WordsManagerComponent {
 
   protected readonly italianVocabulary = italianVocabulary;
   protected readonly germanVocabulary = germanVocabulary;
-  protected readonly stop = stop;
 }

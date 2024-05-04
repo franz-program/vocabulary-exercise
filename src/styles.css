@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+.scrollable-dropdown {
+  max-height: 500px; /* Adjust this value as needed */
+  overflow-y: scroll;
+  border: 1px solid #ccc; /* Optional: Add border for visual clarity */
+  padding: 10px; /* Optional: Add padding for spacing */
+}
+
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background color of the track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #544949; /* Color of the scrollbar handle */
+  border-radius: 5px; /* Border radius of the handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000000; /* Color of the handle on hover */
+}

@@ -66,6 +66,7 @@ export class WordsManagerComponent {
     for(let clazz of this.selectedClasses)
       this.selectedVocabulary["classes"][clazz]["tags"].forEach((tag: string) => tags.add(tag));
     this.availableTags = Array.from(tags);
+    this.availableTags.sort();
     this.selectedTags = this.selectedTags.filter(t => this.availableTags.includes(t));
   }
 

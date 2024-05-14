@@ -4380,6 +4380,216 @@
     "feelings",
     "medicine-related"
    ]
+  },
+  "adverbs": {
+   "words": [
+    {
+     "from": "genug",
+     "to": [
+      "abbastanza"
+     ],
+     "tags": [
+      "adv-4"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "ziemlich",
+     "to": [
+      "abbastanza"
+     ],
+     "tags": [
+      "adv-4"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "jedenfalls",
+     "to": [
+      "ad ogni modo"
+     ],
+     "tags": [
+      "adv-4"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "auf jeden Fall",
+     "to": [
+      "ad ogni modo"
+     ],
+     "tags": [
+      "adv-4"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "mindestens",
+     "to": [
+      "almeno"
+     ],
+     "tags": [
+      "adv-4"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "zumindest",
+     "to": [
+      "almeno"
+     ],
+     "tags": [
+      "adv-4"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "\u00fcbrigens",
+     "to": [
+      "tra l'altro"
+     ],
+     "tags": [
+      "adv-4"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "eigentlich",
+     "to": [
+      "in realt\u00e1"
+     ],
+     "tags": [
+      "adv-4"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "etwa",
+     "to": [
+      "circa"
+     ],
+     "tags": [
+      "adv-4"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "zirka",
+     "to": [
+      "circa"
+     ],
+     "tags": [
+      "adv-4"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "allerdings",
+     "to": [
+      "infatti"
+     ],
+     "tags": [
+      "adv-4"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "insbesondere",
+     "to": [
+      "specialmente"
+     ],
+     "tags": [
+      "adv-4"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "eher",
+     "to": [
+      "prima"
+     ],
+     "tags": [
+      "adv-4",
+      "time-related"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "je",
+     "to": [
+      "ogni"
+     ],
+     "tags": [
+      "adv-4",
+      "time-related"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "jede",
+     "to": [
+      "ogni"
+     ],
+     "tags": [
+      "adv-4"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "\u00fcberwiegend",
+     "to": [
+      "perlopi\u00fa"
+     ],
+     "tags": [
+      "adv-4"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "gr\u00f6\u00dftenteils",
+     "to": [
+      "perlopi\u00fa"
+     ],
+     "tags": [
+      "adv-4"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "total",
+     "to": [
+      "assolutamente"
+     ],
+     "tags": [
+      "adv-4"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "wirklich",
+     "to": [
+      "assolutamente"
+     ],
+     "tags": [
+      "adv-4"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "v\u00f6llig",
+     "to": [
+      "assolutamente"
+     ],
+     "tags": [
+      "adv-4"
+     ],
+     "inserted-at": "2024-05-14"
+    }
+   ],
+   "tags": [
+    "adv-4",
+    "time-related"
+   ]
   }
  }
 }

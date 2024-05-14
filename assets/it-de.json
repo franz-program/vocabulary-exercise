@@ -4198,6 +4198,143 @@
     "feelings",
     "medicine-related"
    ]
+  },
+  "adverbs": {
+   "words": [
+    {
+     "from": "abbastanza",
+     "to": [
+      "genug",
+      "ziemlich"
+     ],
+     "tags": [
+      "adv-4"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "ad ogni modo",
+     "to": [
+      "jedenfalls",
+      "auf jeden Fall"
+     ],
+     "tags": [
+      "adv-4"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "almeno",
+     "to": [
+      "mindestens",
+      "zumindest"
+     ],
+     "tags": [
+      "adv-4"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "tra l'altro",
+     "to": [
+      "\u00fcbrigens"
+     ],
+     "tags": [
+      "adv-4"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "in realt\u00e1",
+     "to": [
+      "eigentlich"
+     ],
+     "tags": [
+      "adv-4"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "circa",
+     "to": [
+      "etwa",
+      "zirka"
+     ],
+     "tags": [
+      "adv-4"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "infatti",
+     "to": [
+      "allerdings"
+     ],
+     "tags": [
+      "adv-4"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "specialmente",
+     "to": [
+      "insbesondere"
+     ],
+     "tags": [
+      "adv-4"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "prima",
+     "to": [
+      "eher"
+     ],
+     "tags": [
+      "adv-4",
+      "time-related"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "ogni",
+     "to": [
+      "je",
+      "jede"
+     ],
+     "tags": [
+      "adv-4"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "perlopi\u00fa",
+     "to": [
+      "\u00fcberwiegend",
+      "gr\u00f6\u00dftenteils"
+     ],
+     "tags": [
+      "adv-4"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "assolutamente",
+     "to": [
+      "total",
+      "wirklich",
+      "v\u00f6llig"
+     ],
+     "tags": [
+      "adv-4"
+     ],
+     "inserted-at": "2024-05-14"
+    }
+   ],
+   "tags": [
+    "adv-4",
+    "time-related"
+   ]
   }
  }
 }

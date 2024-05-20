@@ -1,13 +1,23 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import italianVocabulary from "../../assets/it-de.json";
 import germanVocabulary from "../../assets/de-it.json";
 import {NgForOf, NgIf} from "@angular/common";
-import {NgbDropdownModule} from "@ng-bootstrap/ng-bootstrap";
+import {
+  NgbAccordionBody,
+  NgbAccordionButton, NgbAccordionCollapse,
+  NgbAccordionDirective,
+  NgbAccordionHeader,
+  NgbAccordionItem,
+  NgbDropdownModule
+} from "@ng-bootstrap/ng-bootstrap";
 import { ButtonModule } from 'primeng/button';
 import {Word} from "../../models/word";
 import {WordDisplayerComponent} from "../word-displayer/word-displayer.component";
 import {ResultType} from "../../models/result";
 import {ResultsDisplayerComponent} from "../results-displayer/results-displayer.component";
+import {FormsModule} from "@angular/forms";
+
+var wordsOrdering = ["newest to oldest", "newest with some randomness", "oldest to newest", "completely random"];
 
 @Component({
   selector: 'app-words-manager',
@@ -18,14 +28,23 @@ import {ResultsDisplayerComponent} from "../results-displayer/results-displayer.
     NgIf,
     ButtonModule,
     WordDisplayerComponent,
-    ResultsDisplayerComponent
+    ResultsDisplayerComponent,
+    NgbAccordionDirective,
+    NgbAccordionItem,
+    NgbAccordionHeader,
+    NgbAccordionButton,
+    NgbAccordionCollapse,
+    NgbAccordionBody,
+    FormsModule
   ],
   templateUrl: './words-manager.component.html',
   styleUrl: './words-manager.component.css'
 })
-export class WordsManagerComponent {
+export class WordsManagerComponent{
   selectedVocabulary: any = undefined;
   selectedDirection: string | undefined = undefined;
+
+  selectedOrdering: string = wordsOrdering[0];
 
   availableClasses: string[] = [];
   selectedClasses: string[] = [];
@@ -66,6 +85,7 @@ export class WordsManagerComponent {
     for(let clazz of this.selectedClasses)
       this.selectedVocabulary["classes"][clazz]["tags"].forEach((tag: string) => tags.add(tag));
     this.availableTags = Array.from(tags);
+    this.availableTags.unshift("<all>");
     this.availableTags.sort();
     this.selectedTags = this.selectedTags.filter(t => this.availableTags.includes(t));
   }
@@ -79,11 +99,26 @@ export class WordsManagerComponent {
   }
 
   toggleSelectedTag(tag: string) {
-    if(this.selectedTags.includes(tag))
-      this.selectedTags = this.selectedTags.filter(t => t !== tag);
-    else
-      this.selectedTags.push(tag);
-    //this.updateAvailableTags();
+    if(tag === "<all>"){
+      if(this.selectedTags.length === this.availableTags.length - 1)
+        this.selectedTags = [];
+      else{
+        this.selectedTags = Object.assign([], this.availableTags);
+        this.selectedTags.splice(0, 1);
+      }
+    } else {
+      if(this.selectedTags.includes(tag))
+        this.selectedTags = this.selectedTags.filter(t => t !== tag);
+      else
+        this.selectedTags.push(tag);
+    }
+  }
+
+  startWithAll(){
+    this.selectedClasses = this.availableClasses;
+    this.updateAvailableTags();
+    this.selectedTags = this.availableTags;
+    this.startPracticing();
   }
 
   startPracticing(){
@@ -108,18 +143,27 @@ export class WordsManagerComponent {
   }
 
   sortWords(){
-    let minInserted: number = Math.min(...this.wordsToPractice.map(word => word.insertedAt));
-    let maxInserted: number = Math.max(...this.wordsToPractice.map(word => word.insertedAt));
-    if (maxInserted === minInserted)
-      maxInserted = minInserted + 1;
+    if(this.selectedOrdering === wordsOrdering[0])
+      this.wordsToPractice.sort((a, b) => b.insertedAt - a.insertedAt);
+    else if(this.selectedOrdering === wordsOrdering[1]){
+      let minInserted: number = Math.min(...this.wordsToPractice.map(word => word.insertedAt));
+      let maxInserted: number = Math.max(...this.wordsToPractice.map(word => word.insertedAt));
+      if (maxInserted === minInserted)
+        maxInserted = minInserted + 1;
 
-    this.wordsToPractice.forEach(word => {
-      word.insertedAt = ((word.insertedAt - minInserted) / (maxInserted - minInserted))
-        * 6 + 2;
-      word.insertedAt = (Math.random()/3 + 1.0) * word.insertedAt;
-    });
+      this.wordsToPractice.forEach(word => {
+        word.insertedAt = ((word.insertedAt - minInserted) / (maxInserted - minInserted))
+          * 6 + 2;
+        word.insertedAt = (Math.random()/3 + 1.0) * word.insertedAt;
+      });
 
-    this.wordsToPractice.sort((a, b) => b.insertedAt - a.insertedAt);
+      this.wordsToPractice.sort((a, b) => b.insertedAt - a.insertedAt);
+    } else if(this.selectedOrdering === wordsOrdering[2])
+      this.wordsToPractice.sort((a, b) => a.insertedAt - b.insertedAt);
+    else
+      this.wordsToPractice = this.wordsToPractice.map(value => ({ value, sort: Math.random() }))
+        .sort((a, b) => a.sort - b.sort)
+        .map(({ value }) => value);
   }
 
   nextWord(){
@@ -134,12 +178,14 @@ export class WordsManagerComponent {
   getWordResult(resultType: ResultType){
     if(this.currentAttempt === undefined)
       throw new Error("No word to evaluate");
-    if(resultType === ResultType.CORRECT)
+    if(resultType === ResultType.RIGHT)
       this.correctAttempts.push(this.currentAttempt);
     else if(resultType === ResultType.SKIPPED)
       this.skippedAttempts.push(this.currentAttempt);
-    else if(resultType === ResultType.INCORRECT) {
-      this.wrongAttempts.push(this.currentAttempt);
+    else if(resultType === ResultType.WRONG) {
+      if(this.currentAttempt.wronglyGuessed === 0)
+        this.wrongAttempts.push(this.currentAttempt);
+      this.currentAttempt.wronglyGuessed++;
       let insertionIndex = Math.random() * 10 + 10;
       this.wordsToPractice.splice(insertionIndex, 0, this.currentAttempt);
     } else
@@ -157,4 +203,5 @@ export class WordsManagerComponent {
 
   protected readonly italianVocabulary = italianVocabulary;
   protected readonly germanVocabulary = germanVocabulary;
+  protected readonly wordsOrdering = wordsOrdering;
 }

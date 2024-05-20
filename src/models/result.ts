@@ -1,7 +1,7 @@
 
 export enum ResultType {
-  CORRECT = "CORRECT",
-  INCORRECT = "INCORRECT",
+  RIGHT = "RIGHT",
+  WRONG = "WRONG",
   SKIPPED = "SKIPPED"
 }
 

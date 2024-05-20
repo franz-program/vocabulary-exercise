@@ -39,7 +39,8 @@
     </div>
   </div>
 
-  <button *ngIf="!startedPracticing" type="button" class="btn btn-lg btn-outline-primary bg-success text-light" [disabled]="selectedTags.length === 0 || selectedClasses.length === 0" (click)="startPracticing()">Start practicing!</button>
+  <button *ngIf="!startedPracticing" type="button" class="btn btn-lg btn-outline-primary bg-success text-light" [disabled]="selectedTags.length === 0 || selectedClasses.length === 0" (click)="startPracticing()">Start with selected</button>
+  <button *ngIf="!startedPracticing" type="button" class="btn btn-lg btn-outline-primary bg-success text-light mt-2" [disabled]="selectedDirection === undefined" (click)="startWithAll()">Start with ALL</button>
   <div *ngIf="startedPracticing && !finishedPracticing">
     <app-word-displayer (resultEmitter)="getWordResult($event)" [word]="currentAttempt"></app-word-displayer>
     <button *ngIf="startedPracticing" type="button" class="btn btn-lg btn-outline-primary bg-danger text-light" (click)="stopPracticing()">Stop practicing</button>
@@ -47,6 +48,28 @@
   <div *ngIf="finishedPracticing">
     <app-results-displayer [correctAttempts]="correctAttempts" [wrongAttempts]="wrongAttempts" [skippedAttempts]="skippedAttempts"></app-results-displayer>
   </div>
+
+  <div *ngIf="!startedPracticing && !finishedPracticing" ngbAccordion class="mt-4">
+    <div ngbAccordionItem>
+      <h2 ngbAccordionHeader>
+        <button ngbAccordionButton class="btn-lg">Words ordering</button>
+      </h2>
+      <div ngbAccordionCollapse>
+        <div ngbAccordionBody class="text-start">
+
+            <div class="form-check h5" *ngFor="let order of wordsOrdering;">
+              <input *ngIf="order !== undefined" class="form-check-input" type="radio" name="ordering-radio" id="{{'ordering-radio-' + order}}" value="{{order}}"
+              [checked]="selectedOrdering == order" (click)="selectedOrdering = order">
+              <label *ngIf="order !== undefined" class="form-check-label" id="{{'ordering-radio-' + order}}">
+                {{order}}
+              </label>
+            </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
 
 

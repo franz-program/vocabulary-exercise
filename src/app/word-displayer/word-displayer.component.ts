@@ -25,14 +25,22 @@ export class WordDisplayerComponent implements OnChanges {
   userResults: boolean[] = [];
   attemptDone: boolean = false;
   solutionsRevealed: boolean = false;
-  finalResult: ResultType = ResultType.CORRECT;
+  finalResult: ResultType = ResultType.RIGHT;
 
   @Output() resultEmitter: EventEmitter<ResultType> = new EventEmitter<ResultType>();
 
   @HostListener('document:keyup', ['$event'])
   handleKeyboardEvent(event: KeyboardEvent) {
-    if(event.key === "Enter")
+    if(event.key === "Enter"){
+      this.fillUserTranslations();
+      for(let i = 0; i < this.userTranslations.length; i++)
+        if(this.userTranslations[i].trim() === ""){
+          this.focusInput(i);
+          return;
+        }
+
       this.checkTranslations();
+    }
   }
 
   ngOnChanges(changes:SimpleChanges){
@@ -40,7 +48,28 @@ export class WordDisplayerComponent implements OnChanges {
     this.userResults = [];
     this.attemptDone = false;
     this.solutionsRevealed = false;
-    this.finalResult = ResultType.CORRECT;
+    this.finalResult = ResultType.RIGHT;
+    this.focusInput(0);
+  }
+
+  fillUserTranslations(): void{
+    if(this.word === undefined)
+      return;
+
+    while(this.userTranslations.length < this.word.to.length)
+      this.userTranslations.push("");
+    this.userTranslations = this.userTranslations
+      .map(translation => {
+        if(translation === undefined)
+          return "";
+        return translation.trim();
+      });
+  }
+
+  focusInput(index: number){
+    const firstInput = document.getElementById("translation-input-" + index);
+    if(firstInput !== null)
+      firstInput.focus();
   }
 
   checkTranslations() {
@@ -49,8 +78,7 @@ export class WordDisplayerComponent implements OnChanges {
     this.attemptDone = true;
     let translations = Object.assign([], this.word.to);
     let mistakes = 0;
-    while(this.userTranslations.length < this.word.to.length)
-      this.userTranslations.push("");
+    this.fillUserTranslations();
     for(let i = 0; i < this.userTranslations.length; i++)
       if(translations.includes(this.userTranslations[i])){
         this.userResults[i] = true;
@@ -58,7 +86,7 @@ export class WordDisplayerComponent implements OnChanges {
       } else{
         this.userResults[i] = false;
         mistakes++;
-        this.finalResult = ResultType.INCORRECT;
+        this.finalResult = ResultType.WRONG;
       }
 
     if(mistakes === 0)

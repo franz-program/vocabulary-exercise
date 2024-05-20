@@ -1,10 +1,41 @@
 <h2>Final results:</h2>
-<ul>
-  <li>{{correctAttempts.length}} correct translation{{correctAttempts.length !== 1 ? "s" : ""}}</li>
-  <li>{{wrongAttempts.length}} wrong translation{{wrongAttempts.length !== 1 ? "s" : ""}}</li>
-  <li>{{skippedAttempts.length}} skipped translation{{skippedAttempts.length !== 1 ? "s" : ""}}</li>
-</ul>
-<h3>A better summary coming soon!</h3>
+<div ngbAccordion class="mt-4">
+  <div ngbAccordionItem>
+    <h2 ngbAccordionHeader>
+      <button ngbAccordionButton class="btn-lg" [class.text-danger]="wrongAttempts.length > 0" [class.text-success]="wrongAttempts.length === 0">
+        {{wrongAttempts.length}} Wrong translation(s)</button>
+    </h2>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody class="text-start">
+        <app-words-result-displayer [words]="wrongAttempts" [resultType]="ResultType.WRONG"></app-words-result-displayer>
+      </div>
+    </div>
+  </div>
+
+  <div ngbAccordionItem>
+    <h2 ngbAccordionHeader>
+      <button ngbAccordionButton class="btn-lg" [class.text-warning]="skippedAttempts.length > 0" [class.text-success]="skippedAttempts.length === 0">
+        {{skippedAttempts.length}} Skipped translation(s)</button>
+    </h2>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody class="text-start">
+        <app-words-result-displayer [words]="skippedAttempts" [resultType]="ResultType.SKIPPED"></app-words-result-displayer>
+      </div>
+    </div>
+  </div>
+
+  <div ngbAccordionItem>
+    <h2 ngbAccordionHeader>
+      <button ngbAccordionButton class="btn-lg" [class.text-success]="correctAttempts.length > 0" [class.text-danger]="correctAttempts.length === 0">
+        {{correctAttempts.length}} Correct translation(s)</button>
+    </h2>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody class="text-start">
+        <app-words-result-displayer [words]="correctAttempts" [resultType]="ResultType.RIGHT"></app-words-result-displayer>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="mt-1">
   <button type="button" class="d-inline btn btn-lg btn-outline-primary bg-primary text-light" (click)="window.location.reload()">Restart</button>
 </div>

@@ -1,0 +1,12 @@
+<ul class="text-start">
+  <li *ngFor="let entry of Array.from(getWordsOrdered().entries())">
+    <h6>{{entry[0]}}</h6>
+    <ul>
+      <li *ngFor="let word of entry[1]">
+        <span class="h5 {{getClassTypeColor()}}">{{ word.from }}</span>
+        <span>: {{word.to.join(", ")}}</span>
+      </li>
+    </ul>
+  </li>
+</ul>
+

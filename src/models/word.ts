@@ -2,7 +2,7 @@
 
 export class Word {
   constructor(public from: string, public to: string[],
-              public tags: string[], public insertedAt: number, public classType: string){
+              public tags: string[], public insertedAt: number, public classType: string, public wronglyGuessed: number = 0){
   }
 
   static fromJson(json: any, classType: string): Word {

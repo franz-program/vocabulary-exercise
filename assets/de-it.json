@@ -3484,9 +3484,10 @@
       "la temperatura"
      ],
      "tags": [
-      "medicine-related"
+      "medicine-related",
+      "weather"
      ],
-     "inserted-at": "2024-05-13"
+     "inserted-at": "2024-05-14"
     },
     {
      "from": "der Schmerz",
@@ -3762,6 +3763,201 @@
       "in the city"
      ],
      "inserted-at": "2024-05-13"
+    },
+    {
+     "from": "das Wetter",
+     "to": [
+      "il meteo"
+     ],
+     "tags": [
+      "weather"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "die Wolke",
+     "to": [
+      "la nuvola"
+     ],
+     "tags": [
+      "weather",
+      "weather"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "der Regen",
+     "to": [
+      "la pioggia"
+     ],
+     "tags": [
+      "weather",
+      "weather",
+      "weather"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "der Schnee",
+     "to": [
+      "la neve"
+     ],
+     "tags": [
+      "weather",
+      "weather",
+      "weather",
+      "weather"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "das Gewitter",
+     "to": [
+      "il temporale"
+     ],
+     "tags": [
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "der Blitz",
+     "to": [
+      "il fulmine"
+     ],
+     "tags": [
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "der Donner",
+     "to": [
+      "il tuono"
+     ],
+     "tags": [
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "die Sonne",
+     "to": [
+      "il sole"
+     ],
+     "tags": [
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "der Mond",
+     "to": [
+      "la luna"
+     ],
+     "tags": [
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "der Wind",
+     "to": [
+      "il vento"
+     ],
+     "tags": [
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "die Tage",
+     "to": [
+      "i giorni"
+     ],
+     "tags": [
+      "plurals",
+      "time-related"
+     ],
+     "inserted-at": "2023-11-02"
+    },
+    {
+     "from": "die Monate",
+     "to": [
+      "i mesi"
+     ],
+     "tags": [
+      "plurals",
+      "time-related",
+      "time-related"
+     ],
+     "inserted-at": "2023-11-02"
+    },
+    {
+     "from": "die Jahre",
+     "to": [
+      "gli anni"
+     ],
+     "tags": [
+      "plurals",
+      "time-related",
+      "time-related",
+      "time-related"
+     ],
+     "inserted-at": "2023-11-02"
+    },
+    {
+     "from": "die Wochen",
+     "to": [
+      "le settimane"
+     ],
+     "tags": [
+      "plurals",
+      "time-related",
+      "time-related",
+      "time-related",
+      "time-related"
+     ],
+     "inserted-at": "2023-11-02"
     }
    ],
    "tags": [
@@ -3794,7 +3990,9 @@
     "in the city",
     "sport-related",
     "medicine-related",
-    "materials"
+    "materials",
+    "weather",
+    "time-related"
    ]
   },
   "adjectives": {
@@ -4290,13 +4488,47 @@
       "adj-4"
      ],
      "inserted-at": "2024-05-13"
+    },
+    {
+     "from": "sonnig",
+     "to": [
+      "soleggiato"
+     ],
+     "tags": [
+      "weather"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "bew\u00f6lkt",
+     "to": [
+      "nuvoloso"
+     ],
+     "tags": [
+      "weather",
+      "weather"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "regnerisch",
+     "to": [
+      "piovoso"
+     ],
+     "tags": [
+      "weather",
+      "weather",
+      "weather"
+     ],
+     "inserted-at": "2024-05-14"
     }
    ],
    "tags": [
     "adj-4",
     "colors",
     "feelings",
-    "medicine-related"
+    "medicine-related",
+    "weather"
    ]
   },
   "verbs": {
@@ -4373,12 +4605,34 @@
       "verbs-4"
      ],
      "inserted-at": "2024-05-13"
+    },
+    {
+     "from": "regnen",
+     "to": [
+      "piove"
+     ],
+     "tags": [
+      "weather"
+     ],
+     "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "schneien",
+     "to": [
+      "nevicare"
+     ],
+     "tags": [
+      "weather",
+      "weather"
+     ],
+     "inserted-at": "2024-05-14"
     }
    ],
    "tags": [
     "verbs-4",
     "feelings",
-    "medicine-related"
+    "medicine-related",
+    "weather"
    ]
   },
   "adverbs": {
@@ -4584,11 +4838,120 @@
       "adv-4"
      ],
      "inserted-at": "2024-05-14"
+    },
+    {
+     "from": "der Tag",
+     "to": [
+      "il giorno"
+     ],
+     "tags": [
+      "weather"
+     ],
+     "inserted-at": "2023-11-02"
+    },
+    {
+     "from": "die Nacht",
+     "to": [
+      "la notte"
+     ],
+     "tags": [
+      "weather",
+      "weather"
+     ],
+     "inserted-at": "2023-11-02"
+    },
+    {
+     "from": "der Nachmittag",
+     "to": [
+      "il pomeriggio"
+     ],
+     "tags": [
+      "weather",
+      "weather",
+      "weather"
+     ],
+     "inserted-at": "2023-11-02"
+    },
+    {
+     "from": "der Morgen",
+     "to": [
+      "la mattina"
+     ],
+     "tags": [
+      "weather",
+      "weather",
+      "weather",
+      "weather"
+     ],
+     "inserted-at": "2023-11-02"
+    },
+    {
+     "from": "der Mittag",
+     "to": [
+      "mezzogiorno"
+     ],
+     "tags": [
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather"
+     ],
+     "inserted-at": "2023-11-02"
+    },
+    {
+     "from": "die Woche",
+     "to": [
+      "la settimana"
+     ],
+     "tags": [
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather"
+     ],
+     "inserted-at": "2023-11-02"
+    },
+    {
+     "from": "der Monat",
+     "to": [
+      "il mese"
+     ],
+     "tags": [
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather"
+     ],
+     "inserted-at": "2023-11-02"
+    },
+    {
+     "from": "das Jahr",
+     "to": [
+      "l'anno"
+     ],
+     "tags": [
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather",
+      "weather"
+     ],
+     "inserted-at": "2023-11-02"
     }
    ],
    "tags": [
     "adv-4",
-    "time-related"
+    "time-related",
+    "weather"
    ]
   }
  }

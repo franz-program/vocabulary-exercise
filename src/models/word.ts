@@ -6,7 +6,7 @@ export class Word {
   }
 
   static fromJson(json: any, classType: string): Word {
-    return new Word(json.from, json.to, json.tags, new Date(json["inserted-at"]).getTime() / 1000.0, classType);
+    return new Word(json.from, json.to, json.tags, new Date(json.insertedAt).getTime() / 1000.0, classType);
   }
 
 }

@@ -1,4703 +1,2266 @@
 {
- "classes": {
-  "nouns": {
-   "words": [
-    {
-     "from": "il postino",
-     "to": [
-      "der Postbote",
-      "der Brieftr\u00e4ger"
-     ],
-     "tags": [
-      "work-related"
-     ],
-     "inserted-at": "2024-04-01"
-    },
-    {
-     "from": "la pecora",
-     "to": [
-      "das Schaf"
-     ],
-     "tags": [
-      "nature",
-      "animals"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "il cantante",
-     "to": [
-      "der S\u00e4nger"
-     ],
-     "tags": [
-      "work-related",
-      "jobs"
-     ],
-     "inserted-at": "2024-04-01"
-    },
-    {
-     "from": "il cuoco",
-     "to": [
-      "der Koch"
-     ],
-     "tags": [
-      "work-related",
-      "jobs"
-     ],
-     "inserted-at": "2024-04-01"
-    },
-    {
-     "from": "il medico",
-     "to": [
-      "der Arzt"
-     ],
-     "tags": [
-      "work-related",
-      "jobs"
-     ],
-     "inserted-at": "2024-04-01"
-    },
-    {
-     "from": "il panettiere",
-     "to": [
-      "der B\u00e4cker"
-     ],
-     "tags": [
-      "work-related",
-      "jobs"
-     ],
-     "inserted-at": "2024-04-01"
-    },
-    {
-     "from": "il parrucchiere",
-     "to": [
-      "der Friseur"
-     ],
-     "tags": [
-      "work-related",
-      "jobs"
-     ],
-     "inserted-at": "2024-04-01"
-    },
-    {
-     "from": "l'elettricista",
-     "to": [
-      "der Elektriker"
-     ],
-     "tags": [
-      "work-related",
-      "jobs"
-     ],
-     "inserted-at": "2024-04-01"
-    },
-    {
-     "from": "l'autista",
-     "to": [
-      "der Fahrer"
-     ],
-     "tags": [
-      "work-related",
-      "jobs"
-     ],
-     "inserted-at": "2024-04-01"
-    },
-    {
-     "from": "l'insegnante",
-     "to": [
-      "der Lehrer"
-     ],
-     "tags": [
-      "work-related",
-      "jobs"
-     ],
-     "inserted-at": "2024-04-01"
-    },
-    {
-     "from": "la donna delle pulizie",
-     "to": [
-      "die Putzfrau"
-     ],
-     "tags": [
-      "work-related",
-      "jobs"
-     ],
-     "inserted-at": "2024-04-01"
-    },
-    {
-     "from": "l'avvocato",
-     "to": [
-      "der Anwalt",
-      "der Rechtsanwalt"
-     ],
-     "tags": [
-      "work-related",
-      "jobs"
-     ],
-     "inserted-at": "2024-04-01"
-    },
-    {
-     "from": "il barista",
-     "to": [
-      "der Barmixer"
-     ],
-     "tags": [
-      "work-related",
-      "jobs"
-     ],
-     "inserted-at": "2024-04-01"
-    },
-    {
-     "from": "il cameriere",
-     "to": [
-      "der Kellner"
-     ],
-     "tags": [
-      "work-related",
-      "jobs"
-     ],
-     "inserted-at": "2024-04-01"
-    },
-    {
-     "from": "il musicista",
-     "to": [
-      "der Musiker"
-     ],
-     "tags": [
-      "work-related",
-      "jobs"
-     ],
-     "inserted-at": "2024-04-01"
-    },
-    {
-     "from": "il certificato",
-     "to": [
-      "das Zertifikat"
-     ],
-     "tags": [
-      "documents"
-     ],
-     "inserted-at": "2024-04-01"
-    },
-    {
-     "from": "il contratto",
-     "to": [
-      "der Vertrag"
-     ],
-     "tags": [
-      "documents"
-     ],
-     "inserted-at": "2024-04-01"
-    },
-    {
-     "from": "la copia",
-     "to": [
-      "die Kopie"
-     ],
-     "tags": [
-      "documents"
-     ],
-     "inserted-at": "2024-04-01"
-    },
-    {
-     "from": "il documento",
-     "to": [
-      "das Dokument"
-     ],
-     "tags": [
-      "documents"
-     ],
-     "inserted-at": "2024-04-01"
-    },
-    {
-     "from": "la patente",
-     "to": [
-      "der F\u00fchrerschein"
-     ],
-     "tags": [
-      "documents"
-     ],
-     "inserted-at": "2024-04-01"
-    },
-    {
-     "from": "la carta d'identit\u00e0",
-     "to": [
-      "der Personalausweis",
-      "der Ausweis"
-     ],
-     "tags": [
-      "documents"
-     ],
-     "inserted-at": "2024-04-01"
-    },
-    {
-     "from": "il passaporto",
-     "to": [
-      "der Reisepass",
-      "der Pass"
-     ],
-     "tags": [
-      "documents"
-     ],
-     "inserted-at": "2024-04-01"
-    },
-    {
-     "from": "il curriculum",
-     "to": [
-      "der Lebenslauf"
-     ],
-     "tags": [
-      "documents",
-      "work-related"
-     ],
-     "inserted-at": "2024-04-01"
-    },
-    {
-     "from": "la laurea",
-     "to": [
-      "der Abschluss"
-     ],
-     "tags": [
-      "documents"
-     ],
-     "inserted-at": "2024-04-01"
-    },
-    {
-     "from": "l'animale",
-     "to": [
-      "das Tier"
-     ],
-     "tags": [
-      "animals",
-      "nature"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "gli animali",
-     "to": [
-      "die Tiere"
-     ],
-     "tags": [
-      "animals",
-      "nature",
-      "plurals"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "il cane",
-     "to": [
-      "der Hund"
-     ],
-     "tags": [
-      "animals",
-      "nature"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "i cani",
-     "to": [
-      "die Hunde"
-     ],
-     "tags": [
-      "animals",
-      "nature",
-      "plurals"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "il gatto",
-     "to": [
-      "die Katze"
-     ],
-     "tags": [
-      "animals",
-      "nature"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "i gatti",
-     "to": [
-      "die Katzen"
-     ],
-     "tags": [
-      "animals",
-      "nature",
-      "plurals"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "il cavallo",
-     "to": [
-      "das Pferd"
-     ],
-     "tags": [
-      "nature",
-      "animals"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "i cavalli",
-     "to": [
-      "die Pferde"
-     ],
-     "tags": [
-      "animals",
-      "nature",
-      "plurals"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "il pesce",
-     "to": [
-      "der Fisch"
-     ],
-     "tags": [
-      "nature",
-      "food",
-      "animals"
-     ],
-     "inserted-at": "2024-01-09"
-    },
-    {
-     "from": "i pesci",
-     "to": [
-      "die Fische"
-     ],
-     "tags": [
-      "animals",
-      "nature",
-      "plurals"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "il topo",
-     "to": [
-      "die Maus"
-     ],
-     "tags": [
-      "animals",
-      "nature"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "i topi",
-     "to": [
-      "die M\u00e4use"
-     ],
-     "tags": [
-      "animals",
-      "nature",
-      "plurals"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "il ratto",
-     "to": [
-      "die Ratte"
-     ],
-     "tags": [
-      "animals",
-      "nature"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "i ratti",
-     "to": [
-      "die Ratten"
-     ],
-     "tags": [
-      "animals",
-      "nature",
-      "plurals"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "l'orso",
-     "to": [
-      "der B\u00e4r"
-     ],
-     "tags": [
-      "animals",
-      "nature"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "gli orsi",
-     "to": [
-      "die B\u00e4ren"
-     ],
-     "tags": [
-      "animals",
-      "nature",
-      "plurals"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "la mucca",
-     "to": [
-      "die Kuh"
-     ],
-     "tags": [
-      "animals",
-      "nature"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "le mucche",
-     "to": [
-      "die K\u00fche"
-     ],
-     "tags": [
-      "animals",
-      "nature",
-      "plurals"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "le pecore",
-     "to": [
-      "die Schafe"
-     ],
-     "tags": [
-      "animals",
-      "nature",
-      "plurals"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "il maiale",
-     "to": [
-      "das Schwein"
-     ],
-     "tags": [
-      "animals",
-      "nature"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "i maiali",
-     "to": [
-      "die Schweine"
-     ],
-     "tags": [
-      "animals",
-      "nature",
-      "plurals"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "la capra",
-     "to": [
-      "die Ziege"
-     ],
-     "tags": [
-      "animals",
-      "nature"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "le capre",
-     "to": [
-      "die Ziegen"
-     ],
-     "tags": [
-      "animals",
-      "nature",
-      "plurals"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "la gallina",
-     "to": [
-      "das Huhn"
-     ],
-     "tags": [
-      "animals",
-      "nature",
-      "birds"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "le galline",
-     "to": [
-      "die H\u00fchner"
-     ],
-     "tags": [
-      "animals",
-      "nature",
-      "plurals",
-      "birds"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "la papera",
-     "to": [
-      "die Ente"
-     ],
-     "tags": [
-      "animals",
-      "nature",
-      "birds"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "le papere",
-     "to": [
-      "die Enten"
-     ],
-     "tags": [
-      "animals",
-      "nature",
-      "plurals",
-      "birds"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "l'uccello",
-     "to": [
-      "der Vogel"
-     ],
-     "tags": [
-      "animals",
-      "nature",
-      "birds"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "gli uccelli",
-     "to": [
-      "die V\u00f6gel"
-     ],
-     "tags": [
-      "animals",
-      "nature",
-      "plurals",
-      "birds"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "il salmone",
-     "to": [
-      "der Lachs"
-     ],
-     "tags": [
-      "nature",
-      "food",
-      "fishes",
-      "animals"
-     ],
-     "inserted-at": "2024-01-09"
-    },
-    {
-     "from": "il serpente",
-     "to": [
-      "die Schlange"
-     ],
-     "tags": [
-      "animals",
-      "nature"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "i serpenti",
-     "to": [
-      "die Schlangen"
-     ],
-     "tags": [
-      "animals",
-      "nature",
-      "plurals"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "l'insetto",
-     "to": [
-      "das Insekt"
-     ],
-     "tags": [
-      "nature",
-      "insects"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "gli insetti",
-     "to": [
-      "die Insekten"
-     ],
-     "tags": [
-      "nature",
-      "insects",
-      "plurals"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "la zanzara",
-     "to": [
-      "die M\u00fccke",
-      "die Gelse"
-     ],
-     "tags": [
-      "nature",
-      "insects"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "le zanzare",
-     "to": [
-      "die M\u00fccken",
-      "die Gelsen"
-     ],
-     "tags": [
-      "nature",
-      "insects",
-      "plurals"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "la vespa",
-     "to": [
-      "die Wespe"
-     ],
-     "tags": [
-      "nature",
-      "insects"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "le vespe",
-     "to": [
-      "die Wespen"
-     ],
-     "tags": [
-      "nature",
-      "insects",
-      "plurals"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "l'ape",
-     "to": [
-      "die Biene"
-     ],
-     "tags": [
-      "nature",
-      "insects"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "le api",
-     "to": [
-      "die Bienen"
-     ],
-     "tags": [
-      "nature",
-      "insects",
-      "plurals"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "il ragno",
-     "to": [
-      "die Spinne"
-     ],
-     "tags": [
-      "nature",
-      "insects"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "i ragni",
-     "to": [
-      "die Spinnen"
-     ],
-     "tags": [
-      "nature",
-      "insects",
-      "plurals"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "lo squalo",
-     "to": [
-      "der Hai"
-     ],
-     "tags": [
-      "nature",
-      "animals",
-      "fishes"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "gli squali",
-     "to": [
-      "die Haie"
-     ],
-     "tags": [
-      "nature",
-      "animals",
-      "fishes",
-      "plurals"
-     ],
-     "inserted-at": "2024-03-01"
-    },
-    {
-     "from": "il cuore",
-     "to": [
-      "das Herz"
-     ],
-     "tags": [
-      "body parts"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "la mano",
-     "to": [
-      "die Hand"
-     ],
-     "tags": [
-      "body parts"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "le mani",
-     "to": [
-      "die H\u00e4nde"
-     ],
-     "tags": [
-      "body parts",
-      "plurals"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "il dito",
-     "to": [
-      "der Finger"
-     ],
-     "tags": [
-      "body parts"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "il braccio",
-     "to": [
-      "der Arm"
-     ],
-     "tags": [
-      "body parts"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "la gamba",
-     "to": [
-      "das Bein"
-     ],
-     "tags": [
-      "body parts"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "il piede",
-     "to": [
-      "der Fu\u00df"
-     ],
-     "tags": [
-      "body parts"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "i piedi",
-     "to": [
-      "die F\u00fc\u00dfe"
-     ],
-     "tags": [
-      "body parts",
-      "plurals"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "il corpo",
-     "to": [
-      "der K\u00f6rper"
-     ],
-     "tags": [
-      "body parts"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "le gambe",
-     "to": [
-      "die Beine"
-     ],
-     "tags": [
-      "body parts",
-      "plurals"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "le braccia",
-     "to": [
-      "die Arme"
-     ],
-     "tags": [
-      "body parts",
-      "plurals"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "le dita",
-     "to": [
-      "die Finger"
-     ],
-     "tags": [
-      "body parts",
-      "plurals"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "la testa",
-     "to": [
-      "der Kopf"
-     ],
-     "tags": [
-      "body parts",
-      "face parts"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "la faccia",
-     "to": [
-      "das Gesicht"
-     ],
-     "tags": [
-      "body parts",
-      "face parts"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "l'occhio",
-     "to": [
-      "das Auge"
-     ],
-     "tags": [
-      "body parts",
-      "face parts"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "gli occhi",
-     "to": [
-      "die Augen"
-     ],
-     "tags": [
-      "body parts",
-      "face parts"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "l'orecchio",
-     "to": [
-      "das Ohr"
-     ],
-     "tags": [
-      "body parts"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "le orecchie",
-     "to": [
-      "die Ohren"
-     ],
-     "tags": [
-      "body parts"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "il naso",
-     "to": [
-      "die Nase"
-     ],
-     "tags": [
-      "body parts",
-      "face parts"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "la bocca",
-     "to": [
-      "der Mund"
-     ],
-     "tags": [
-      "body parts",
-      "face parts"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "i capelli",
-     "to": [
-      "die Haare"
-     ],
-     "tags": [
-      "body parts"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "il dente",
-     "to": [
-      "der Zahn"
-     ],
-     "tags": [
-      "body parts",
-      "face parts"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "i denti",
-     "to": [
-      "die Z\u00e4hne"
-     ],
-     "tags": [
-      "body parts",
-      "face parts",
-      "plurals"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "la barba",
-     "to": [
-      "der Bart"
-     ],
-     "tags": [
-      "body parts",
-      "face parts"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "il dito del piede",
-     "to": [
-      "der Zeh"
-     ],
-     "tags": [
-      "body parts"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "le dita del piede",
-     "to": [
-      "die Zehen"
-     ],
-     "tags": [
-      "body parts",
-      "plurals"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "l'unghia",
-     "to": [
-      "der Nagel"
-     ],
-     "tags": [
-      "body parts"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "le unghie",
-     "to": [
-      "die N\u00e4gel"
-     ],
-     "tags": [
-      "body parts",
-      "plurals"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "il gomito",
-     "to": [
-      "der Ellbogen"
-     ],
-     "tags": [
-      "body parts"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "il ginocchio",
-     "to": [
-      "das Knie"
-     ],
-     "tags": [
-      "body parts"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "la schiena",
-     "to": [
-      "der R\u00fccken"
-     ],
-     "tags": [
-      "body parts"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "la pancia",
-     "to": [
-      "der Bauch"
-     ],
-     "tags": [
-      "body parts"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "il cappotto",
-     "to": [
-      "der Mantel"
-     ],
-     "tags": [
-      "clothing"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "i pantaloni",
-     "to": [
-      "die Hose"
-     ],
-     "tags": [
-      "clothing"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "la maglietta",
-     "to": [
-      "das T-Shirt"
-     ],
-     "tags": [
-      "clothing"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "i jeans",
-     "to": [
-      "die Jeans"
-     ],
-     "tags": [
-      "clothing"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "le mutande",
-     "to": [
-      "die Unterhose"
-     ],
-     "tags": [
-      "clothing"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "la calza",
-     "to": [
-      "die Socke"
-     ],
-     "tags": [
-      "clothing"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "le calze",
-     "to": [
-      "die Socken"
-     ],
-     "tags": [
-      "clothing",
-      "plurals"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "il cappello",
-     "to": [
-      "der Hut"
-     ],
-     "tags": [
-      "clothing"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "la scarpa",
-     "to": [
-      "der Schuh"
-     ],
-     "tags": [
-      "clothing"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "le scarpe",
-     "to": [
-      "die Schuhe"
-     ],
-     "tags": [
-      "clothing",
-      "plurals"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "le ciabatte",
-     "to": [
-      "die Hausschuhe"
-     ],
-     "tags": [
-      "clothing",
-      "plurals"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "il guanto",
-     "to": [
-      "der Handschuh"
-     ],
-     "tags": [
-      "clothing"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "i guanti",
-     "to": [
-      "die Handschuhe"
-     ],
-     "tags": [
-      "clothing",
-      "plurals"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "gli occhiali",
-     "to": [
-      "die Brille"
-     ],
-     "tags": [
-      "clothing",
-      "clothing accessories"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "la cintura",
-     "to": [
-      "der G\u00fcrtel"
-     ],
-     "tags": [
-      "clothing",
-      "clothing accessories"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "la borsa",
-     "to": [
-      "die Tasche"
-     ],
-     "tags": [
-      "clothing",
-      "clothing accessories"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "la borsetta",
-     "to": [
-      "die Handtasche"
-     ],
-     "tags": [
-      "clothing",
-      "clothing accessories"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "l'orologio",
-     "to": [
-      "die Armbanduhr"
-     ],
-     "tags": [
-      "clothing",
-      "clothing accessories"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "la giacca",
-     "to": [
-      "die Jacke"
-     ],
-     "tags": [
-      "clothing"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "la gonna",
-     "to": [
-      "der Rock"
-     ],
-     "tags": [
-      "clothing"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "il reggiseno",
-     "to": [
-      "der BH"
-     ],
-     "tags": [
-      "clothing"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "i collant",
-     "to": [
-      "die Str\u00fcmpfe"
-     ],
-     "tags": [
-      "clothing"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "la sciarpa",
-     "to": [
-      "der Schal"
-     ],
-     "tags": [
-      "clothing"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "la cravatta",
-     "to": [
-      "die Krawatte"
-     ],
-     "tags": [
-      "clothing",
-      "clothing accessories"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "la tasca",
-     "to": [
-      "die Tasche"
-     ],
-     "tags": [
-      "clothing"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "il maglione",
-     "to": [
-      "der Pullover"
-     ],
-     "tags": [
-      "clothing"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "il mobile",
-     "to": [
-      "das M\u00f6bel"
-     ],
-     "tags": [
-      "furniture",
-      "house-related"
-     ],
-     "inserted-at": "2024-02-10"
-    },
-    {
-     "from": "i mobili",
-     "to": [
-      "die M\u00f6bel"
-     ],
-     "tags": [
-      "furniture",
-      "house-related",
-      "plurals"
-     ],
-     "inserted-at": "2024-02-10"
-    },
-    {
-     "from": "il tavolo",
-     "to": [
-      "der Tisch"
-     ],
-     "tags": [
-      "furniture",
-      "house-related"
-     ],
-     "inserted-at": "2024-02-10"
-    },
-    {
-     "from": "i tavoli",
-     "to": [
-      "die Tische"
-     ],
-     "tags": [
-      "furniture",
-      "house-related",
-      "plurals"
-     ],
-     "inserted-at": "2024-02-10"
-    },
-    {
-     "from": "la sedia",
-     "to": [
-      "der Stuhl"
-     ],
-     "tags": [
-      "furniture",
-      "house-related"
-     ],
-     "inserted-at": "2024-02-10"
-    },
-    {
-     "from": "le sedie",
-     "to": [
-      "die St\u00fchle"
-     ],
-     "tags": [
-      "furniture",
-      "house-related",
-      "plurals"
-     ],
-     "inserted-at": "2024-02-10"
-    },
-    {
-     "from": "il letto",
-     "to": [
-      "das Bett"
-     ],
-     "tags": [
-      "furniture",
-      "house-related"
-     ],
-     "inserted-at": "2024-02-10"
-    },
-    {
-     "from": "i letti",
-     "to": [
-      "die Betten"
-     ],
-     "tags": [
-      "furniture",
-      "house-related",
-      "plurals"
-     ],
-     "inserted-at": "2024-02-10"
-    },
-    {
-     "from": "il divano",
-     "to": [
-      "das Sofa"
-     ],
-     "tags": [
-      "furniture",
-      "house-related"
-     ],
-     "inserted-at": "2024-02-10"
-    },
-    {
-     "from": "la poltrona",
-     "to": [
-      "der Sessel"
-     ],
-     "tags": [
-      "furniture",
-      "house-related"
-     ],
-     "inserted-at": "2024-02-10"
-    },
-    {
-     "from": "il frigo",
-     "to": [
-      "der K\u00fchlschrank"
-     ],
-     "tags": [
-      "furniture",
-      "house-related"
-     ],
-     "inserted-at": "2024-02-10"
-    },
-    {
-     "from": "la tv",
-     "to": [
-      "der Fernseher"
-     ],
-     "tags": [
-      "furniture",
-      "house-related"
-     ],
-     "inserted-at": "2024-02-10"
-    },
-    {
-     "from": "l'armadio",
-     "to": [
-      "der Schrank"
-     ],
-     "tags": [
-      "furniture",
-      "house-related"
-     ],
-     "inserted-at": "2024-02-10"
-    },
-    {
-     "from": "la porta",
-     "to": [
-      "die T\u00fcr"
-     ],
-     "tags": [
-      "furniture",
-      "house-related"
-     ],
-     "inserted-at": "2024-02-10"
-    },
-    {
-     "from": "le porte",
-     "to": [
-      "die T\u00fcren"
-     ],
-     "tags": [
-      "furniture",
-      "house-related",
-      "plurals"
-     ],
-     "inserted-at": "2024-02-10"
-    },
-    {
-     "from": "la doccia",
-     "to": [
-      "die Dusche"
-     ],
-     "tags": [
-      "furniture",
-      "house-related",
-      "bathroom objects"
-     ],
-     "inserted-at": "2024-02-10"
-    },
-    {
-     "from": "lo specchio",
-     "to": [
-      "der Spiegel"
-     ],
-     "tags": [
-      "furniture",
-      "house-related",
-      "bathroom objects"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "il tappeto",
-     "to": [
-      "der Teppich"
-     ],
-     "tags": [
-      "furniture",
-      "house-related"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "il forno",
-     "to": [
-      "der Ofen",
-      "der Backofen"
-     ],
-     "tags": [
-      "furniture",
-      "house-related",
-      "kitchen objects"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "la vasca",
-     "to": [
-      "die Badewanne",
-      "die Wanne"
-     ],
-     "tags": [
-      "furniture",
-      "house-related",
-      "bathroom objects"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "il lavandino",
-     "to": [
-      "das Waschbecken"
-     ],
-     "tags": [
-      "furniture",
-      "house-related",
-      "bathroom objects"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "lo spazzolino",
-     "to": [
-      "die Zahnb\u00fcrste"
-     ],
-     "tags": [
-      "house-related",
-      "bathroom objects"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "il dentifricio",
-     "to": [
-      "die Zahnpasta"
-     ],
-     "tags": [
-      "house-related",
-      "bathroom objects"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "il sapone",
-     "to": [
-      "die Seife"
-     ],
-     "tags": [
-      "house-related",
-      "bathroom objects"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "l'asciugamano",
-     "to": [
-      "das Handtuch"
-     ],
-     "tags": [
-      "house-related",
-      "bathroom objects"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "il rasoio",
-     "to": [
-      "der Rasierer"
-     ],
-     "tags": [
-      "house-related",
-      "bathroom objects"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "lo shampoo",
-     "to": [
-      "das Shampoo"
-     ],
-     "tags": [
-      "house-related",
-      "bathroom objects"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "il piano terra",
-     "to": [
-      "das Erdgescho\u00df"
-     ],
-     "tags": [
-      "house-related"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "la finestra",
-     "to": [
-      "das Fenster"
-     ],
-     "tags": [
-      "house-related",
-      "room parts"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "le finestre",
-     "to": [
-      "die Fenster"
-     ],
-     "tags": [
-      "house-related",
-      "plurals",
-      "room parts"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "il muro",
-     "to": [
-      "die Wand"
-     ],
-     "tags": [
-      "house-related",
-      "room parts"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "i muri",
-     "to": [
-      "die W\u00e4nde"
-     ],
-     "tags": [
-      "house-related",
-      "plurals",
-      "room parts"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "le scale",
-     "to": [
-      "die Treppe"
-     ],
-     "tags": [
-      "house-related"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "la chiave",
-     "to": [
-      "der Schl\u00fcssel"
-     ],
-     "tags": [
-      "house-related"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "le chiavi",
-     "to": [
-      "die Schl\u00fcssel"
-     ],
-     "tags": [
-      "house-related",
-      "plurals"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "il soffitto",
-     "to": [
-      "die Decke"
-     ],
-     "tags": [
-      "house-related",
-      "room parts"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "il pavimento",
-     "to": [
-      "der Boden"
-     ],
-     "tags": [
-      "house-related",
-      "room parts"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "l'angolo",
-     "to": [
-      "die Ecke"
-     ],
-     "tags": [
-      "house-related",
-      "room parts"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "il bagno",
-     "to": [
-      "das Badenzimmer"
-     ],
-     "tags": [
-      "house-related",
-      "rooms"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "la cucina",
-     "to": [
-      "die K\u00fcche"
-     ],
-     "tags": [
-      "house-related",
-      "rooms"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "il soggiorno",
-     "to": [
-      "das Wohnzimmer"
-     ],
-     "tags": [
-      "house-related",
-      "rooms"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "la camera",
-     "to": [
-      "das Schlafzimmer"
-     ],
-     "tags": [
-      "house-related",
-      "rooms"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "il garage",
-     "to": [
-      "die Garage"
-     ],
-     "tags": [
-      "house-related",
-      "rooms"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "la soffitta",
-     "to": [
-      "der Dachboden"
-     ],
-     "tags": [
-      "house-related",
-      "rooms"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "la stanza",
-     "to": [
-      "das Zimmer"
-     ],
-     "tags": [
-      "house-related",
-      "rooms"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "le stanze",
-     "to": [
-      "die Zimmer"
-     ],
-     "tags": [
-      "house-related",
-      "rooms"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "lo studio",
-     "to": [
-      "das Arbeitszimmer"
-     ],
-     "tags": [
-      "house-related",
-      "rooms"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "l'ingresso",
-     "to": [
-      "der Eingang"
-     ],
-     "tags": [
-      "house-related",
-      "rooms"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "l'uscita",
-     "to": [
-      "der Ausgang"
-     ],
-     "tags": [
-      "house-related",
-      "rooms"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "la sala da pranzo",
-     "to": [
-      "das Esszimmer"
-     ],
-     "tags": [
-      "house-related",
-      "rooms"
-     ],
-     "inserted-at": "2024-04-05"
-    },
-    {
-     "from": "la mosca",
-     "to": [
-      "die Fliege"
-     ],
-     "tags": [
-      "insects"
-     ],
-     "inserted-at": "2024-05-03"
-    },
-    {
-     "from": "l'europa",
-     "to": [
-      "das Europa"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-05-04"
-    },
-    {
-     "from": "l'Austria",
-     "to": [
-      "das \u00d6sterreich"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-05-04"
-    },
-    {
-     "from": "la Gran Bretagne",
-     "to": [
-      "das Gro\u00dfbritannien"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-05-04"
-    },
-    {
-     "from": "il Belgio",
-     "to": [
-      "das Belgien"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-02-19"
-    },
-    {
-     "from": "la Germania",
-     "to": [
-      "das Deutschland"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-02-19"
-    },
-    {
-     "from": "l'Olanda",
-     "to": [
-      "die Niederlande"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-02-19"
-    },
-    {
-     "from": "la Grecia",
-     "to": [
-      "das Griechenland"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-02-19"
-    },
-    {
-     "from": "la Danimarca",
-     "to": [
-      "das D\u00e4nemark"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-02-19"
-    },
-    {
-     "from": "l'Irlanda",
-     "to": [
-      "das Irland"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-02-19"
-    },
-    {
-     "from": "la Spagna",
-     "to": [
-      "das Spanien"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-02-19"
-    },
-    {
-     "from": "l'Italia",
-     "to": [
-      "das Italien"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-02-19"
-    },
-    {
-     "from": "la Norvegia",
-     "to": [
-      "das Norwegen"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-02-19"
-    },
-    {
-     "from": "il Portogallo",
-     "to": [
-      "das Portugal"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-02-19"
-    },
-    {
-     "from": "la Finlandia",
-     "to": [
-      "das Finland"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-02-19"
-    },
-    {
-     "from": "la Svezia",
-     "to": [
-      "das Schweden"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-02-19"
-    },
-    {
-     "from": "la Svizzera",
-     "to": [
-      "die Schweiz"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-02-19"
-    },
-    {
-     "from": "la Scozia",
-     "to": [
-      "das Schottland"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-02-19"
-    },
-    {
-     "from": "l'Ungheria",
-     "to": [
-      "das Ungarn"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-02-19"
-    },
-    {
-     "from": "la Russia",
-     "to": [
-      "das Russland"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-02-19"
-    },
-    {
-     "from": "l'Asia",
-     "to": [
-      "das Asien"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-02-19"
-    },
-    {
-     "from": "l'India",
-     "to": [
-      "das Indien"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-02-19"
-    },
-    {
-     "from": "la Cina",
-     "to": [
-      "das China"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-02-19"
-    },
-    {
-     "from": "il Giappone",
-     "to": [
-      "das Japan"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-02-19"
-    },
-    {
-     "from": "gli Stati Uniti",
-     "to": [
-      "die Vereinigten Staaten"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-02-19"
-    },
-    {
-     "from": "il Canada",
-     "to": [
-      "das Kanada"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-02-19"
-    },
-    {
-     "from": "il Messico",
-     "to": [
-      "das Mexico"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-02-19"
-    },
-    {
-     "from": "l'Africa",
-     "to": [
-      "das Afrika"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-02-19"
-    },
-    {
-     "from": "l'Australia",
-     "to": [
-      "das Australien"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-02-19"
-    },
-    {
-     "from": "la Polonia",
-     "to": [
-      "das Polen"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-05-04"
-    },
-    {
-     "from": "la Repubblica ceca",
-     "to": [
-      "das Tschechien"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-05-04"
-    },
-    {
-     "from": "la Turchia",
-     "to": [
-      "die T\u00fcrkei"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-05-04"
-    },
-    {
-     "from": "l'Egitto",
-     "to": [
-      "das \u00c4gypten"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-05-04"
-    },
-    {
-     "from": "la nazione",
-     "to": [
-      "die Nation",
-      "der Staat",
-      "das Land"
-     ],
-     "tags": [
-      "nations"
-     ],
-     "inserted-at": "2024-05-04"
-    },
-    {
-     "from": "le nazioni",
-     "to": [
-      "die Nationen",
-      "die Staaten",
-      "die L\u00e4nder"
-     ],
-     "tags": [
-      "plurals",
-      "nations"
-     ],
-     "inserted-at": "2024-05-04"
-    },
-    {
-     "from": "il continente",
-     "to": [
-      "der Erdteil"
-     ],
-     "tags": [
-      "plurals",
-      "nations"
-     ],
-     "inserted-at": "2024-05-04"
-    },
-    {
-     "from": "i continenti",
-     "to": [
-      "die Erdteile"
-     ],
-     "tags": [
-      "nations",
-      "plurals"
-     ],
-     "inserted-at": "2024-05-04"
-    },
-    {
-     "from": "la carne",
-     "to": [
-      "das Fleisch"
-     ],
-     "tags": [
-      "food"
-     ],
-     "inserted-at": "2024-01-09"
-    },
-    {
-     "from": "l'uovo",
-     "to": [
-      "das Ei"
-     ],
-     "tags": [
-      "food"
-     ],
-     "inserted-at": "2024-01-09"
-    },
-    {
-     "from": "il tonno",
-     "to": [
-      "der Tunfisch"
-     ],
-     "tags": [
-      "food"
-     ],
-     "inserted-at": "2024-01-09"
-    },
-    {
-     "from": "il pane",
-     "to": [
-      "das Brot"
-     ],
-     "tags": [
-      "food"
-     ],
-     "inserted-at": "2024-01-09"
-    },
-    {
-     "from": "il formaggio",
-     "to": [
-      "der K\u00e4se"
-     ],
-     "tags": [
-      "food"
-     ],
-     "inserted-at": "2024-01-09"
-    },
-    {
-     "from": "il latte",
-     "to": [
-      "die Milch"
-     ],
-     "tags": [
-      "food",
-      "drinks"
-     ],
-     "inserted-at": "2024-01-09"
-    },
-    {
-     "from": "lo zucchero",
-     "to": [
-      "der Zucker"
-     ],
-     "tags": [
-      "food"
-     ],
-     "inserted-at": "2024-01-09"
-    },
-    {
-     "from": "il sale",
-     "to": [
-      "das Salz"
-     ],
-     "tags": [
-      "food"
-     ],
-     "inserted-at": "2024-01-09"
-    },
-    {
-     "from": "l'olio d'oliva",
-     "to": [
-      "das Oliven\u00f6l"
-     ],
-     "tags": [
-      "food",
-      "condiments"
-     ],
-     "inserted-at": "2024-01-09"
-    },
-    {
-     "from": "l'olio",
-     "to": [
-      "das \u00d6l"
-     ],
-     "tags": [
-      "food",
-      "condiments"
-     ],
-     "inserted-at": "2024-01-09"
-    },
-    {
-     "from": "l'aceto",
-     "to": [
-      "der Essig"
-     ],
-     "tags": [
-      "food",
-      "condiments"
-     ],
-     "inserted-at": "2024-05-04"
-    },
-    {
-     "from": "la marmellata",
-     "to": [
-      "die Marmelade"
-     ],
-     "tags": [
-      "food",
-      "breakfast"
-     ],
-     "inserted-at": "2024-01-09"
-    },
-    {
-     "from": "l'acqua",
-     "to": [
-      "das Wasser"
-     ],
-     "tags": [
-      "food",
-      "drinks"
-     ],
-     "inserted-at": "2024-01-09"
-    },
-    {
-     "from": "il vino",
-     "to": [
-      "der Wein"
-     ],
-     "tags": [
-      "food",
-      "drinks"
-     ],
-     "inserted-at": "2024-01-09"
-    },
-    {
-     "from": "la birra",
-     "to": [
-      "das Bier"
-     ],
-     "tags": [
-      "drinks"
-     ],
-     "inserted-at": "2024-01-09"
-    },
-    {
-     "from": "il caff\u00e8",
-     "to": [
-      "der Kaffee"
-     ],
-     "tags": [
-      "drinks",
-      "breakfast"
-     ],
-     "inserted-at": "2024-01-09"
-    },
-    {
-     "from": "il succo",
-     "to": [
-      "der Saft"
-     ],
-     "tags": [
-      "drinks",
-      "breakfast",
-      "breakfast"
-     ],
-     "inserted-at": "2024-01-09"
-    },
-    {
-     "from": "il t\u00e8",
-     "to": [
-      "der Tee"
-     ],
-     "tags": [
-      "drinks",
-      "breakfast",
-      "breakfast"
-     ],
-     "inserted-at": "2024-01-09"
-    },
-    {
-     "from": "il biscotto",
-     "to": [
-      "das Keks"
-     ],
-     "tags": [
-      "breakfast",
-      "food",
-      "breakfast"
-     ],
-     "inserted-at": "2024-01-09"
-    },
-    {
-     "from": "la cioccolata",
-     "to": [
-      "die Schokolade"
-     ],
-     "tags": [
-      "breakfast",
-      "food",
-      "breakfast"
-     ],
-     "inserted-at": "2024-01-09"
-    },
-    {
-     "from": "il cibo",
-     "to": [
-      "das Essen"
-     ],
-     "tags": [
-      "breakfast",
-      "food",
-      "breakfast"
-     ],
-     "inserted-at": "2024-01-09"
-    },
-    {
-     "from": "il riso",
-     "to": [
-      "der Reis"
-     ],
-     "tags": [
-      "food",
-      "breakfast"
-     ],
-     "inserted-at": "2024-01-09"
-    },
-    {
-     "from": "il pomodoro",
-     "to": [
-      "die Tomate"
-     ],
-     "tags": [
-      "food",
-      "vegetables"
-     ],
-     "inserted-at": "2024-01-09"
-    },
-    {
-     "from": "la patata",
-     "to": [
-      "die Kartoffel"
-     ],
-     "tags": [
-      "vegetables"
-     ],
-     "inserted-at": "2024-01-09"
-    },
-    {
-     "from": "la cipolla",
-     "to": [
-      "die Zwiebel"
-     ],
-     "tags": [
-      "vegetables"
-     ],
-     "inserted-at": "2024-01-09"
-    },
-    {
-     "from": "la carota",
-     "to": [
-      "die Karotte"
-     ],
-     "tags": [
-      "vegetables"
-     ],
-     "inserted-at": "2024-01-09"
-    },
-    {
-     "from": "l'auto",
-     "to": [
-      "das Auto",
-      "der Wagen"
-     ],
-     "tags": [
-      "means of transport"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "l'aereo",
-     "to": [
-      "das Flugzeug"
-     ],
-     "tags": [
-      "means of transport"
-     ],
-     "inserted-at": "2024-05-04"
-    },
-    {
-     "from": "il treno",
-     "to": [
-      "der Zug"
-     ],
-     "tags": [
-      "means of transport"
-     ],
-     "inserted-at": "2024-05-04"
-    },
-    {
-     "from": "il biglietto",
-     "to": [
-      "die Fahrkarte"
-     ],
-     "tags": [
-      "means of transport"
-     ],
-     "inserted-at": "2024-05-04"
-    },
-    {
-     "from": "la nave",
-     "to": [
-      "das Schiff"
-     ],
-     "tags": [
-      "means of transport"
-     ],
-     "inserted-at": "2024-05-04"
-    },
-    {
-     "from": "la barca",
-     "to": [
-      "das Boot"
-     ],
-     "tags": [
-      "means of transport"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "l'aeroporto",
-     "to": [
-      "der Flughafen"
-     ],
-     "tags": [
-      "means of transport"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "il volo",
-     "to": [
-      "der Flug"
-     ],
-     "tags": [
-      "means of transport"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "la bici",
-     "to": [
-      "das Fahrrad"
-     ],
-     "tags": [
-      "means of transport"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "la benzina",
-     "to": [
-      "das Benzin"
-     ],
-     "tags": [
-      "means of transport"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "la strada",
-     "to": [
-      "die Stra\u00dfe"
-     ],
-     "tags": [
-      "means of transport"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "l'autostrada",
-     "to": [
-      "die Autobahn"
-     ],
-     "tags": [
-      "means of transport"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "la velocit\u00e0",
-     "to": [
-      "die Geschwindingkeit"
-     ],
-     "tags": [
-      "means of transport"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "la citt\u00e0",
-     "to": [
-      "die Stadt"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "il parco",
-     "to": [
-      "der Park"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-02-21"
-    },
-    {
-     "from": "la piazza",
-     "to": [
-      "der Platz"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-02-21"
-    },
-    {
-     "from": "la casa",
-     "to": [
-      "das Haus"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-02-21"
-    },
-    {
-     "from": "l'edificio",
-     "to": [
-      "das Geb\u00e4ude",
-      "das Bauwerk"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-02-21"
-    },
-    {
-     "from": "il negozio",
-     "to": [
-      "der Laden"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-02-21"
-    },
-    {
-     "from": "il marciapiede",
-     "to": [
-      "der Gehweg"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-02-21"
-    },
-    {
-     "from": "il ponte",
-     "to": [
-      "die Br\u00fccke"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-02-21"
-    },
-    {
-     "from": "il bidone",
-     "to": [
-      "der M\u00fclleimer",
-      "der Mistk\u00fcbel"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-02-21"
-    },
-    {
-     "from": "il lampione",
-     "to": [
-      "die Stra\u00dfenlaterne"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "la farmacia",
-     "to": [
-      "die Apotheke"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-03-19"
-    },
-    {
-     "from": "il centro commerciale",
-     "to": [
-      "das Einkaufszentrum"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-03-19"
-    },
-    {
-     "from": "il supermercato",
-     "to": [
-      "der Supermarkt"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-03-19"
-    },
-    {
-     "from": "la panetteria",
-     "to": [
-      "die B\u00e4ckerei"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-03-19"
-    },
-    {
-     "from": "il mercato",
-     "to": [
-      "der Markt"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-03-19"
-    },
-    {
-     "from": "la posta",
-     "to": [
-      "die Post"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-03-19"
-    },
-    {
-     "from": "la libreria",
-     "to": [
-      "das Buchgesch\u00e4ft"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-03-19"
-    },
-    {
-     "from": "lo zoo",
-     "to": [
-      "der Zoo"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-03-19"
-    },
-    {
-     "from": "il cinema",
-     "to": [
-      "das Kino"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-03-19"
-    },
-    {
-     "from": "il museo",
-     "to": [
-      "das Museum"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-03-19"
-    },
-    {
-     "from": "la biblioteca",
-     "to": [
-      "die Bibliothek"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-03-19"
-    },
-    {
-     "from": "il teatro",
-     "to": [
-      "das Theater"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-03-19"
-    },
-    {
-     "from": "la chiesa",
-     "to": [
-      "die Kirche"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-03-19"
-    },
-    {
-     "from": "l'universit\u00e0",
-     "to": [
-      "die Universit\u00e4t"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-03-19"
-    },
-    {
-     "from": "la scuola",
-     "to": [
-      "die Schule"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-03-19"
-    },
-    {
-     "from": "la banca",
-     "to": [
-      "die Bank"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-03-19"
-    },
-    {
-     "from": "l'ospedale",
-     "to": [
-      "das Krankenhaus",
-      "das Spital"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-03-19"
-    },
-    {
-     "from": "il distributore",
-     "to": [
-      "die Tankstelle"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-03-19"
-    },
-    {
-     "from": "il parcheggio",
-     "to": [
-      "der Parkplatz"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-03-19"
-    },
-    {
-     "from": "l'hotel",
-     "to": [
-      "das Hotel"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "la moschea",
-     "to": [
-      "die Moschee"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "il casin\u00f3",
-     "to": [
-      "das Kasino"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "l'opera",
-     "to": [
-      "die Oper"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "il municipio",
-     "to": [
-      "das Rathaus"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "la stazione della metro",
-     "to": [
-      "die Station"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "la stazione dei treni",
-     "to": [
-      "die Station",
-      "der Bahnhof"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "la stazione del bus",
-     "to": [
-      "die Haltestelle",
-      "die Station"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "il traffico",
-     "to": [
-      "der Verkehr"
-     ],
-     "tags": [
-      "in the city",
-      "means of transport"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "il taxi",
-     "to": [
-      "das Taxi"
-     ],
-     "tags": [
-      "in the city",
-      "means of transport"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "il castello",
-     "to": [
-      "das Schloss"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "il motorino",
-     "to": [
-      "das Moped"
-     ],
-     "tags": [
-      "means of transport"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "la moto",
-     "to": [
-      "das Motorrad"
-     ],
-     "tags": [
-      "means of transport"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "lo sportivo",
-     "to": [
-      "der Sportler"
-     ],
-     "tags": [
-      "sport-related"
-     ],
-     "inserted-at": "2024-02-29"
-    },
-    {
-     "from": "il giocatore di basket",
-     "to": [
-      "der Basketballspieler"
-     ],
-     "tags": [
-      "sport-related"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "il calciatore",
-     "to": [
-      "der Fu\u00dfballspieler"
-     ],
-     "tags": [
-      "sport-related"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "il pugile",
-     "to": [
-      "der Boxer"
-     ],
-     "tags": [
-      "sport-related"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "il nuotatore",
-     "to": [
-      "der Schwimmer"
-     ],
-     "tags": [
-      "sport-related"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "il corridore",
-     "to": [
-      "der L\u00e4ufer"
-     ],
-     "tags": [
-      "sport-related"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "il pilota",
-     "to": [
-      "der Rennfahrer"
-     ],
-     "tags": [
-      "sport-related"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "il ciclista",
-     "to": [
-      "der Radfahrer"
-     ],
-     "tags": [
-      "sport-related"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "l'atleta",
-     "to": [
-      "der Athlet"
-     ],
-     "tags": [
-      "sport-related"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "il calcio",
-     "to": [
-      "der Fu\u00dfball"
-     ],
-     "tags": [
-      "sport-related"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "il tennis",
-     "to": [
-      "das Tennis"
-     ],
-     "tags": [
-      "sport-related"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "il nuoto",
-     "to": [
-      "das Schwimmen"
-     ],
-     "tags": [
-      "sport-related"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "la malattia",
-     "to": [
-      "die Krankheit"
-     ],
-     "tags": [
-      "medicine-related"
-     ],
-     "inserted-at": "2024-05-13"
-    },
-    {
-     "from": "la saluta",
-     "to": [
-      "die Gesundheit"
-     ],
-     "tags": [
-      "medicine-related"
-     ],
-     "inserted-at": "2024-05-13"
-    },
-    {
-     "from": "la febbre",
-     "to": [
-      "das Fieber"
-     ],
-     "tags": [
-      "medicine-related"
-     ],
-     "inserted-at": "2024-05-13"
-    },
-    {
-     "from": "l'influenza",
-     "to": [
-      "die Grippe"
-     ],
-     "tags": [
-      "medicine-related"
-     ],
-     "inserted-at": "2024-05-13"
-    },
-    {
-     "from": "il cancro",
-     "to": [
-      "der Krebs"
-     ],
-     "tags": [
-      "medicine-related"
-     ],
-     "inserted-at": "2024-05-13"
-    },
-    {
-     "from": "il sintomo",
-     "to": [
-      "das Symptom"
-     ],
-     "tags": [
-      "medicine-related"
-     ],
-     "inserted-at": "2024-05-13"
-    },
-    {
-     "from": "la temperatura",
-     "to": [
-      "die Temperatur"
-     ],
-     "tags": [
-      "medicine-related",
-      "weather"
-     ],
-     "inserted-at": "2024-05-14"
-    },
-    {
-     "from": "il dolore",
-     "to": [
-      "der Schmerz"
-     ],
-     "tags": [
-      "medicine-related"
-     ],
-     "inserted-at": "2024-05-13"
-    },
-    {
-     "from": "la tosse",
-     "to": [
-      "der Husten"
-     ],
-     "tags": [
-      "medicine-related"
-     ],
-     "inserted-at": "2024-05-13"
-    },
-    {
-     "from": "il raffreddore",
-     "to": [
-      "die Erk\u00e4ltung"
-     ],
-     "tags": [
-      "medicine-related"
-     ],
-     "inserted-at": "2024-05-13"
-    },
-    {
-     "from": "il naso che cola",
-     "to": [
-      "der Schnupfen"
-     ],
-     "tags": [
-      "medicine-related"
-     ],
-     "inserted-at": "2024-05-13"
-    },
-    {
-     "from": "il sudore",
-     "to": [
-      "der Schwei\u00df"
-     ],
-     "tags": [
-      "medicine-related"
-     ],
-     "inserted-at": "2024-05-13"
-    },
-    {
-     "from": "il respiro",
-     "to": [
-      "der Atem"
-     ],
-     "tags": [
-      "medicine-related"
-     ],
-     "inserted-at": "2024-05-13"
-    },
-    {
-     "from": "la medicina",
-     "to": [
-      "die Medizin"
-     ],
-     "tags": [
-      "medicine-related"
-     ],
-     "inserted-at": "2024-05-13"
-    },
-    {
-     "from": "il dentista",
-     "to": [
-      "der Zahnarzt"
-     ],
-     "tags": [
-      "medicine-related",
-      "jobs",
-      "work-related"
-     ],
-     "inserted-at": "2024-05-13"
-    },
-    {
-     "from": "il chirurgo",
-     "to": [
-      "der Chirurg"
-     ],
-     "tags": [
-      "medicine-related",
-      "jobs",
-      "work-related"
-     ],
-     "inserted-at": "2024-05-13"
-    },
-    {
-     "from": "il materiale",
-     "to": [
-      "das Material",
-      "der Stoff"
-     ],
-     "tags": [
-      "materials"
-     ],
-     "inserted-at": "2024-02-29"
-    },
-    {
-     "from": "il legno",
-     "to": [
-      "das Holz"
-     ],
-     "tags": [
-      "materials"
-     ],
-     "inserted-at": "2024-02-29"
-    },
-    {
-     "from": "il vetro",
-     "to": [
-      "das Glas"
-     ],
-     "tags": [
-      "materials"
-     ],
-     "inserted-at": "2024-02-29"
-    },
-    {
-     "from": "la plastica",
-     "to": [
-      "der Kunststoff",
-      "das Plastic"
-     ],
-     "tags": [
-      "materials"
-     ],
-     "inserted-at": "2024-02-29"
-    },
-    {
-     "from": "il tessuto",
-     "to": [
-      "der Stoff"
-     ],
-     "tags": [
-      "materials"
-     ],
-     "inserted-at": "2024-02-29"
-    },
-    {
-     "from": "la carta",
-     "to": [
-      "das Papier"
-     ],
-     "tags": [
-      "materials"
-     ],
-     "inserted-at": "2024-02-29"
-    },
-    {
-     "from": "il metallo",
-     "to": [
-      "das Metall"
-     ],
-     "tags": [
-      "materials"
-     ],
-     "inserted-at": "2024-02-29"
-    },
-    {
-     "from": "l'oro",
-     "to": [
-      "das Gold"
-     ],
-     "tags": [
-      "materials"
-     ],
-     "inserted-at": "2024-02-29"
-    },
-    {
-     "from": "l'argento",
-     "to": [
-      "das Silber"
-     ],
-     "tags": [
-      "materials"
-     ],
-     "inserted-at": "2024-02-29"
-    },
-    {
-     "from": "il ferro",
-     "to": [
-      "das Eisen"
-     ],
-     "tags": [
-      "materials"
-     ],
-     "inserted-at": "2024-02-29"
-    },
-    {
-     "from": "l'acciaio",
-     "to": [
-      "der Stahl"
-     ],
-     "tags": [
-      "materials"
-     ],
-     "inserted-at": "2024-02-29"
-    },
-    {
-     "from": "il rame",
-     "to": [
-      "das Kupfer"
-     ],
-     "tags": [
-      "materials"
-     ],
-     "inserted-at": "2024-02-29"
-    },
-    {
-     "from": "la crociera",
-     "to": [
-      "das Kreuzer"
-     ],
-     "tags": [
-      "means of transport"
-     ],
-     "inserted-at": "2024-05-13"
-    },
-    {
-     "from": "l'ambulanza",
-     "to": [
-      "der Krankenwagen"
-     ],
-     "tags": [
-      "means of transport"
-     ],
-     "inserted-at": "2024-05-13"
-    },
-    {
-     "from": "il camion",
-     "to": [
-      "der Lkw",
-      "der Lastwagen"
-     ],
-     "tags": [
-      "means of transport"
-     ],
-     "inserted-at": "2024-05-13"
-    },
-    {
-     "from": "il cimitero",
-     "to": [
-      "der Friedhof"
-     ],
-     "tags": [
-      "in the city"
-     ],
-     "inserted-at": "2024-05-13"
-    },
-    {
-     "from": "il meteo",
-     "to": [
-      "das Wetter"
-     ],
-     "tags": [
-      "weather"
-     ],
-     "inserted-at": "2024-05-14"
-    },
-    {
-     "from": "la nuvola",
-     "to": [
-      "die Wolke"
-     ],
-     "tags": [
-      "weather",
-      "weather"
-     ],
-     "inserted-at": "2024-05-14"
-    },
-    {
-     "from": "la pioggia",
-     "to": [
-      "der Regen"
-     ],
-     "tags": [
-      "weather",
-      "weather",
-      "weather"
-     ],
-     "inserted-at": "2024-05-14"
-    },
-    {
-     "from": "la neve",
-     "to": [
-      "der Schnee"
-     ],
-     "tags": [
-      "weather",
-      "weather",
-      "weather",
-      "weather"
-     ],
-     "inserted-at": "2024-05-14"
-    },
-    {
-     "from": "il temporale",
-     "to": [
-      "das Gewitter"
-     ],
-     "tags": [
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather"
-     ],
-     "inserted-at": "2024-05-14"
-    },
-    {
-     "from": "il fulmine",
-     "to": [
-      "der Blitz"
-     ],
-     "tags": [
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather"
-     ],
-     "inserted-at": "2024-05-14"
-    },
-    {
-     "from": "il tuono",
-     "to": [
-      "der Donner"
-     ],
-     "tags": [
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather"
-     ],
-     "inserted-at": "2024-05-14"
-    },
-    {
-     "from": "il sole",
-     "to": [
-      "die Sonne"
-     ],
-     "tags": [
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather"
-     ],
-     "inserted-at": "2024-05-14"
-    },
-    {
-     "from": "la luna",
-     "to": [
-      "der Mond"
-     ],
-     "tags": [
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather"
-     ],
-     "inserted-at": "2024-05-14"
-    },
-    {
-     "from": "il vento",
-     "to": [
-      "der Wind"
-     ],
-     "tags": [
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather"
-     ],
-     "inserted-at": "2024-05-14"
-    },
-    {
-     "from": "i giorni",
-     "to": [
-      "die Tage"
-     ],
-     "tags": [
-      "plurals",
-      "time-related"
-     ],
-     "inserted-at": "2023-11-02"
-    },
-    {
-     "from": "i mesi",
-     "to": [
-      "die Monate"
-     ],
-     "tags": [
-      "plurals",
-      "time-related",
-      "time-related"
-     ],
-     "inserted-at": "2023-11-02"
-    },
-    {
-     "from": "gli anni",
-     "to": [
-      "die Jahre"
-     ],
-     "tags": [
-      "plurals",
-      "time-related",
-      "time-related",
-      "time-related"
-     ],
-     "inserted-at": "2023-11-02"
-    },
-    {
-     "from": "le settimane",
-     "to": [
-      "die Wochen"
-     ],
-     "tags": [
-      "plurals",
-      "time-related",
-      "time-related",
-      "time-related",
-      "time-related"
-     ],
-     "inserted-at": "2023-11-02"
+  "id" : "it-de",
+  "classes" : {
+    "nouns" : {
+      "words" : [ {
+        "from" : "il postino",
+        "to" : [ "der Postbote", "der Briefträger" ],
+        "tags" : [ "work-related" ],
+        "insertedAt" : "2024-04-01"
+      }, {
+        "from" : "la pecora",
+        "to" : [ "das Schaf" ],
+        "tags" : [ "nature", "animals" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "il cantante",
+        "to" : [ "der Sänger" ],
+        "tags" : [ "work-related", "jobs" ],
+        "insertedAt" : "2024-04-01"
+      }, {
+        "from" : "il cuoco",
+        "to" : [ "der Koch" ],
+        "tags" : [ "work-related", "jobs" ],
+        "insertedAt" : "2024-04-01"
+      }, {
+        "from" : "il medico",
+        "to" : [ "der Arzt" ],
+        "tags" : [ "work-related", "jobs" ],
+        "insertedAt" : "2024-04-01"
+      }, {
+        "from" : "il panettiere",
+        "to" : [ "der Bäcker" ],
+        "tags" : [ "work-related", "jobs" ],
+        "insertedAt" : "2024-04-01"
+      }, {
+        "from" : "il parrucchiere",
+        "to" : [ "der Friseur" ],
+        "tags" : [ "work-related", "jobs" ],
+        "insertedAt" : "2024-04-01"
+      }, {
+        "from" : "l'elettricista",
+        "to" : [ "der Elektriker" ],
+        "tags" : [ "work-related", "jobs" ],
+        "insertedAt" : "2024-04-01"
+      }, {
+        "from" : "l'autista",
+        "to" : [ "der Fahrer" ],
+        "tags" : [ "work-related", "jobs" ],
+        "insertedAt" : "2024-04-01"
+      }, {
+        "from" : "l'insegnante",
+        "to" : [ "der Lehrer" ],
+        "tags" : [ "work-related", "jobs" ],
+        "insertedAt" : "2024-04-01"
+      }, {
+        "from" : "la donna delle pulizie",
+        "to" : [ "die Putzfrau" ],
+        "tags" : [ "work-related", "jobs" ],
+        "insertedAt" : "2024-04-01"
+      }, {
+        "from" : "l'avvocato",
+        "to" : [ "der Anwalt", "der Rechtsanwalt" ],
+        "tags" : [ "work-related", "jobs" ],
+        "insertedAt" : "2024-04-01"
+      }, {
+        "from" : "il barista",
+        "to" : [ "der Barmixer" ],
+        "tags" : [ "work-related", "jobs" ],
+        "insertedAt" : "2024-04-01"
+      }, {
+        "from" : "il cameriere",
+        "to" : [ "der Kellner" ],
+        "tags" : [ "work-related", "jobs" ],
+        "insertedAt" : "2024-04-01"
+      }, {
+        "from" : "il musicista",
+        "to" : [ "der Musiker" ],
+        "tags" : [ "work-related", "jobs" ],
+        "insertedAt" : "2024-04-01"
+      }, {
+        "from" : "il certificato",
+        "to" : [ "das Zertifikat" ],
+        "tags" : [ "documents" ],
+        "insertedAt" : "2024-04-01"
+      }, {
+        "from" : "il contratto",
+        "to" : [ "der Vertrag" ],
+        "tags" : [ "documents" ],
+        "insertedAt" : "2024-04-01"
+      }, {
+        "from" : "la copia",
+        "to" : [ "die Kopie" ],
+        "tags" : [ "documents" ],
+        "insertedAt" : "2024-04-01"
+      }, {
+        "from" : "il documento",
+        "to" : [ "das Dokument" ],
+        "tags" : [ "documents" ],
+        "insertedAt" : "2024-04-01"
+      }, {
+        "from" : "la patente",
+        "to" : [ "der Führerschein" ],
+        "tags" : [ "documents" ],
+        "insertedAt" : "2024-04-01"
+      }, {
+        "from" : "la carta d'identità",
+        "to" : [ "der Personalausweis", "der Ausweis" ],
+        "tags" : [ "documents" ],
+        "insertedAt" : "2024-04-01"
+      }, {
+        "from" : "il passaporto",
+        "to" : [ "der Reisepass", "der Pass" ],
+        "tags" : [ "documents" ],
+        "insertedAt" : "2024-04-01"
+      }, {
+        "from" : "il curriculum",
+        "to" : [ "der Lebenslauf" ],
+        "tags" : [ "documents", "work-related" ],
+        "insertedAt" : "2024-04-01"
+      }, {
+        "from" : "la laurea",
+        "to" : [ "der Abschluss" ],
+        "tags" : [ "documents" ],
+        "insertedAt" : "2024-04-01"
+      }, {
+        "from" : "l'animale",
+        "to" : [ "das Tier" ],
+        "tags" : [ "animals", "nature" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "gli animali",
+        "to" : [ "die Tiere" ],
+        "tags" : [ "animals", "nature", "plurals" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "il cane",
+        "to" : [ "der Hund" ],
+        "tags" : [ "animals", "nature" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "i cani",
+        "to" : [ "die Hunde" ],
+        "tags" : [ "animals", "nature", "plurals" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "il gatto",
+        "to" : [ "die Katze" ],
+        "tags" : [ "animals", "nature" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "i gatti",
+        "to" : [ "die Katzen" ],
+        "tags" : [ "animals", "nature", "plurals" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "il cavallo",
+        "to" : [ "das Pferd" ],
+        "tags" : [ "nature", "animals" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "i cavalli",
+        "to" : [ "die Pferde" ],
+        "tags" : [ "animals", "nature", "plurals" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "il pesce",
+        "to" : [ "der Fisch" ],
+        "tags" : [ "nature", "food", "animals" ],
+        "insertedAt" : "2024-01-09"
+      }, {
+        "from" : "i pesci",
+        "to" : [ "die Fische" ],
+        "tags" : [ "animals", "nature", "plurals" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "il topo",
+        "to" : [ "die Maus" ],
+        "tags" : [ "animals", "nature" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "i topi",
+        "to" : [ "die Mäuse" ],
+        "tags" : [ "animals", "nature", "plurals" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "il ratto",
+        "to" : [ "die Ratte" ],
+        "tags" : [ "animals", "nature" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "i ratti",
+        "to" : [ "die Ratten" ],
+        "tags" : [ "animals", "nature", "plurals" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "l'orso",
+        "to" : [ "der Bär" ],
+        "tags" : [ "animals", "nature" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "gli orsi",
+        "to" : [ "die Bären" ],
+        "tags" : [ "animals", "nature", "plurals" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "la mucca",
+        "to" : [ "die Kuh" ],
+        "tags" : [ "animals", "nature" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "le mucche",
+        "to" : [ "die Kühe" ],
+        "tags" : [ "animals", "nature", "plurals" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "le pecore",
+        "to" : [ "die Schafe" ],
+        "tags" : [ "animals", "nature", "plurals" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "il maiale",
+        "to" : [ "das Schwein" ],
+        "tags" : [ "animals", "nature" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "i maiali",
+        "to" : [ "die Schweine" ],
+        "tags" : [ "animals", "nature", "plurals" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "la capra",
+        "to" : [ "die Ziege" ],
+        "tags" : [ "animals", "nature" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "le capre",
+        "to" : [ "die Ziegen" ],
+        "tags" : [ "animals", "nature", "plurals" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "la gallina",
+        "to" : [ "das Huhn" ],
+        "tags" : [ "animals", "nature", "birds" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "le galline",
+        "to" : [ "die Hühner" ],
+        "tags" : [ "animals", "nature", "plurals", "birds" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "la papera",
+        "to" : [ "die Ente" ],
+        "tags" : [ "animals", "nature", "birds" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "le papere",
+        "to" : [ "die Enten" ],
+        "tags" : [ "animals", "nature", "plurals", "birds" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "l'uccello",
+        "to" : [ "der Vogel" ],
+        "tags" : [ "animals", "nature", "birds" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "gli uccelli",
+        "to" : [ "die Vögel" ],
+        "tags" : [ "animals", "nature", "plurals", "birds" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "il salmone",
+        "to" : [ "der Lachs" ],
+        "tags" : [ "nature", "food", "fishes", "animals" ],
+        "insertedAt" : "2024-01-09"
+      }, {
+        "from" : "il serpente",
+        "to" : [ "die Schlange" ],
+        "tags" : [ "animals", "nature" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "i serpenti",
+        "to" : [ "die Schlangen" ],
+        "tags" : [ "animals", "nature", "plurals" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "l'insetto",
+        "to" : [ "das Insekt" ],
+        "tags" : [ "nature", "insects" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "gli insetti",
+        "to" : [ "die Insekten" ],
+        "tags" : [ "nature", "insects", "plurals" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "la zanzara",
+        "to" : [ "die Mücke", "die Gelse" ],
+        "tags" : [ "nature", "insects" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "le zanzare",
+        "to" : [ "die Mücken", "die Gelsen" ],
+        "tags" : [ "nature", "insects", "plurals" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "la vespa",
+        "to" : [ "die Wespe" ],
+        "tags" : [ "nature", "insects" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "le vespe",
+        "to" : [ "die Wespen" ],
+        "tags" : [ "nature", "insects", "plurals" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "l'ape",
+        "to" : [ "die Biene" ],
+        "tags" : [ "nature", "insects" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "le api",
+        "to" : [ "die Bienen" ],
+        "tags" : [ "nature", "insects", "plurals" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "il ragno",
+        "to" : [ "die Spinne" ],
+        "tags" : [ "nature", "insects" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "i ragni",
+        "to" : [ "die Spinnen" ],
+        "tags" : [ "nature", "insects", "plurals" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "lo squalo",
+        "to" : [ "der Hai" ],
+        "tags" : [ "nature", "animals", "fishes" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "gli squali",
+        "to" : [ "die Haie" ],
+        "tags" : [ "nature", "animals", "fishes", "plurals" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "il cuore",
+        "to" : [ "das Herz" ],
+        "tags" : [ "body parts" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "la mano",
+        "to" : [ "die Hand" ],
+        "tags" : [ "body parts" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "le mani",
+        "to" : [ "die Hände" ],
+        "tags" : [ "body parts", "plurals" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "il dito",
+        "to" : [ "der Finger" ],
+        "tags" : [ "body parts" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "il braccio",
+        "to" : [ "der Arm" ],
+        "tags" : [ "body parts" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "la gamba",
+        "to" : [ "das Bein" ],
+        "tags" : [ "body parts" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "il piede",
+        "to" : [ "der Fuß" ],
+        "tags" : [ "body parts" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "i piedi",
+        "to" : [ "die Füße" ],
+        "tags" : [ "body parts", "plurals" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "il corpo",
+        "to" : [ "der Körper" ],
+        "tags" : [ "body parts" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "le gambe",
+        "to" : [ "die Beine" ],
+        "tags" : [ "body parts", "plurals" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "le braccia",
+        "to" : [ "die Arme" ],
+        "tags" : [ "body parts", "plurals" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "le dita",
+        "to" : [ "die Finger" ],
+        "tags" : [ "body parts", "plurals" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "la testa",
+        "to" : [ "der Kopf" ],
+        "tags" : [ "body parts", "face parts" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "la faccia",
+        "to" : [ "das Gesicht" ],
+        "tags" : [ "body parts", "face parts" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "l'occhio",
+        "to" : [ "das Auge" ],
+        "tags" : [ "body parts", "face parts" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "gli occhi",
+        "to" : [ "die Augen" ],
+        "tags" : [ "body parts", "face parts" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "l'orecchio",
+        "to" : [ "das Ohr" ],
+        "tags" : [ "body parts" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "le orecchie",
+        "to" : [ "die Ohren" ],
+        "tags" : [ "body parts" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "il naso",
+        "to" : [ "die Nase" ],
+        "tags" : [ "body parts", "face parts" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "la bocca",
+        "to" : [ "der Mund" ],
+        "tags" : [ "body parts", "face parts" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "i capelli",
+        "to" : [ "die Haare" ],
+        "tags" : [ "body parts" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "il dente",
+        "to" : [ "der Zahn" ],
+        "tags" : [ "body parts", "face parts" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "i denti",
+        "to" : [ "die Zähne" ],
+        "tags" : [ "body parts", "face parts", "plurals" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "la barba",
+        "to" : [ "der Bart" ],
+        "tags" : [ "body parts", "face parts" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "il dito del piede",
+        "to" : [ "der Zeh" ],
+        "tags" : [ "body parts" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "le dita del piede",
+        "to" : [ "die Zehen" ],
+        "tags" : [ "body parts", "plurals" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "l'unghia",
+        "to" : [ "der Nagel" ],
+        "tags" : [ "body parts" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "le unghie",
+        "to" : [ "die Nägel" ],
+        "tags" : [ "body parts", "plurals" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "il gomito",
+        "to" : [ "der Ellbogen" ],
+        "tags" : [ "body parts" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "il ginocchio",
+        "to" : [ "das Knie" ],
+        "tags" : [ "body parts" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "la schiena",
+        "to" : [ "der Rücken" ],
+        "tags" : [ "body parts" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "la pancia",
+        "to" : [ "der Bauch" ],
+        "tags" : [ "body parts" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "il cappotto",
+        "to" : [ "der Mantel" ],
+        "tags" : [ "clothing" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "i pantaloni",
+        "to" : [ "die Hose" ],
+        "tags" : [ "clothing" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "la maglietta",
+        "to" : [ "das T-Shirt" ],
+        "tags" : [ "clothing" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "i jeans",
+        "to" : [ "die Jeans" ],
+        "tags" : [ "clothing" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "le mutande",
+        "to" : [ "die Unterhose" ],
+        "tags" : [ "clothing" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "la calza",
+        "to" : [ "die Socke" ],
+        "tags" : [ "clothing" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "le calze",
+        "to" : [ "die Socken" ],
+        "tags" : [ "clothing", "plurals" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "il cappello",
+        "to" : [ "der Hut" ],
+        "tags" : [ "clothing" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "la scarpa",
+        "to" : [ "der Schuh" ],
+        "tags" : [ "clothing" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "le scarpe",
+        "to" : [ "die Schuhe" ],
+        "tags" : [ "clothing", "plurals" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "le ciabatte",
+        "to" : [ "die Hausschuhe" ],
+        "tags" : [ "clothing", "plurals" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "il guanto",
+        "to" : [ "der Handschuh" ],
+        "tags" : [ "clothing" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "i guanti",
+        "to" : [ "die Handschuhe" ],
+        "tags" : [ "clothing", "plurals" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "gli occhiali",
+        "to" : [ "die Brille" ],
+        "tags" : [ "clothing", "clothing accessories" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "la cintura",
+        "to" : [ "der Gürtel" ],
+        "tags" : [ "clothing", "clothing accessories" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "la borsa",
+        "to" : [ "die Tasche" ],
+        "tags" : [ "clothing", "clothing accessories" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "la borsetta",
+        "to" : [ "die Handtasche" ],
+        "tags" : [ "clothing", "clothing accessories" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "l'orologio",
+        "to" : [ "die Armbanduhr" ],
+        "tags" : [ "clothing", "clothing accessories" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "la giacca",
+        "to" : [ "die Jacke" ],
+        "tags" : [ "clothing" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "la gonna",
+        "to" : [ "der Rock" ],
+        "tags" : [ "clothing" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "il reggiseno",
+        "to" : [ "der BH" ],
+        "tags" : [ "clothing" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "i collant",
+        "to" : [ "die Strümpfe" ],
+        "tags" : [ "clothing" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "la sciarpa",
+        "to" : [ "der Schal" ],
+        "tags" : [ "clothing" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "la cravatta",
+        "to" : [ "die Krawatte" ],
+        "tags" : [ "clothing", "clothing accessories" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "la tasca",
+        "to" : [ "die Tasche" ],
+        "tags" : [ "clothing" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "il maglione",
+        "to" : [ "der Pullover" ],
+        "tags" : [ "clothing" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "il mobile",
+        "to" : [ "das Möbel" ],
+        "tags" : [ "furniture", "house-related" ],
+        "insertedAt" : "2024-02-10"
+      }, {
+        "from" : "i mobili",
+        "to" : [ "die Möbel" ],
+        "tags" : [ "furniture", "house-related", "plurals" ],
+        "insertedAt" : "2024-02-10"
+      }, {
+        "from" : "il tavolo",
+        "to" : [ "der Tisch" ],
+        "tags" : [ "furniture", "house-related" ],
+        "insertedAt" : "2024-02-10"
+      }, {
+        "from" : "i tavoli",
+        "to" : [ "die Tische" ],
+        "tags" : [ "furniture", "house-related", "plurals" ],
+        "insertedAt" : "2024-02-10"
+      }, {
+        "from" : "la sedia",
+        "to" : [ "der Stuhl" ],
+        "tags" : [ "furniture", "house-related" ],
+        "insertedAt" : "2024-02-10"
+      }, {
+        "from" : "le sedie",
+        "to" : [ "die Stühle" ],
+        "tags" : [ "furniture", "house-related", "plurals" ],
+        "insertedAt" : "2024-02-10"
+      }, {
+        "from" : "il letto",
+        "to" : [ "das Bett" ],
+        "tags" : [ "furniture", "house-related" ],
+        "insertedAt" : "2024-02-10"
+      }, {
+        "from" : "i letti",
+        "to" : [ "die Betten" ],
+        "tags" : [ "furniture", "house-related", "plurals" ],
+        "insertedAt" : "2024-02-10"
+      }, {
+        "from" : "il divano",
+        "to" : [ "das Sofa" ],
+        "tags" : [ "furniture", "house-related" ],
+        "insertedAt" : "2024-02-10"
+      }, {
+        "from" : "la poltrona",
+        "to" : [ "der Sessel" ],
+        "tags" : [ "furniture", "house-related" ],
+        "insertedAt" : "2024-02-10"
+      }, {
+        "from" : "il frigo",
+        "to" : [ "der Kühlschrank" ],
+        "tags" : [ "furniture", "house-related" ],
+        "insertedAt" : "2024-02-10"
+      }, {
+        "from" : "la tv",
+        "to" : [ "der Fernseher" ],
+        "tags" : [ "furniture", "house-related" ],
+        "insertedAt" : "2024-02-10"
+      }, {
+        "from" : "l'armadio",
+        "to" : [ "der Schrank" ],
+        "tags" : [ "furniture", "house-related" ],
+        "insertedAt" : "2024-02-10"
+      }, {
+        "from" : "la porta",
+        "to" : [ "die Tür" ],
+        "tags" : [ "furniture", "house-related" ],
+        "insertedAt" : "2024-02-10"
+      }, {
+        "from" : "le porte",
+        "to" : [ "die Türen" ],
+        "tags" : [ "furniture", "house-related", "plurals" ],
+        "insertedAt" : "2024-02-10"
+      }, {
+        "from" : "la doccia",
+        "to" : [ "die Dusche" ],
+        "tags" : [ "furniture", "house-related", "bathroom objects" ],
+        "insertedAt" : "2024-02-10"
+      }, {
+        "from" : "lo specchio",
+        "to" : [ "der Spiegel" ],
+        "tags" : [ "furniture", "house-related", "bathroom objects" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "il tappeto",
+        "to" : [ "der Teppich" ],
+        "tags" : [ "furniture", "house-related" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "il forno",
+        "to" : [ "der Ofen", "der Backofen" ],
+        "tags" : [ "furniture", "house-related", "kitchen objects" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "la vasca",
+        "to" : [ "die Badewanne", "die Wanne" ],
+        "tags" : [ "furniture", "house-related", "bathroom objects" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "il lavandino",
+        "to" : [ "das Waschbecken" ],
+        "tags" : [ "furniture", "house-related", "bathroom objects" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "lo spazzolino",
+        "to" : [ "die Zahnbürste" ],
+        "tags" : [ "house-related", "bathroom objects" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "il dentifricio",
+        "to" : [ "die Zahnpasta" ],
+        "tags" : [ "house-related", "bathroom objects" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "il sapone",
+        "to" : [ "die Seife" ],
+        "tags" : [ "house-related", "bathroom objects" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "l'asciugamano",
+        "to" : [ "das Handtuch" ],
+        "tags" : [ "house-related", "bathroom objects" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "il rasoio",
+        "to" : [ "der Rasierer" ],
+        "tags" : [ "house-related", "bathroom objects" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "lo shampoo",
+        "to" : [ "das Shampoo" ],
+        "tags" : [ "house-related", "bathroom objects" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "il piano terra",
+        "to" : [ "das Erdgeschoß" ],
+        "tags" : [ "house-related" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "la finestra",
+        "to" : [ "das Fenster" ],
+        "tags" : [ "house-related", "room parts" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "le finestre",
+        "to" : [ "die Fenster" ],
+        "tags" : [ "house-related", "plurals", "room parts" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "il muro",
+        "to" : [ "die Wand" ],
+        "tags" : [ "house-related", "room parts" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "i muri",
+        "to" : [ "die Wände" ],
+        "tags" : [ "house-related", "plurals", "room parts" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "le scale",
+        "to" : [ "die Treppe" ],
+        "tags" : [ "house-related" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "la chiave",
+        "to" : [ "der Schlüssel" ],
+        "tags" : [ "house-related" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "le chiavi",
+        "to" : [ "die Schlüssel" ],
+        "tags" : [ "house-related", "plurals" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "il soffitto",
+        "to" : [ "die Decke" ],
+        "tags" : [ "house-related", "room parts" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "il pavimento",
+        "to" : [ "der Boden" ],
+        "tags" : [ "house-related", "room parts" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "l'angolo",
+        "to" : [ "die Ecke" ],
+        "tags" : [ "house-related", "room parts" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "il bagno",
+        "to" : [ "das Badenzimmer" ],
+        "tags" : [ "house-related", "rooms" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "la cucina",
+        "to" : [ "die Küche" ],
+        "tags" : [ "house-related", "rooms" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "il soggiorno",
+        "to" : [ "das Wohnzimmer" ],
+        "tags" : [ "house-related", "rooms" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "la camera",
+        "to" : [ "das Schlafzimmer" ],
+        "tags" : [ "house-related", "rooms" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "il garage",
+        "to" : [ "die Garage" ],
+        "tags" : [ "house-related", "rooms" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "la soffitta",
+        "to" : [ "der Dachboden" ],
+        "tags" : [ "house-related", "rooms" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "la stanza",
+        "to" : [ "das Zimmer" ],
+        "tags" : [ "house-related", "rooms" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "le stanze",
+        "to" : [ "die Zimmer" ],
+        "tags" : [ "house-related", "rooms" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "lo studio",
+        "to" : [ "das Arbeitszimmer" ],
+        "tags" : [ "house-related", "rooms" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "l'ingresso",
+        "to" : [ "der Eingang" ],
+        "tags" : [ "house-related", "rooms" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "l'uscita",
+        "to" : [ "der Ausgang" ],
+        "tags" : [ "house-related", "rooms" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "la sala da pranzo",
+        "to" : [ "das Esszimmer" ],
+        "tags" : [ "house-related", "rooms" ],
+        "insertedAt" : "2024-04-05"
+      }, {
+        "from" : "la mosca",
+        "to" : [ "die Fliege" ],
+        "tags" : [ "insects" ],
+        "insertedAt" : "2024-05-03"
+      }, {
+        "from" : "l'europa",
+        "to" : [ "das Europa" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-05-04"
+      }, {
+        "from" : "l'Austria",
+        "to" : [ "das Österreich" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-05-04"
+      }, {
+        "from" : "la Gran Bretagne",
+        "to" : [ "das Großbritannien" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-05-04"
+      }, {
+        "from" : "il Belgio",
+        "to" : [ "das Belgien" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-02-19"
+      }, {
+        "from" : "la Germania",
+        "to" : [ "das Deutschland" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-02-19"
+      }, {
+        "from" : "l'Olanda",
+        "to" : [ "die Niederlande" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-02-19"
+      }, {
+        "from" : "la Grecia",
+        "to" : [ "das Griechenland" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-02-19"
+      }, {
+        "from" : "la Danimarca",
+        "to" : [ "das Dänemark" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-02-19"
+      }, {
+        "from" : "l'Irlanda",
+        "to" : [ "das Irland" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-02-19"
+      }, {
+        "from" : "la Spagna",
+        "to" : [ "das Spanien" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-02-19"
+      }, {
+        "from" : "l'Italia",
+        "to" : [ "das Italien" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-02-19"
+      }, {
+        "from" : "la Norvegia",
+        "to" : [ "das Norwegen" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-02-19"
+      }, {
+        "from" : "il Portogallo",
+        "to" : [ "das Portugal" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-02-19"
+      }, {
+        "from" : "la Finlandia",
+        "to" : [ "das Finland" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-02-19"
+      }, {
+        "from" : "la Svezia",
+        "to" : [ "das Schweden" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-02-19"
+      }, {
+        "from" : "la Svizzera",
+        "to" : [ "die Schweiz" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-02-19"
+      }, {
+        "from" : "la Scozia",
+        "to" : [ "das Schottland" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-02-19"
+      }, {
+        "from" : "l'Ungheria",
+        "to" : [ "das Ungarn" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-02-19"
+      }, {
+        "from" : "la Russia",
+        "to" : [ "das Russland" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-02-19"
+      }, {
+        "from" : "l'Asia",
+        "to" : [ "das Asien" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-02-19"
+      }, {
+        "from" : "l'India",
+        "to" : [ "das Indien" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-02-19"
+      }, {
+        "from" : "la Cina",
+        "to" : [ "das China" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-02-19"
+      }, {
+        "from" : "il Giappone",
+        "to" : [ "das Japan" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-02-19"
+      }, {
+        "from" : "gli Stati Uniti",
+        "to" : [ "die Vereinigten Staaten" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-02-19"
+      }, {
+        "from" : "il Canada",
+        "to" : [ "das Kanada" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-02-19"
+      }, {
+        "from" : "il Messico",
+        "to" : [ "das Mexico" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-02-19"
+      }, {
+        "from" : "l'Africa",
+        "to" : [ "das Afrika" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-02-19"
+      }, {
+        "from" : "l'Australia",
+        "to" : [ "das Australien" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-02-19"
+      }, {
+        "from" : "la Polonia",
+        "to" : [ "das Polen" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-05-04"
+      }, {
+        "from" : "la Repubblica ceca",
+        "to" : [ "das Tschechien" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-05-04"
+      }, {
+        "from" : "la Turchia",
+        "to" : [ "die Türkei" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-05-04"
+      }, {
+        "from" : "l'Egitto",
+        "to" : [ "das Ägypten" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-05-04"
+      }, {
+        "from" : "la nazione",
+        "to" : [ "die Nation", "der Staat", "das Land" ],
+        "tags" : [ "nations" ],
+        "insertedAt" : "2024-05-04"
+      }, {
+        "from" : "le nazioni",
+        "to" : [ "die Nationen", "die Staaten", "die Länder" ],
+        "tags" : [ "plurals", "nations" ],
+        "insertedAt" : "2024-05-04"
+      }, {
+        "from" : "il continente",
+        "to" : [ "der Erdteil" ],
+        "tags" : [ "plurals", "nations" ],
+        "insertedAt" : "2024-05-04"
+      }, {
+        "from" : "i continenti",
+        "to" : [ "die Erdteile" ],
+        "tags" : [ "nations", "plurals" ],
+        "insertedAt" : "2024-05-04"
+      }, {
+        "from" : "la carne",
+        "to" : [ "das Fleisch" ],
+        "tags" : [ "food" ],
+        "insertedAt" : "2024-01-09"
+      }, {
+        "from" : "l'uovo",
+        "to" : [ "das Ei" ],
+        "tags" : [ "food" ],
+        "insertedAt" : "2024-01-09"
+      }, {
+        "from" : "il tonno",
+        "to" : [ "der Tunfisch" ],
+        "tags" : [ "food" ],
+        "insertedAt" : "2024-01-09"
+      }, {
+        "from" : "il pane",
+        "to" : [ "das Brot" ],
+        "tags" : [ "food" ],
+        "insertedAt" : "2024-01-09"
+      }, {
+        "from" : "il formaggio",
+        "to" : [ "der Käse" ],
+        "tags" : [ "food" ],
+        "insertedAt" : "2024-01-09"
+      }, {
+        "from" : "il latte",
+        "to" : [ "die Milch" ],
+        "tags" : [ "food", "drinks" ],
+        "insertedAt" : "2024-01-09"
+      }, {
+        "from" : "lo zucchero",
+        "to" : [ "der Zucker" ],
+        "tags" : [ "food" ],
+        "insertedAt" : "2024-01-09"
+      }, {
+        "from" : "il sale",
+        "to" : [ "das Salz" ],
+        "tags" : [ "food" ],
+        "insertedAt" : "2024-01-09"
+      }, {
+        "from" : "l'olio d'oliva",
+        "to" : [ "das Olivenöl" ],
+        "tags" : [ "food", "condiments" ],
+        "insertedAt" : "2024-01-09"
+      }, {
+        "from" : "l'olio",
+        "to" : [ "das Öl" ],
+        "tags" : [ "food", "condiments" ],
+        "insertedAt" : "2024-01-09"
+      }, {
+        "from" : "l'aceto",
+        "to" : [ "der Essig" ],
+        "tags" : [ "food", "condiments" ],
+        "insertedAt" : "2024-05-04"
+      }, {
+        "from" : "la marmellata",
+        "to" : [ "die Marmelade" ],
+        "tags" : [ "food", "breakfast" ],
+        "insertedAt" : "2024-01-09"
+      }, {
+        "from" : "l'acqua",
+        "to" : [ "das Wasser" ],
+        "tags" : [ "food", "drinks" ],
+        "insertedAt" : "2024-01-09"
+      }, {
+        "from" : "il vino",
+        "to" : [ "der Wein" ],
+        "tags" : [ "food", "drinks" ],
+        "insertedAt" : "2024-01-09"
+      }, {
+        "from" : "la birra",
+        "to" : [ "das Bier" ],
+        "tags" : [ "drinks" ],
+        "insertedAt" : "2024-01-09"
+      }, {
+        "from" : "il caffè",
+        "to" : [ "der Kaffee" ],
+        "tags" : [ "drinks", "breakfast" ],
+        "insertedAt" : "2024-01-09"
+      }, {
+        "from" : "il succo",
+        "to" : [ "der Saft" ],
+        "tags" : [ "drinks", "breakfast" ],
+        "insertedAt" : "2024-01-09"
+      }, {
+        "from" : "il tè",
+        "to" : [ "der Tee" ],
+        "tags" : [ "drinks", "breakfast" ],
+        "insertedAt" : "2024-01-09"
+      }, {
+        "from" : "il biscotto",
+        "to" : [ "das Keks" ],
+        "tags" : [ "breakfast", "food" ],
+        "insertedAt" : "2024-01-09"
+      }, {
+        "from" : "la cioccolata",
+        "to" : [ "die Schokolade" ],
+        "tags" : [ "breakfast", "food" ],
+        "insertedAt" : "2024-01-09"
+      }, {
+        "from" : "il cibo",
+        "to" : [ "das Essen" ],
+        "tags" : [ "breakfast", "food" ],
+        "insertedAt" : "2024-01-09"
+      }, {
+        "from" : "il riso",
+        "to" : [ "der Reis" ],
+        "tags" : [ "food", "breakfast" ],
+        "insertedAt" : "2024-01-09"
+      }, {
+        "from" : "il pomodoro",
+        "to" : [ "die Tomate" ],
+        "tags" : [ "food", "vegetables" ],
+        "insertedAt" : "2024-01-09"
+      }, {
+        "from" : "la patata",
+        "to" : [ "die Kartoffel" ],
+        "tags" : [ "vegetables" ],
+        "insertedAt" : "2024-01-09"
+      }, {
+        "from" : "la cipolla",
+        "to" : [ "die Zwiebel" ],
+        "tags" : [ "vegetables" ],
+        "insertedAt" : "2024-01-09"
+      }, {
+        "from" : "la carota",
+        "to" : [ "die Karotte" ],
+        "tags" : [ "vegetables" ],
+        "insertedAt" : "2024-01-09"
+      }, {
+        "from" : "l'auto",
+        "to" : [ "das Auto", "der Wagen" ],
+        "tags" : [ "means of transport" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "l'aereo",
+        "to" : [ "das Flugzeug" ],
+        "tags" : [ "means of transport" ],
+        "insertedAt" : "2024-05-04"
+      }, {
+        "from" : "il treno",
+        "to" : [ "der Zug" ],
+        "tags" : [ "means of transport" ],
+        "insertedAt" : "2024-05-04"
+      }, {
+        "from" : "il biglietto",
+        "to" : [ "die Fahrkarte" ],
+        "tags" : [ "means of transport" ],
+        "insertedAt" : "2024-05-04"
+      }, {
+        "from" : "la nave",
+        "to" : [ "das Schiff" ],
+        "tags" : [ "means of transport" ],
+        "insertedAt" : "2024-05-04"
+      }, {
+        "from" : "la barca",
+        "to" : [ "das Boot" ],
+        "tags" : [ "vacation" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "l'aeroporto",
+        "to" : [ "der Flughafen" ],
+        "tags" : [ "means of transport" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "il volo",
+        "to" : [ "der Flug" ],
+        "tags" : [ "means of transport" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "la bici",
+        "to" : [ "das Fahrrad" ],
+        "tags" : [ "means of transport" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "la benzina",
+        "to" : [ "das Benzin" ],
+        "tags" : [ "means of transport" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "la strada",
+        "to" : [ "die Straße" ],
+        "tags" : [ "means of transport" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "l'autostrada",
+        "to" : [ "die Autobahn" ],
+        "tags" : [ "means of transport" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "la velocità",
+        "to" : [ "die Geschwindingkeit" ],
+        "tags" : [ "means of transport" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "la città",
+        "to" : [ "die Stadt" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "il parco",
+        "to" : [ "der Park" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-02-21"
+      }, {
+        "from" : "la piazza",
+        "to" : [ "der Platz" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-02-21"
+      }, {
+        "from" : "la casa",
+        "to" : [ "das Haus" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-02-21"
+      }, {
+        "from" : "l'edificio",
+        "to" : [ "das Gebäude", "das Bauwerk" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-02-21"
+      }, {
+        "from" : "il negozio",
+        "to" : [ "der Laden" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-02-21"
+      }, {
+        "from" : "il marciapiede",
+        "to" : [ "der Gehweg" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-02-21"
+      }, {
+        "from" : "il ponte",
+        "to" : [ "die Brücke" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-02-21"
+      }, {
+        "from" : "il bidone",
+        "to" : [ "der Mülleimer", "der Mistkübel" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-02-21"
+      }, {
+        "from" : "il lampione",
+        "to" : [ "die Straßenlaterne" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "la farmacia",
+        "to" : [ "die Apotheke" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-03-19"
+      }, {
+        "from" : "il centro commerciale",
+        "to" : [ "das Einkaufszentrum" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-03-19"
+      }, {
+        "from" : "il supermercato",
+        "to" : [ "der Supermarkt" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-03-19"
+      }, {
+        "from" : "la panetteria",
+        "to" : [ "die Bäckerei" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-03-19"
+      }, {
+        "from" : "il mercato",
+        "to" : [ "der Markt" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-03-19"
+      }, {
+        "from" : "la posta",
+        "to" : [ "die Post" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-03-19"
+      }, {
+        "from" : "la libreria",
+        "to" : [ "das Buchgeschäft" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-03-19"
+      }, {
+        "from" : "lo zoo",
+        "to" : [ "der Zoo" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-03-19"
+      }, {
+        "from" : "il cinema",
+        "to" : [ "das Kino" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-03-19"
+      }, {
+        "from" : "il museo",
+        "to" : [ "das Museum" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-03-19"
+      }, {
+        "from" : "la biblioteca",
+        "to" : [ "die Bibliothek" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-03-19"
+      }, {
+        "from" : "il teatro",
+        "to" : [ "das Theater" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-03-19"
+      }, {
+        "from" : "la chiesa",
+        "to" : [ "die Kirche" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-03-19"
+      }, {
+        "from" : "l'università",
+        "to" : [ "die Universität" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-03-19"
+      }, {
+        "from" : "la scuola",
+        "to" : [ "die Schule" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-03-19"
+      }, {
+        "from" : "la banca",
+        "to" : [ "die Bank" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-03-19"
+      }, {
+        "from" : "l'ospedale",
+        "to" : [ "das Krankenhaus", "das Spital" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-03-19"
+      }, {
+        "from" : "il distributore",
+        "to" : [ "die Tankstelle" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-03-19"
+      }, {
+        "from" : "il parcheggio",
+        "to" : [ "der Parkplatz" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-03-19"
+      }, {
+        "from" : "l'hotel",
+        "to" : [ "das Hotel" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "la moschea",
+        "to" : [ "die Moschee" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "il casinó",
+        "to" : [ "das Kasino" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "l'opera",
+        "to" : [ "die Oper" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "il municipio",
+        "to" : [ "das Rathaus" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "la stazione della metro",
+        "to" : [ "die Station" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "la stazione dei treni",
+        "to" : [ "die Station", "der Bahnhof" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "la stazione del bus",
+        "to" : [ "die Haltestelle", "die Station" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "il traffico",
+        "to" : [ "der Verkehr" ],
+        "tags" : [ "in the city", "means of transport" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "il taxi",
+        "to" : [ "das Taxi" ],
+        "tags" : [ "in the city", "means of transport" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "il castello",
+        "to" : [ "das Schloss" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "il motorino",
+        "to" : [ "das Moped" ],
+        "tags" : [ "means of transport" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "la moto",
+        "to" : [ "das Motorrad" ],
+        "tags" : [ "means of transport" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "lo sportivo",
+        "to" : [ "der Sportler" ],
+        "tags" : [ "sport-related" ],
+        "insertedAt" : "2024-02-29"
+      }, {
+        "from" : "il giocatore di basket",
+        "to" : [ "der Basketballspieler" ],
+        "tags" : [ "sport-related" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "il calciatore",
+        "to" : [ "der Fußballspieler" ],
+        "tags" : [ "sport-related" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "il pugile",
+        "to" : [ "der Boxer" ],
+        "tags" : [ "sport-related" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "il nuotatore",
+        "to" : [ "der Schwimmer" ],
+        "tags" : [ "sport-related" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "il corridore",
+        "to" : [ "der Läufer" ],
+        "tags" : [ "sport-related" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "il pilota",
+        "to" : [ "der Rennfahrer" ],
+        "tags" : [ "sport-related" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "il ciclista",
+        "to" : [ "der Radfahrer" ],
+        "tags" : [ "sport-related" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "l'atleta",
+        "to" : [ "der Athlet" ],
+        "tags" : [ "sport-related" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "il calcio",
+        "to" : [ "der Fußball" ],
+        "tags" : [ "sport-related" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "il tennis",
+        "to" : [ "das Tennis" ],
+        "tags" : [ "sport-related" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "il nuoto",
+        "to" : [ "das Schwimmen" ],
+        "tags" : [ "sport-related" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "la malattia",
+        "to" : [ "die Krankheit" ],
+        "tags" : [ "medicine-related" ],
+        "insertedAt" : "2024-05-13"
+      }, {
+        "from" : "la saluta",
+        "to" : [ "die Gesundheit" ],
+        "tags" : [ "medicine-related" ],
+        "insertedAt" : "2024-05-13"
+      }, {
+        "from" : "la febbre",
+        "to" : [ "das Fieber" ],
+        "tags" : [ "medicine-related" ],
+        "insertedAt" : "2024-05-13"
+      }, {
+        "from" : "l'influenza",
+        "to" : [ "die Grippe" ],
+        "tags" : [ "medicine-related" ],
+        "insertedAt" : "2024-05-13"
+      }, {
+        "from" : "il cancro",
+        "to" : [ "der Krebs" ],
+        "tags" : [ "medicine-related" ],
+        "insertedAt" : "2024-05-13"
+      }, {
+        "from" : "il sintomo",
+        "to" : [ "das Symptom" ],
+        "tags" : [ "medicine-related" ],
+        "insertedAt" : "2024-05-13"
+      }, {
+        "from" : "la temperatura",
+        "to" : [ "die Temperatur" ],
+        "tags" : [ "medicine-related", "weather" ],
+        "insertedAt" : "2024-05-14"
+      }, {
+        "from" : "il dolore",
+        "to" : [ "der Schmerz" ],
+        "tags" : [ "medicine-related" ],
+        "insertedAt" : "2024-05-13"
+      }, {
+        "from" : "la tosse",
+        "to" : [ "der Husten" ],
+        "tags" : [ "medicine-related" ],
+        "insertedAt" : "2024-05-13"
+      }, {
+        "from" : "il raffreddore",
+        "to" : [ "die Erkältung" ],
+        "tags" : [ "medicine-related" ],
+        "insertedAt" : "2024-05-13"
+      }, {
+        "from" : "il naso che cola",
+        "to" : [ "der Schnupfen" ],
+        "tags" : [ "medicine-related" ],
+        "insertedAt" : "2024-05-13"
+      }, {
+        "from" : "il sudore",
+        "to" : [ "der Schweiß" ],
+        "tags" : [ "medicine-related" ],
+        "insertedAt" : "2024-05-13"
+      }, {
+        "from" : "il respiro",
+        "to" : [ "der Atem" ],
+        "tags" : [ "medicine-related" ],
+        "insertedAt" : "2024-05-13"
+      }, {
+        "from" : "la medicina",
+        "to" : [ "die Medizin" ],
+        "tags" : [ "medicine-related" ],
+        "insertedAt" : "2024-05-13"
+      }, {
+        "from" : "il dentista",
+        "to" : [ "der Zahnarzt" ],
+        "tags" : [ "medicine-related", "jobs", "work-related" ],
+        "insertedAt" : "2024-05-13"
+      }, {
+        "from" : "il chirurgo",
+        "to" : [ "der Chirurg" ],
+        "tags" : [ "medicine-related", "jobs", "work-related" ],
+        "insertedAt" : "2024-05-13"
+      }, {
+        "from" : "il materiale",
+        "to" : [ "das Material", "der Stoff" ],
+        "tags" : [ "materials" ],
+        "insertedAt" : "2024-02-29"
+      }, {
+        "from" : "il legno",
+        "to" : [ "das Holz" ],
+        "tags" : [ "materials" ],
+        "insertedAt" : "2024-02-29"
+      }, {
+        "from" : "il vetro",
+        "to" : [ "das Glas" ],
+        "tags" : [ "materials" ],
+        "insertedAt" : "2024-02-29"
+      }, {
+        "from" : "la plastica",
+        "to" : [ "der Kunststoff", "das Plastic" ],
+        "tags" : [ "materials" ],
+        "insertedAt" : "2024-02-29"
+      }, {
+        "from" : "il tessuto",
+        "to" : [ "der Stoff" ],
+        "tags" : [ "materials" ],
+        "insertedAt" : "2024-02-29"
+      }, {
+        "from" : "la carta",
+        "to" : [ "das Papier" ],
+        "tags" : [ "materials" ],
+        "insertedAt" : "2024-02-29"
+      }, {
+        "from" : "il metallo",
+        "to" : [ "das Metall" ],
+        "tags" : [ "materials" ],
+        "insertedAt" : "2024-02-29"
+      }, {
+        "from" : "l'oro",
+        "to" : [ "das Gold" ],
+        "tags" : [ "materials" ],
+        "insertedAt" : "2024-02-29"
+      }, {
+        "from" : "l'argento",
+        "to" : [ "das Silber" ],
+        "tags" : [ "materials" ],
+        "insertedAt" : "2024-02-29"
+      }, {
+        "from" : "il ferro",
+        "to" : [ "das Eisen" ],
+        "tags" : [ "materials" ],
+        "insertedAt" : "2024-02-29"
+      }, {
+        "from" : "l'acciaio",
+        "to" : [ "der Stahl" ],
+        "tags" : [ "materials" ],
+        "insertedAt" : "2024-02-29"
+      }, {
+        "from" : "il rame",
+        "to" : [ "das Kupfer" ],
+        "tags" : [ "materials" ],
+        "insertedAt" : "2024-02-29"
+      }, {
+        "from" : "la crociera",
+        "to" : [ "das Kreuzer" ],
+        "tags" : [ "means of transport" ],
+        "insertedAt" : "2024-05-13"
+      }, {
+        "from" : "l'ambulanza",
+        "to" : [ "der Krankenwagen" ],
+        "tags" : [ "means of transport" ],
+        "insertedAt" : "2024-05-13"
+      }, {
+        "from" : "il camion",
+        "to" : [ "der Lkw", "der Lastwagen" ],
+        "tags" : [ "means of transport" ],
+        "insertedAt" : "2024-05-13"
+      }, {
+        "from" : "il cimitero",
+        "to" : [ "der Friedhof" ],
+        "tags" : [ "in the city" ],
+        "insertedAt" : "2024-05-13"
+      }, {
+        "from" : "il meteo",
+        "to" : [ "das Wetter" ],
+        "tags" : [ "weather" ],
+        "insertedAt" : "2024-05-14"
+      }, {
+        "from" : "la nuvola",
+        "to" : [ "die Wolke" ],
+        "tags" : [ "weather" ],
+        "insertedAt" : "2024-05-14"
+      }, {
+        "from" : "la pioggia",
+        "to" : [ "der Regen" ],
+        "tags" : [ "weather" ],
+        "insertedAt" : "2024-05-14"
+      }, {
+        "from" : "la neve",
+        "to" : [ "der Schnee" ],
+        "tags" : [ "weather" ],
+        "insertedAt" : "2024-05-14"
+      }, {
+        "from" : "il temporale",
+        "to" : [ "das Gewitter" ],
+        "tags" : [ "weather" ],
+        "insertedAt" : "2024-05-14"
+      }, {
+        "from" : "il fulmine",
+        "to" : [ "der Blitz" ],
+        "tags" : [ "weather" ],
+        "insertedAt" : "2024-05-14"
+      }, {
+        "from" : "il tuono",
+        "to" : [ "der Donner" ],
+        "tags" : [ "weather" ],
+        "insertedAt" : "2024-05-14"
+      }, {
+        "from" : "il sole",
+        "to" : [ "die Sonne" ],
+        "tags" : [ "weather" ],
+        "insertedAt" : "2024-05-14"
+      }, {
+        "from" : "la luna",
+        "to" : [ "der Mond" ],
+        "tags" : [ "weather" ],
+        "insertedAt" : "2024-05-14"
+      }, {
+        "from" : "il vento",
+        "to" : [ "der Wind" ],
+        "tags" : [ "weather" ],
+        "insertedAt" : "2024-05-14"
+      }, {
+        "from" : "i giorni",
+        "to" : [ "die Tage" ],
+        "tags" : [ "plurals", "time-related" ],
+        "insertedAt" : "2023-11-02"
+      }, {
+        "from" : "i mesi",
+        "to" : [ "die Monate" ],
+        "tags" : [ "plurals", "time-related" ],
+        "insertedAt" : "2023-11-02"
+      }, {
+        "from" : "gli anni",
+        "to" : [ "die Jahre" ],
+        "tags" : [ "plurals", "time-related" ],
+        "insertedAt" : "2023-11-02"
+      }, {
+        "from" : "le settimane",
+        "to" : [ "die Wochen" ],
+        "tags" : [ "plurals", "time-related" ],
+        "insertedAt" : "2023-11-02"
+      }, {
+        "from" : "l'ombrellone",
+        "to" : [ "der Sonnenschirm" ],
+        "tags" : [ "vacation" ],
+        "insertedAt" : "2021-06-01"
+      }, {
+        "from" : "la crema solare",
+        "to" : [ "die Sonnencreme" ],
+        "tags" : [ "vacation" ],
+        "insertedAt" : "2021-06-01"
+      }, {
+        "from" : "la spiaggia",
+        "to" : [ "der Strand" ],
+        "tags" : [ "vacation", "nature" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "la sabbia",
+        "to" : [ "der Sand" ],
+        "tags" : [ "vacation", "nature" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "il tramonto",
+        "to" : [ "der Sonnenuntergang" ],
+        "tags" : [ "vacation", "nature" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "l'alba",
+        "to" : [ "der Sonnenaufgang" ],
+        "tags" : [ "vacation", "nature" ],
+        "insertedAt" : "2021-06-01"
+      }, {
+        "from" : "il flusso",
+        "to" : [ "die Flut" ],
+        "tags" : [ "vacation", "nature" ],
+        "insertedAt" : "2024-06-06"
+      }, {
+        "from" : "la bassa marea",
+        "to" : [ "die Ebbe" ],
+        "tags" : [ "vacation", "nature" ],
+        "insertedAt" : "2024-06-06"
+      }, {
+        "from" : "il gabbiano",
+        "to" : [ "die Möwe" ],
+        "tags" : [ "vacation", "animals" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "il costume",
+        "to" : [ "der Badeanzug, das Badetrikot, der Bikini" ],
+        "tags" : [ "vacation" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "l'oceano",
+        "to" : [ "der Ozean" ],
+        "tags" : [ "vacation", "nature" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "gli occhiali da sole",
+        "to" : [ "die Sonnenbrille" ],
+        "tags" : [ "vacation" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "la conchiglia marina",
+        "to" : [ "die Muschel" ],
+        "tags" : [ "vacation" ],
+        "insertedAt" : "2021-06-01"
+      }, {
+        "from" : "il bagnino",
+        "to" : [ "der Rettungsschwimmer" ],
+        "tags" : [ "vacation" ],
+        "insertedAt" : "2021-06-01"
+      }, {
+        "from" : "il pedaló",
+        "to" : [ "das Paddelboot" ],
+        "tags" : [ "vacation" ],
+        "insertedAt" : "2024-06-06"
+      }, {
+        "from" : "il boccaglio",
+        "to" : [ "der Schnorchel" ],
+        "tags" : [ "vacation" ],
+        "insertedAt" : "2021-06-01"
+      }, {
+        "from" : "gli occhialini",
+        "to" : [ "die Taucherbrille" ],
+        "tags" : [ "vacation" ],
+        "insertedAt" : "2021-06-01"
+      }, {
+        "from" : "l'onda",
+        "to" : [ "die Welle" ],
+        "tags" : [ "vacation", "nature" ],
+        "insertedAt" : "2024-06-06"
+      }, {
+        "from" : "l'alga",
+        "to" : [ "das Seegras" ],
+        "tags" : [ "vacation" ],
+        "insertedAt" : "2024-06-06"
+      }, {
+        "from" : "la marea",
+        "to" : [ "die Gezeiten" ],
+        "tags" : [ "vacation", "nature" ],
+        "insertedAt" : "2024-06-06"
+      } ],
+      "tags" : [ "work-related", "nature", "animals", "jobs", "documents", "plurals", "food", "birds", "fishes", "insects", "body parts", "face parts", "clothing", "clothing accessories", "furniture", "house-related", "bathroom objects", "kitchen objects", "room parts", "rooms", "nations", "drinks", "condiments", "breakfast", "vegetables", "means of transport", "vacation", "in the city", "sport-related", "medicine-related", "weather", "materials", "time-related" ]
+    },
+    "verbs" : {
+      "words" : [ {
+        "from" : "toccare",
+        "to" : [ "berühren" ],
+        "tags" : [ "verbs-4" ],
+        "insertedAt" : "2024-05-03"
+      }, {
+        "from" : "odorare",
+        "to" : [ "riechen" ],
+        "tags" : [ "verbs-4" ],
+        "insertedAt" : "2024-05-04"
+      }, {
+        "from" : "vergognarsi",
+        "to" : [ "sich schämen" ],
+        "tags" : [ "feelings" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "essere contento",
+        "to" : [ "sich freuen" ],
+        "tags" : [ "feelings" ],
+        "insertedAt" : "2024-02-05"
+      }, {
+        "from" : "tossire",
+        "to" : [ "husten" ],
+        "tags" : [ "verbs-4", "medicine-related" ],
+        "insertedAt" : "2024-05-13"
+      }, {
+        "from" : "sudare",
+        "to" : [ "schwitzen" ],
+        "tags" : [ "medicine-related", "verbs-4" ],
+        "insertedAt" : "2024-05-13"
+      }, {
+        "from" : "vomitare",
+        "to" : [ "übergeben" ],
+        "tags" : [ "medicine-related", "verbs-4" ],
+        "insertedAt" : "2024-05-13"
+      }, {
+        "from" : "piove",
+        "to" : [ "regnen" ],
+        "tags" : [ "weather" ],
+        "insertedAt" : "2024-05-14"
+      }, {
+        "from" : "nevicare",
+        "to" : [ "schneien" ],
+        "tags" : [ "weather" ],
+        "insertedAt" : "2024-05-14"
+      } ],
+      "tags" : [ "verbs-4", "feelings", "medicine-related", "weather" ]
+    },
+    "adjectives" : {
+      "words" : [ {
+        "from" : "sporco",
+        "to" : [ "dreckig", "schmutzig" ],
+        "tags" : [ "adj-4" ],
+        "insertedAt" : "2024-04-01"
+      }, {
+        "from" : "pulito",
+        "to" : [ "sauber" ],
+        "tags" : [ "adj-4" ],
+        "insertedAt" : "2024-04-01"
+      }, {
+        "from" : "occupato",
+        "to" : [ "beschäftigt" ],
+        "tags" : [ "adj-4" ],
+        "insertedAt" : "2024-04-01"
+      }, {
+        "from" : "bianco",
+        "to" : [ "weiß" ],
+        "tags" : [ "colors" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "nero",
+        "to" : [ "schwarz" ],
+        "tags" : [ "colors" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "grigio",
+        "to" : [ "grau" ],
+        "tags" : [ "colors" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "verde",
+        "to" : [ "grün" ],
+        "tags" : [ "colors" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "giallo",
+        "to" : [ "gelb" ],
+        "tags" : [ "colors" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "rosso",
+        "to" : [ "rot" ],
+        "tags" : [ "colors" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "blu",
+        "to" : [ "blau" ],
+        "tags" : [ "colors" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "marrone",
+        "to" : [ "braun" ],
+        "tags" : [ "colors" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "chiaro",
+        "to" : [ "hell" ],
+        "tags" : [ "colors" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "scuro",
+        "to" : [ "dunkel" ],
+        "tags" : [ "colors" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "viola",
+        "to" : [ "lila" ],
+        "tags" : [ "colors" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "arancione",
+        "to" : [ "orange" ],
+        "tags" : [ "colors" ],
+        "insertedAt" : "2024-02-01"
+      }, {
+        "from" : "stanco",
+        "to" : [ "müde" ],
+        "tags" : [ "feelings" ],
+        "insertedAt" : "2024-02-18"
+      }, {
+        "from" : "felice",
+        "to" : [ "glücklich" ],
+        "tags" : [ "feelings" ],
+        "insertedAt" : "2024-02-18"
+      }, {
+        "from" : "triste",
+        "to" : [ "traurig" ],
+        "tags" : [ "feelings" ],
+        "insertedAt" : "2024-02-05"
+      }, {
+        "from" : "arrabbiato",
+        "to" : [ "verärgert" ],
+        "tags" : [ "feelings" ],
+        "insertedAt" : "2024-02-18"
+      }, {
+        "from" : "paziente",
+        "to" : [ "geduldig" ],
+        "tags" : [ "feelings" ],
+        "insertedAt" : "2024-02-18"
+      }, {
+        "from" : "impaziente",
+        "to" : [ "ungeduldig" ],
+        "tags" : [ "feelings" ],
+        "insertedAt" : "2024-02-18"
+      }, {
+        "from" : "annoiato",
+        "to" : [ "gelangweilt" ],
+        "tags" : [ "feelings" ],
+        "insertedAt" : "2024-02-18"
+      }, {
+        "from" : "noioso",
+        "to" : [ "langweilig" ],
+        "tags" : [ "feelings" ],
+        "insertedAt" : "2024-02-18"
+      }, {
+        "from" : "pigro",
+        "to" : [ "faul" ],
+        "tags" : [ "feelings" ],
+        "insertedAt" : "2024-02-05"
+      }, {
+        "from" : "irritato",
+        "to" : [ "genervt" ],
+        "tags" : [ "feelings" ],
+        "insertedAt" : "2024-02-18"
+      }, {
+        "from" : "irritante",
+        "to" : [ "nervig" ],
+        "tags" : [ "feelings" ],
+        "insertedAt" : "2024-02-18"
+      }, {
+        "from" : "onesto",
+        "to" : [ "ehrlich" ],
+        "tags" : [ "feelings" ],
+        "insertedAt" : "2024-02-05"
+      }, {
+        "from" : "coraggioso",
+        "to" : [ "tapfer", "mutig" ],
+        "tags" : [ "feelings" ],
+        "insertedAt" : "2024-02-29"
+      }, {
+        "from" : "preoccupato",
+        "to" : [ "besorgt" ],
+        "tags" : [ "feelings" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "affamato",
+        "to" : [ "hungrig" ],
+        "tags" : [ "feelings" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "nervoso",
+        "to" : [ "nervös" ],
+        "tags" : [ "feelings" ],
+        "insertedAt" : "2024-05-05"
+      }, {
+        "from" : "modesto",
+        "to" : [ "bescheiden" ],
+        "tags" : [ "feelings" ],
+        "insertedAt" : "2024-02-05"
+      }, {
+        "from" : "shy",
+        "to" : [ "schüchtern" ],
+        "tags" : [ "feelings" ],
+        "insertedAt" : "2024-02-29"
+      }, {
+        "from" : "invidioso",
+        "to" : [ "neidisch" ],
+        "tags" : [ "feelings" ],
+        "insertedAt" : "2024-02-29"
+      }, {
+        "from" : "tranquillo",
+        "to" : [ "ruhig" ],
+        "tags" : [ "feelings" ],
+        "insertedAt" : "2024-02-29"
+      }, {
+        "from" : "egoista",
+        "to" : [ "egoistisch" ],
+        "tags" : [ "feelings" ],
+        "insertedAt" : "2024-02-29"
+      }, {
+        "from" : "ingenuo",
+        "to" : [ "naiv" ],
+        "tags" : [ "feelings" ],
+        "insertedAt" : "2024-02-29"
+      }, {
+        "from" : "sincero",
+        "to" : [ "aufrichtig" ],
+        "tags" : [ "feelings" ],
+        "insertedAt" : "2024-02-29"
+      }, {
+        "from" : "sgradevole",
+        "to" : [ "unangenehm" ],
+        "tags" : [ "feelings" ],
+        "insertedAt" : "2024-02-29"
+      }, {
+        "from" : "avido",
+        "to" : [ "gierig" ],
+        "tags" : [ "feelings" ],
+        "insertedAt" : "2024-02-29"
+      }, {
+        "from" : "malato",
+        "to" : [ "krank" ],
+        "tags" : [ "medicine-related" ],
+        "insertedAt" : "2024-05-13"
+      }, {
+        "from" : "sano",
+        "to" : [ "gesund" ],
+        "tags" : [ "medicine-related" ],
+        "insertedAt" : "2024-05-13"
+      }, {
+        "from" : "sordo",
+        "to" : [ "taub" ],
+        "tags" : [ "medicine-related" ],
+        "insertedAt" : "2024-05-13"
+      }, {
+        "from" : "cieco",
+        "to" : [ "blind" ],
+        "tags" : [ "medicine-related" ],
+        "insertedAt" : "2024-05-13"
+      }, {
+        "from" : "sudato",
+        "to" : [ "schwitzig", "verschwitzt" ],
+        "tags" : [ "medicine-related", "adj-4" ],
+        "insertedAt" : "2024-05-13"
+      }, {
+        "from" : "soleggiato",
+        "to" : [ "sonnig" ],
+        "tags" : [ "weather" ],
+        "insertedAt" : "2024-05-14"
+      }, {
+        "from" : "nuvoloso",
+        "to" : [ "bewölkt" ],
+        "tags" : [ "weather" ],
+        "insertedAt" : "2024-05-14"
+      }, {
+        "from" : "piovoso",
+        "to" : [ "regnerisch" ],
+        "tags" : [ "weather" ],
+        "insertedAt" : "2024-05-14"
+      } ],
+      "tags" : [ "adj-4", "colors", "feelings", "medicine-related", "weather" ]
+    },
+    "adverbs" : {
+      "words" : [ {
+        "from" : "abbastanza",
+        "to" : [ "genug", "ziemlich" ],
+        "tags" : [ "adv-4" ],
+        "insertedAt" : "2024-05-14"
+      }, {
+        "from" : "ad ogni modo",
+        "to" : [ "jedenfalls", "auf jeden Fall" ],
+        "tags" : [ "adv-4" ],
+        "insertedAt" : "2024-05-14"
+      }, {
+        "from" : "almeno",
+        "to" : [ "mindestens", "zumindest" ],
+        "tags" : [ "adv-4" ],
+        "insertedAt" : "2024-05-14"
+      }, {
+        "from" : "tra l'altro",
+        "to" : [ "übrigens" ],
+        "tags" : [ "adv-4" ],
+        "insertedAt" : "2024-05-14"
+      }, {
+        "from" : "in realtá",
+        "to" : [ "eigentlich" ],
+        "tags" : [ "adv-4" ],
+        "insertedAt" : "2024-05-14"
+      }, {
+        "from" : "circa",
+        "to" : [ "etwa", "zirka" ],
+        "tags" : [ "adv-4" ],
+        "insertedAt" : "2024-05-14"
+      }, {
+        "from" : "infatti",
+        "to" : [ "allerdings" ],
+        "tags" : [ "adv-4" ],
+        "insertedAt" : "2024-05-14"
+      }, {
+        "from" : "specialmente",
+        "to" : [ "insbesondere" ],
+        "tags" : [ "adv-4" ],
+        "insertedAt" : "2024-05-14"
+      }, {
+        "from" : "prima",
+        "to" : [ "eher" ],
+        "tags" : [ "adv-4", "time-related" ],
+        "insertedAt" : "2024-05-14"
+      }, {
+        "from" : "ogni",
+        "to" : [ "je", "jede" ],
+        "tags" : [ "adv-4" ],
+        "insertedAt" : "2024-05-14"
+      }, {
+        "from" : "perlopiú",
+        "to" : [ "überwiegend", "größtenteils" ],
+        "tags" : [ "adv-4" ],
+        "insertedAt" : "2024-05-14"
+      }, {
+        "from" : "assolutamente",
+        "to" : [ "total", "wirklich", "völlig" ],
+        "tags" : [ "adv-4" ],
+        "insertedAt" : "2024-05-14"
+      }, {
+        "from" : "il giorno",
+        "to" : [ "der Tag" ],
+        "tags" : [ "weather" ],
+        "insertedAt" : "2023-11-02"
+      }, {
+        "from" : "la notte",
+        "to" : [ "die Nacht" ],
+        "tags" : [ "weather" ],
+        "insertedAt" : "2023-11-02"
+      }, {
+        "from" : "il pomeriggio",
+        "to" : [ "der Nachmittag" ],
+        "tags" : [ "weather" ],
+        "insertedAt" : "2023-11-02"
+      }, {
+        "from" : "la mattina",
+        "to" : [ "der Morgen" ],
+        "tags" : [ "weather" ],
+        "insertedAt" : "2023-11-02"
+      }, {
+        "from" : "mezzogiorno",
+        "to" : [ "der Mittag" ],
+        "tags" : [ "weather" ],
+        "insertedAt" : "2023-11-02"
+      }, {
+        "from" : "la settimana",
+        "to" : [ "die Woche" ],
+        "tags" : [ "weather" ],
+        "insertedAt" : "2023-11-02"
+      }, {
+        "from" : "il mese",
+        "to" : [ "der Monat" ],
+        "tags" : [ "weather" ],
+        "insertedAt" : "2023-11-02"
+      }, {
+        "from" : "l'anno",
+        "to" : [ "das Jahr" ],
+        "tags" : [ "weather" ],
+        "insertedAt" : "2023-11-02"
+      } ],
+      "tags" : [ "adv-4", "time-related", "weather" ]
     }
-   ],
-   "tags": [
-    "work-related",
-    "animals",
-    "jobs",
-    "documents",
-    "nature",
-    "plurals",
-    "birds",
-    "fishes",
-    "insects",
-    "body parts",
-    "face parts",
-    "clothing",
-    "clothing accessories",
-    "furniture",
-    "house-related",
-    "bathroom objects",
-    "kitchen objects",
-    "room parts",
-    "rooms",
-    "nations",
-    "food",
-    "drinks",
-    "condiments",
-    "breakfast",
-    "vegetables",
-    "means of transport",
-    "in the city",
-    "sport-related",
-    "medicine-related",
-    "materials",
-    "weather",
-    "time-related"
-   ]
-  },
-  "verbs": {
-   "words": [
-    {
-     "from": "toccare",
-     "to": [
-      "ber\u00fchren"
-     ],
-     "tags": [
-      "verbs-4"
-     ],
-     "inserted-at": "2024-05-03"
-    },
-    {
-     "from": "odorare",
-     "to": [
-      "riechen"
-     ],
-     "tags": [
-      "verbs-4"
-     ],
-     "inserted-at": "2024-05-04"
-    },
-    {
-     "from": "vergognarsi",
-     "to": [
-      "sich sch\u00e4men"
-     ],
-     "tags": [
-      "feelings"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "essere contento",
-     "to": [
-      "sich freuen"
-     ],
-     "tags": [
-      "feelings"
-     ],
-     "inserted-at": "2024-02-05"
-    },
-    {
-     "from": "tossire",
-     "to": [
-      "husten"
-     ],
-     "tags": [
-      "verbs-4",
-      "medicine-related"
-     ],
-     "inserted-at": "2024-05-13"
-    },
-    {
-     "from": "sudare",
-     "to": [
-      "schwitzen"
-     ],
-     "tags": [
-      "medicine-related",
-      "verbs-4"
-     ],
-     "inserted-at": "2024-05-13"
-    },
-    {
-     "from": "vomitare",
-     "to": [
-      "\u00fcbergeben"
-     ],
-     "tags": [
-      "medicine-related",
-      "verbs-4"
-     ],
-     "inserted-at": "2024-05-13"
-    },
-    {
-     "from": "piove",
-     "to": [
-      "regnen"
-     ],
-     "tags": [
-      "weather"
-     ],
-     "inserted-at": "2024-05-14"
-    },
-    {
-     "from": "nevicare",
-     "to": [
-      "schneien"
-     ],
-     "tags": [
-      "weather",
-      "weather"
-     ],
-     "inserted-at": "2024-05-14"
-    }
-   ],
-   "tags": [
-    "verbs-4",
-    "feelings",
-    "medicine-related",
-    "weather"
-   ]
-  },
-  "adjectives": {
-   "words": [
-    {
-     "from": "sporco",
-     "to": [
-      "dreckig",
-      "schmutzig"
-     ],
-     "tags": [
-      "adj-4"
-     ],
-     "inserted-at": "2024-04-01"
-    },
-    {
-     "from": "pulito",
-     "to": [
-      "sauber"
-     ],
-     "tags": [
-      "adj-4"
-     ],
-     "inserted-at": "2024-04-01"
-    },
-    {
-     "from": "occupato",
-     "to": [
-      "besch\u00e4ftigt"
-     ],
-     "tags": [
-      "adj-4"
-     ],
-     "inserted-at": "2024-04-01"
-    },
-    {
-     "from": "bianco",
-     "to": [
-      "wei\u00df"
-     ],
-     "tags": [
-      "colors"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "nero",
-     "to": [
-      "schwarz"
-     ],
-     "tags": [
-      "colors"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "grigio",
-     "to": [
-      "grau"
-     ],
-     "tags": [
-      "colors"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "verde",
-     "to": [
-      "gr\u00fcn"
-     ],
-     "tags": [
-      "colors"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "giallo",
-     "to": [
-      "gelb"
-     ],
-     "tags": [
-      "colors"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "rosso",
-     "to": [
-      "rot"
-     ],
-     "tags": [
-      "colors"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "blu",
-     "to": [
-      "blau"
-     ],
-     "tags": [
-      "colors"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "marrone",
-     "to": [
-      "braun"
-     ],
-     "tags": [
-      "colors"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "chiaro",
-     "to": [
-      "hell"
-     ],
-     "tags": [
-      "colors"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "scuro",
-     "to": [
-      "dunkel"
-     ],
-     "tags": [
-      "colors"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "viola",
-     "to": [
-      "lila"
-     ],
-     "tags": [
-      "colors"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "arancione",
-     "to": [
-      "orange"
-     ],
-     "tags": [
-      "colors"
-     ],
-     "inserted-at": "2024-02-01"
-    },
-    {
-     "from": "stanco",
-     "to": [
-      "m\u00fcde"
-     ],
-     "tags": [
-      "feelings"
-     ],
-     "inserted-at": "2024-02-18"
-    },
-    {
-     "from": "felice",
-     "to": [
-      "gl\u00fccklich"
-     ],
-     "tags": [
-      "feelings"
-     ],
-     "inserted-at": "2024-02-18"
-    },
-    {
-     "from": "triste",
-     "to": [
-      "traurig"
-     ],
-     "tags": [
-      "feelings"
-     ],
-     "inserted-at": "2024-02-05"
-    },
-    {
-     "from": "arrabbiato",
-     "to": [
-      "ver\u00e4rgert"
-     ],
-     "tags": [
-      "feelings"
-     ],
-     "inserted-at": "2024-02-18"
-    },
-    {
-     "from": "paziente",
-     "to": [
-      "geduldig"
-     ],
-     "tags": [
-      "feelings"
-     ],
-     "inserted-at": "2024-02-18"
-    },
-    {
-     "from": "impaziente",
-     "to": [
-      "ungeduldig"
-     ],
-     "tags": [
-      "feelings"
-     ],
-     "inserted-at": "2024-02-18"
-    },
-    {
-     "from": "annoiato",
-     "to": [
-      "gelangweilt"
-     ],
-     "tags": [
-      "feelings"
-     ],
-     "inserted-at": "2024-02-18"
-    },
-    {
-     "from": "noioso",
-     "to": [
-      "langweilig"
-     ],
-     "tags": [
-      "feelings"
-     ],
-     "inserted-at": "2024-02-18"
-    },
-    {
-     "from": "pigro",
-     "to": [
-      "faul"
-     ],
-     "tags": [
-      "feelings"
-     ],
-     "inserted-at": "2024-02-05"
-    },
-    {
-     "from": "irritato",
-     "to": [
-      "genervt"
-     ],
-     "tags": [
-      "feelings"
-     ],
-     "inserted-at": "2024-02-18"
-    },
-    {
-     "from": "irritante",
-     "to": [
-      "nervig"
-     ],
-     "tags": [
-      "feelings"
-     ],
-     "inserted-at": "2024-02-18"
-    },
-    {
-     "from": "onesto",
-     "to": [
-      "ehrlich"
-     ],
-     "tags": [
-      "feelings"
-     ],
-     "inserted-at": "2024-02-05"
-    },
-    {
-     "from": "coraggioso",
-     "to": [
-      "tapfer",
-      "mutig"
-     ],
-     "tags": [
-      "feelings"
-     ],
-     "inserted-at": "2024-02-29"
-    },
-    {
-     "from": "preoccupato",
-     "to": [
-      "besorgt"
-     ],
-     "tags": [
-      "feelings"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "affamato",
-     "to": [
-      "hungrig"
-     ],
-     "tags": [
-      "feelings"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "nervoso",
-     "to": [
-      "nerv\u00f6s"
-     ],
-     "tags": [
-      "feelings"
-     ],
-     "inserted-at": "2024-05-05"
-    },
-    {
-     "from": "modesto",
-     "to": [
-      "bescheiden"
-     ],
-     "tags": [
-      "feelings",
-      "feelings"
-     ],
-     "inserted-at": "2024-02-05"
-    },
-    {
-     "from": "shy",
-     "to": [
-      "sch\u00fcchtern"
-     ],
-     "tags": [
-      "feelings",
-      "feelings"
-     ],
-     "inserted-at": "2024-02-29"
-    },
-    {
-     "from": "invidioso",
-     "to": [
-      "neidisch"
-     ],
-     "tags": [
-      "feelings",
-      "feelings"
-     ],
-     "inserted-at": "2024-02-29"
-    },
-    {
-     "from": "tranquillo",
-     "to": [
-      "ruhig"
-     ],
-     "tags": [
-      "feelings",
-      "feelings"
-     ],
-     "inserted-at": "2024-02-29"
-    },
-    {
-     "from": "egoista",
-     "to": [
-      "egoistisch"
-     ],
-     "tags": [
-      "feelings",
-      "feelings"
-     ],
-     "inserted-at": "2024-02-29"
-    },
-    {
-     "from": "ingenuo",
-     "to": [
-      "naiv"
-     ],
-     "tags": [
-      "feelings",
-      "feelings"
-     ],
-     "inserted-at": "2024-02-29"
-    },
-    {
-     "from": "sincero",
-     "to": [
-      "aufrichtig"
-     ],
-     "tags": [
-      "feelings",
-      "feelings"
-     ],
-     "inserted-at": "2024-02-29"
-    },
-    {
-     "from": "sgradevole",
-     "to": [
-      "unangenehm"
-     ],
-     "tags": [
-      "feelings",
-      "feelings"
-     ],
-     "inserted-at": "2024-02-29"
-    },
-    {
-     "from": "avido",
-     "to": [
-      "gierig"
-     ],
-     "tags": [
-      "feelings",
-      "feelings"
-     ],
-     "inserted-at": "2024-02-29"
-    },
-    {
-     "from": "malato",
-     "to": [
-      "krank"
-     ],
-     "tags": [
-      "medicine-related"
-     ],
-     "inserted-at": "2024-05-13"
-    },
-    {
-     "from": "sano",
-     "to": [
-      "gesund"
-     ],
-     "tags": [
-      "medicine-related"
-     ],
-     "inserted-at": "2024-05-13"
-    },
-    {
-     "from": "sordo",
-     "to": [
-      "taub"
-     ],
-     "tags": [
-      "medicine-related"
-     ],
-     "inserted-at": "2024-05-13"
-    },
-    {
-     "from": "cieco",
-     "to": [
-      "blind"
-     ],
-     "tags": [
-      "medicine-related"
-     ],
-     "inserted-at": "2024-05-13"
-    },
-    {
-     "from": "sudato",
-     "to": [
-      "schwitzig",
-      "verschwitzt"
-     ],
-     "tags": [
-      "medicine-related",
-      "adj-4"
-     ],
-     "inserted-at": "2024-05-13"
-    },
-    {
-     "from": "soleggiato",
-     "to": [
-      "sonnig"
-     ],
-     "tags": [
-      "weather"
-     ],
-     "inserted-at": "2024-05-14"
-    },
-    {
-     "from": "nuvoloso",
-     "to": [
-      "bew\u00f6lkt"
-     ],
-     "tags": [
-      "weather",
-      "weather"
-     ],
-     "inserted-at": "2024-05-14"
-    },
-    {
-     "from": "piovoso",
-     "to": [
-      "regnerisch"
-     ],
-     "tags": [
-      "weather",
-      "weather",
-      "weather"
-     ],
-     "inserted-at": "2024-05-14"
-    }
-   ],
-   "tags": [
-    "adj-4",
-    "colors",
-    "feelings",
-    "medicine-related",
-    "weather"
-   ]
-  },
-  "adverbs": {
-   "words": [
-    {
-     "from": "abbastanza",
-     "to": [
-      "genug",
-      "ziemlich"
-     ],
-     "tags": [
-      "adv-4"
-     ],
-     "inserted-at": "2024-05-14"
-    },
-    {
-     "from": "ad ogni modo",
-     "to": [
-      "jedenfalls",
-      "auf jeden Fall"
-     ],
-     "tags": [
-      "adv-4"
-     ],
-     "inserted-at": "2024-05-14"
-    },
-    {
-     "from": "almeno",
-     "to": [
-      "mindestens",
-      "zumindest"
-     ],
-     "tags": [
-      "adv-4"
-     ],
-     "inserted-at": "2024-05-14"
-    },
-    {
-     "from": "tra l'altro",
-     "to": [
-      "\u00fcbrigens"
-     ],
-     "tags": [
-      "adv-4"
-     ],
-     "inserted-at": "2024-05-14"
-    },
-    {
-     "from": "in realt\u00e1",
-     "to": [
-      "eigentlich"
-     ],
-     "tags": [
-      "adv-4"
-     ],
-     "inserted-at": "2024-05-14"
-    },
-    {
-     "from": "circa",
-     "to": [
-      "etwa",
-      "zirka"
-     ],
-     "tags": [
-      "adv-4"
-     ],
-     "inserted-at": "2024-05-14"
-    },
-    {
-     "from": "infatti",
-     "to": [
-      "allerdings"
-     ],
-     "tags": [
-      "adv-4"
-     ],
-     "inserted-at": "2024-05-14"
-    },
-    {
-     "from": "specialmente",
-     "to": [
-      "insbesondere"
-     ],
-     "tags": [
-      "adv-4"
-     ],
-     "inserted-at": "2024-05-14"
-    },
-    {
-     "from": "prima",
-     "to": [
-      "eher"
-     ],
-     "tags": [
-      "adv-4",
-      "time-related"
-     ],
-     "inserted-at": "2024-05-14"
-    },
-    {
-     "from": "ogni",
-     "to": [
-      "je",
-      "jede"
-     ],
-     "tags": [
-      "adv-4"
-     ],
-     "inserted-at": "2024-05-14"
-    },
-    {
-     "from": "perlopi\u00fa",
-     "to": [
-      "\u00fcberwiegend",
-      "gr\u00f6\u00dftenteils"
-     ],
-     "tags": [
-      "adv-4"
-     ],
-     "inserted-at": "2024-05-14"
-    },
-    {
-     "from": "assolutamente",
-     "to": [
-      "total",
-      "wirklich",
-      "v\u00f6llig"
-     ],
-     "tags": [
-      "adv-4"
-     ],
-     "inserted-at": "2024-05-14"
-    },
-    {
-     "from": "il giorno",
-     "to": [
-      "der Tag"
-     ],
-     "tags": [
-      "weather"
-     ],
-     "inserted-at": "2023-11-02"
-    },
-    {
-     "from": "la notte",
-     "to": [
-      "die Nacht"
-     ],
-     "tags": [
-      "weather",
-      "weather"
-     ],
-     "inserted-at": "2023-11-02"
-    },
-    {
-     "from": "il pomeriggio",
-     "to": [
-      "der Nachmittag"
-     ],
-     "tags": [
-      "weather",
-      "weather",
-      "weather"
-     ],
-     "inserted-at": "2023-11-02"
-    },
-    {
-     "from": "la mattina",
-     "to": [
-      "der Morgen"
-     ],
-     "tags": [
-      "weather",
-      "weather",
-      "weather",
-      "weather"
-     ],
-     "inserted-at": "2023-11-02"
-    },
-    {
-     "from": "mezzogiorno",
-     "to": [
-      "der Mittag"
-     ],
-     "tags": [
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather"
-     ],
-     "inserted-at": "2023-11-02"
-    },
-    {
-     "from": "la settimana",
-     "to": [
-      "die Woche"
-     ],
-     "tags": [
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather"
-     ],
-     "inserted-at": "2023-11-02"
-    },
-    {
-     "from": "il mese",
-     "to": [
-      "der Monat"
-     ],
-     "tags": [
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather"
-     ],
-     "inserted-at": "2023-11-02"
-    },
-    {
-     "from": "l'anno",
-     "to": [
-      "das Jahr"
-     ],
-     "tags": [
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather",
-      "weather"
-     ],
-     "inserted-at": "2023-11-02"
-    }
-   ],
-   "tags": [
-    "adv-4",
-    "time-related",
-    "weather"
-   ]
   }
- }
 }

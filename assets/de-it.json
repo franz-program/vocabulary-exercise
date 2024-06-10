@@ -2046,17 +2046,17 @@
         "from" : "die Stiefschwester",
         "to" : [ "la sorellastra" ],
         "tags" : [ "relatives", "family" ],
-        "insertedAt" : "2024-06-01"
+        "insertedAt" : "2021-06-01"
       }, {
         "from" : "der Schwiegervater",
         "to" : [ "il suocero" ],
         "tags" : [ "relatives", "family" ],
-        "insertedAt" : "2024-06-01"
+        "insertedAt" : "2021-06-01"
       }, {
         "from" : "die Schwiegermutter",
         "to" : [ "la suocera" ],
         "tags" : [ "relatives", "family" ],
-        "insertedAt" : "2024-06-01"
+        "insertedAt" : "2021-06-01"
       } ],
       "tags" : [ "work-related", "jobs", "documents", "animals", "nature", "plurals", "food", "birds", "", "fishes", "insects", "body parts", "face parts", "clothing", "clothing accessories", "furniture", "house-related", "bathroom objects", "kitchen objects", "room parts", "rooms", "nations", "drinks", "condiments", "breakfast", "vegetables", "means of transport", "vacation", "in the city", "sport-related", "medicine-related", "weather", "materials", "time-related", "relatives", "family" ]
     },

@@ -1942,8 +1942,123 @@
         "to" : [ "la marea" ],
         "tags" : [ "vacation", "nature" ],
         "insertedAt" : "2024-06-06"
+      }, {
+        "from" : "der Vater",
+        "to" : [ "il padre", "il papà" ],
+        "tags" : [ "relatives", "family" ],
+        "insertedAt" : "2023-10-01"
+      }, {
+        "from" : "der Papa",
+        "to" : [ "il padre", "il papà" ],
+        "tags" : [ "relatives", "family" ],
+        "insertedAt" : "2023-10-01"
+      }, {
+        "from" : "die Mutter",
+        "to" : [ "la mamma", "la madre" ],
+        "tags" : [ "relatives", "family" ],
+        "insertedAt" : "2023-10-01"
+      }, {
+        "from" : "die Mama",
+        "to" : [ "la mamma", "la madre" ],
+        "tags" : [ "relatives", "family" ],
+        "insertedAt" : "2023-10-01"
+      }, {
+        "from" : "die Schwester",
+        "to" : [ "la sorella" ],
+        "tags" : [ "relatives", "family" ],
+        "insertedAt" : "2023-10-01"
+      }, {
+        "from" : "der Bruder",
+        "to" : [ "il fratello" ],
+        "tags" : [ "relatives", "family" ],
+        "insertedAt" : "2023-10-01"
+      }, {
+        "from" : "die Eltern",
+        "to" : [ "i genitori" ],
+        "tags" : [ "relatives", "family" ],
+        "insertedAt" : "2023-10-01"
+      }, {
+        "from" : "die Großeltern",
+        "to" : [ "i nonni" ],
+        "tags" : [ "relatives", "family" ],
+        "insertedAt" : "2023-10-01"
+      }, {
+        "from" : "die Großmutter",
+        "to" : [ "la nonna" ],
+        "tags" : [ "relatives", "family" ],
+        "insertedAt" : "2023-10-01"
+      }, {
+        "from" : "die Oma",
+        "to" : [ "la nonna" ],
+        "tags" : [ "relatives", "family" ],
+        "insertedAt" : "2023-10-01"
+      }, {
+        "from" : "der Großvater",
+        "to" : [ "il nonno" ],
+        "tags" : [ "relatives", "family" ],
+        "insertedAt" : "2023-10-01"
+      }, {
+        "from" : "der Opa",
+        "to" : [ "il nonno" ],
+        "tags" : [ "relatives", "family" ],
+        "insertedAt" : "2023-10-01"
+      }, {
+        "from" : "die Tante",
+        "to" : [ "la zia" ],
+        "tags" : [ "relatives", "family" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "der Onkel",
+        "to" : [ "lo zio" ],
+        "tags" : [ "relatives", "family" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "der Enkel",
+        "to" : [ "il nipote" ],
+        "tags" : [ "relatives", "family" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "die Enkelin",
+        "to" : [ "la nipote" ],
+        "tags" : [ "relatives", "family" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "die Tochter",
+        "to" : [ "la figlia" ],
+        "tags" : [ "relatives", "family" ],
+        "insertedAt" : "2024-01-01"
+      }, {
+        "from" : "der Sohn",
+        "to" : [ "il figlio" ],
+        "tags" : [ "relatives", "family" ],
+        "insertedAt" : "2024-01-01"
+      }, {
+        "from" : "der Cousin",
+        "to" : [ "il cugino" ],
+        "tags" : [ "relatives", "family" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "die Cousine",
+        "to" : [ "la cugina" ],
+        "tags" : [ "relatives", "family" ],
+        "insertedAt" : "2024-03-01"
+      }, {
+        "from" : "die Stiefschwester",
+        "to" : [ "la sorellastra" ],
+        "tags" : [ "relatives", "family" ],
+        "insertedAt" : "2024-06-01"
+      }, {
+        "from" : "der Schwiegervater",
+        "to" : [ "il suocero" ],
+        "tags" : [ "relatives", "family" ],
+        "insertedAt" : "2024-06-01"
+      }, {
+        "from" : "die Schwiegermutter",
+        "to" : [ "la suocera" ],
+        "tags" : [ "relatives", "family" ],
+        "insertedAt" : "2024-06-01"
       } ],
-      "tags" : [ "work-related", "jobs", "documents", "animals", "nature", "plurals", "food", "birds", "", "fishes", "insects", "body parts", "face parts", "clothing", "clothing accessories", "furniture", "house-related", "bathroom objects", "kitchen objects", "room parts", "rooms", "nations", "drinks", "condiments", "breakfast", "vegetables", "means of transport", "vacation", "in the city", "sport-related", "medicine-related", "weather", "materials", "time-related" ]
+      "tags" : [ "work-related", "jobs", "documents", "animals", "nature", "plurals", "food", "birds", "", "fishes", "insects", "body parts", "face parts", "clothing", "clothing accessories", "furniture", "house-related", "bathroom objects", "kitchen objects", "room parts", "rooms", "nations", "drinks", "condiments", "breakfast", "vegetables", "means of transport", "vacation", "in the city", "sport-related", "medicine-related", "weather", "materials", "time-related", "relatives", "family" ]
     },
     "adjectives" : {
       "words" : [ {

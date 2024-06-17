@@ -29,17 +29,27 @@
   <div class="my-1">
     <div *ngIf="!startedPracticing" style="max-height: 500px" class="d-inline-block">
       <div ngbDropdown [autoClose]="availableTags.length === 1" class="d-inline-block" *ngIf="availableTags.length > 0">
-        <button type="button" class="btn btn-lg btn-outline-primary bg-primary text-light" id="dropdownTagsChoice" ngbDropdownToggle>
+        <button type="button" class="btn btn-lg btn-outline-primary bg-primary text-light" id="dropdownTagsNew" ngbDropdownToggle>
           Tags
         </button>
         <div ngbDropdownMenu aria-labelledby="dropdownTagsChoice" class="scrollable-dropdown">
-          <button *ngFor="let tag of availableTags" ngbDropdownItem [class.active]="selectedTags.includes(tag)" (click)="toggleSelectedTag(tag)">{{tag}}</button>
+          <div ngbAccordion>
+            <div ngbAccordionItem [collapsed]="true" *ngFor="let tagGroup of availableTagsHierarchy.getGroupsKeys()">
+              <h2 ngbAccordionHeader><button ngbAccordionButton class="p-2 bg-dark text-light">{{tagGroup}}</button></h2>
+              <div ngbAccordionCollapse>
+                <div ngbAccordionBody class="p-0">
+                    <button *ngFor="let tag of availableTagsHierarchy.getTags(tagGroup).sort()" ngbDropdownItem [class.active]="selectedTags.includes(tag)" (click)="toggleSelectedTag(tag)">{{tag}}</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
   <button *ngIf="!startedPracticing" type="button" class="btn btn-lg btn-outline-primary bg-success text-light" [disabled]="selectedTags.length === 0 || selectedClasses.length === 0" (click)="startPracticing()">Start with selected</button>
+  <br>
   <button *ngIf="!startedPracticing" type="button" class="btn btn-lg btn-outline-primary bg-success text-light mt-2" [disabled]="selectedDirection === undefined" (click)="startWithAll()">Start with ALL</button>
   <div *ngIf="startedPracticing && !finishedPracticing">
     <app-word-displayer (resultEmitter)="getWordResult($event)" [word]="currentAttempt"></app-word-displayer>

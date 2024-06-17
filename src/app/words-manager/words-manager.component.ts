@@ -1,6 +1,7 @@
-import {Component, OnInit} from '@angular/core';
+import {Component} from '@angular/core';
 import italianVocabulary from "../../assets/it-de.json";
 import germanVocabulary from "../../assets/de-it.json";
+import fullTagsHierarchy from "../../assets/tags-hierarchies.json";
 import {NgForOf, NgIf} from "@angular/common";
 import {
   NgbAccordionBody,
@@ -16,8 +17,9 @@ import {WordDisplayerComponent} from "../word-displayer/word-displayer.component
 import {ResultType} from "../../models/result";
 import {ResultsDisplayerComponent} from "../results-displayer/results-displayer.component";
 import {FormsModule} from "@angular/forms";
+import {TagsHierarchy} from "../../models/tagsHierarchy";
 
-var wordsOrdering = ["newest to oldest", "newest with some randomness", "oldest to newest", "completely random"];
+const wordsOrdering = ["newest to oldest", "newest with some randomness", "oldest to newest", "completely random"];
 
 @Component({
   selector: 'app-words-manager',
@@ -62,6 +64,8 @@ export class WordsManagerComponent{
   wrongAttempts: Word[] = [];
   skippedAttempts: Word[] = [];
 
+  availableTagsHierarchy: TagsHierarchy = new TagsHierarchy();
+
   selectDirection(direction: string) {
     this.selectedDirection = direction;
     if(this.selectedDirection === "it->de")
@@ -85,9 +89,15 @@ export class WordsManagerComponent{
     for(let clazz of this.selectedClasses)
       this.selectedVocabulary["classes"][clazz]["tags"].forEach((tag: string) => tags.add(tag));
     this.availableTags = Array.from(tags);
-    this.availableTags.unshift("<all>");
     this.availableTags.sort();
     this.selectedTags = this.selectedTags.filter(t => this.availableTags.includes(t));
+
+    //update hierarchy
+    this.availableTagsHierarchy = new TagsHierarchy();
+    for(let tag of this.availableTags){
+      let key = this.fullTagsHierarchy.getTagGroup(tag);
+      this.availableTagsHierarchy.addToHierarchy(key, [tag]);
+    }
   }
 
   toggleSelectedClass(className: string) {
@@ -99,19 +109,10 @@ export class WordsManagerComponent{
   }
 
   toggleSelectedTag(tag: string) {
-    if(tag === "<all>"){
-      if(this.selectedTags.length === this.availableTags.length - 1)
-        this.selectedTags = [];
-      else{
-        this.selectedTags = Object.assign([], this.availableTags);
-        this.selectedTags.splice(0, 1);
-      }
-    } else {
-      if(this.selectedTags.includes(tag))
-        this.selectedTags = this.selectedTags.filter(t => t !== tag);
-      else
-        this.selectedTags.push(tag);
-    }
+    if(this.selectedTags.includes(tag))
+      this.selectedTags = this.selectedTags.filter(t => t !== tag);
+    else
+      this.selectedTags.push(tag);
   }
 
   startWithAll(){
@@ -204,4 +205,5 @@ export class WordsManagerComponent{
   protected readonly italianVocabulary = italianVocabulary;
   protected readonly germanVocabulary = germanVocabulary;
   protected readonly wordsOrdering = wordsOrdering;
+  protected readonly fullTagsHierarchy: TagsHierarchy = TagsHierarchy.fromObject(fullTagsHierarchy);
 }

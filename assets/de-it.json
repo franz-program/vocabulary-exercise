@@ -1956,7 +1956,7 @@
         "from" : "die Mutter",
         "to" : [ "la mamma", "la madre" ],
         "tags" : [ "relatives", "family" ],
-        "insertedAt" : "2023-10-01"
+        "insertedAt" : "2023-12-31"
       }, {
         "from" : "die Mama",
         "to" : [ "la mamma", "la madre" ],
@@ -2057,8 +2057,93 @@
         "to" : [ "la suocera" ],
         "tags" : [ "relatives", "family" ],
         "insertedAt" : "2024-06-01"
+      }, {
+        "from" : "das Geld",
+        "to" : [ "i soldi" ],
+        "tags" : [ "money-related" ],
+        "insertedAt" : "2024-06-13"
+      }, {
+        "from" : "das Bargeld",
+        "to" : [ "i contanti" ],
+        "tags" : [ "money-related", "money-related" ],
+        "insertedAt" : "2024-06-13"
+      }, {
+        "from" : "der Preis",
+        "to" : [ "il prezzo" ],
+        "tags" : [ "money-related", "money-related", "money-related" ],
+        "insertedAt" : "2024-06-13"
+      }, {
+        "from" : "die Münze",
+        "to" : [ "la moneta" ],
+        "tags" : [ "money-related", "money-related", "money-related", "money-related" ],
+        "insertedAt" : "2024-06-13"
+      }, {
+        "from" : "die Münzen",
+        "to" : [ "le monete" ],
+        "tags" : [ "money-related", "plurals", "money-related" ],
+        "insertedAt" : "2024-06-13"
+      }, {
+        "from" : "die Geldtasche",
+        "to" : [ "il portafoglio" ],
+        "tags" : [ "money-related", "money-related", "money-related" ],
+        "insertedAt" : "2024-06-13"
+      }, {
+        "from" : "der Geldautomat",
+        "to" : [ "il bancomat" ],
+        "tags" : [ "money-related", "money-related", "money-related", "in the city", "money-related" ],
+        "insertedAt" : "2024-06-13"
+      }, {
+        "from" : "die Länge",
+        "to" : [ "la lunghezza" ],
+        "tags" : [ "measurements" ],
+        "insertedAt" : "2024-06-13"
+      }, {
+        "from" : "die Höhe",
+        "to" : [ "l'altezza" ],
+        "tags" : [ "measurements", "measurements" ],
+        "insertedAt" : "2024-06-13"
+      }, {
+        "from" : "die Fläche",
+        "to" : [ "l'area" ],
+        "tags" : [ "measurements", "measurements", "measurements" ],
+        "insertedAt" : "2024-06-13"
+      }, {
+        "from" : "das Gewicht",
+        "to" : [ "il peso" ],
+        "tags" : [ "measurements", "measurements", "measurements", "measurements" ],
+        "insertedAt" : "2024-06-13"
+      }, {
+        "from" : "die Breite",
+        "to" : [ "la larghezza" ],
+        "tags" : [ "measurements", "measurements", "measurements", "measurements", "measurements" ],
+        "insertedAt" : "2024-06-13"
+      }, {
+        "from" : "das Volumen",
+        "to" : [ "il volume" ],
+        "tags" : [ "measurements", "measurements", "measurements", "measurements", "measurements", "measurements" ],
+        "insertedAt" : "2024-06-13"
+      }, {
+        "from" : "die Tonne",
+        "to" : [ "la tonnellata" ],
+        "tags" : [ "measurements", "measurements", "measurements", "measurements", "measurements", "measurements", "measurements" ],
+        "insertedAt" : "2024-06-13"
+      }, {
+        "from" : "der Meter",
+        "to" : [ "il metro" ],
+        "tags" : [ "measurements", "measurements", "measurements", "measurements", "measurements", "measurements", "measurements", "measurements" ],
+        "insertedAt" : "2024-06-13"
+      }, {
+        "from" : "der Zentimeter",
+        "to" : [ "il centimetro" ],
+        "tags" : [ "measurements", "measurements", "measurements", "measurements", "measurements", "measurements", "measurements", "measurements", "measurements" ],
+        "insertedAt" : "2024-06-13"
+      }, {
+        "from" : "das Kilo",
+        "to" : [ "il chilo" ],
+        "tags" : [ "measurements", "measurements", "measurements", "measurements", "measurements", "measurements", "measurements", "measurements", "measurements", "measurements" ],
+        "insertedAt" : "2024-06-13"
       } ],
-      "tags" : [ "work-related", "jobs", "documents", "animals", "nature", "plurals", "food", "birds", "", "fishes", "insects", "body parts", "face parts", "clothing", "clothing accessories", "furniture", "house-related", "bathroom objects", "kitchen objects", "room parts", "rooms", "nations", "drinks", "condiments", "breakfast", "vegetables", "means of transport", "vacation", "in the city", "sport-related", "medicine-related", "weather", "materials", "time-related", "relatives", "family" ]
+      "tags" : [ "work-related", "jobs", "documents", "animals", "nature", "plurals", "food", "birds", "", "fishes", "insects", "body parts", "face parts", "clothing", "clothing accessories", "furniture", "house-related", "bathroom objects", "kitchen objects", "room parts", "rooms", "nations", "drinks", "condiments", "breakfast", "vegetables", "means of transport", "vacation", "in the city", "sport-related", "medicine-related", "weather", "materials", "time-related", "relatives", "family", "money-related", "measurements" ]
     },
     "adjectives" : {
       "words" : [ {

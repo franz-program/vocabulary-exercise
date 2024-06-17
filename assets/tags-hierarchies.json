@@ -1,0 +1,13 @@
+{
+  "food & drinks": ["food", "drinks", "condiments", "vegetables", "breakfast"],
+  "animals": ["animals", "fishes", "insects", "birds"],
+  "world": ["nations"],
+  "in the city": ["means of transport", "in the city"],
+  "activities": ["vacation", "sport-related", "work-related"],
+  "ordered-lists": ["adj-4", "adv-4", "verbs-4"],
+  "people": ["relatives", "jobs", "family"],
+  "person": ["body parts", "face parts", "clothing", "clothing accessories", "feelings", "medicine-related"],
+  "grammar": ["plurals", "time-related"],
+  "nature": ["weather", "nature", "animals"],
+  "in the house": ["bathroom objects", "furniture", "house-related", "room parts", "kitchen objects", "rooms"]
+}
